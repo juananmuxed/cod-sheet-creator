@@ -109,6 +109,6 @@ Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our [CODE OF CONDUCT]
 
 ## 📄 License
 
-This project is under license (MIT) - see [LICENSE.md](LICENSE.md) for details.
+This project is under license (MIT) - see [LICENSE.md](LICENSE) for details.
 
 <!-- [ ]: deploy in server  -->
