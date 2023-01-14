@@ -1,0 +1,21 @@
+a {
+  transition     : color $transition_ease;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: $text-link__dark;
+}
+
+a:hover {
+  color: $text-link-hover__dark;
+}
+
+:focus-visible {
+  outline: 2px solid $text-link-hover__dark;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}

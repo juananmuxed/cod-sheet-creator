@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "name": "home",
+      "url": "/",
+      "active": true
+    },
+    {
+      "name": "lists",
+      "url": "/lists",
+      "active": true
+    },
+    {
+      "name": "config",
+      "url": "/config",
+      "active": true
+    },
+    {
+      "name": "about",
+      "url": "/about",
+      "active": true
+    }
+  ],
+  "locales": {
+    "en": "English",
+    "es": "Español"
+  }
+}

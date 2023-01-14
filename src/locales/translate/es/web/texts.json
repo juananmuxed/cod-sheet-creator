@@ -1,0 +1,23 @@
+{
+    "expansion": "Selecciona una expansión para continuar.",
+    "army": "Selecciona un ejercito para crear una lista.",
+    "points": "puntos",
+    "armyName": "Nombre del ejercito",
+    "newArmy": "Nuevo ejercito",
+    "troopName": "Nombre de tropa",
+    "combatCompact": "CO",
+    "rangedCompact": "DI",
+    "gritCompact": "CO",
+    "salvationCompact": "SA",
+    "weapon": "Arma",
+    "armour": "Armadura",
+    "traits": "Rasgos",
+    "options": "Opciones",
+    "addUnits": "Añadir unidades",
+    "figure": "sin figuras | figura | figuras",
+    "costEach": "punto cada unidad | puntos cada unidad",
+    "totalCostUnit": "Coste total de unidad",
+    "ofFigures": "sin figuras | de {count} figura | de {count} figuras",
+    "inUnits": "sin unidades | en {count} unidad | en {count} unidades",
+    "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada <b>{count}</b> unidad | Punto de rotura cada <b>{count}</b> unidades"
+}

@@ -1,0 +1,257 @@
+{
+    "javelinmen": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultBody": "NO_ARMOUR",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_SHIELD"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "citizenPunic": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 13,
+        "options": [
+            "OPT_DOWN_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "infantryPunic": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "scutariiIberian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "IMPULSUM",
+            "DETERMINED",
+            "ALLIES"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "veteranPunic": {
+        "availability": "MILITES",
+        "cost": 23,
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "veteranRomanised": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "DRILLED"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "numidianCav": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "MOUNTED",
+            "MARAUDERS"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "iberianCav": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "ALLIES",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 25,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "balearicSlinger": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "SLING",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "SLING_EXPERTS",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "punicCav": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "elephantAfricaForest": {
+        "dontCountForBreak": true,
+        "availability": "RARE",
+        "fixedFigures": 4,
+        "combat": 3,
+        "ranged": 7,
+        "grit": 4,
+        "fixedSave": 3,
+        "traits": [
+            "ATACKS(4)",
+            "WOUNDS(4)",
+            "ELEPHANT"
+        ],
+        "cost": 16.5,
+        "options": [],
+        "defaultWeapon": "HIDE_OPTION",
+        "defaultShield": "HIDE_OPTION",
+        "defaultBody": "HIDE_OPTION",
+        "noDeployToken": true,
+        "armies": [
+            "cartaginian"
+        ]
+    },
+    "elephantAfricaForestCrew": {
+        "dontCountForBreak": true,
+        "fixedFigures": 2,
+        "availability": "RARE",
+        "traits": [
+            "IRON_WILL"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_JAV_TO_BOW",
+            "OPT_ELEPHANT_THRUSTING_SPEAR",
+            "OPT_ELEPHANT_UPGRADE_FULL_ARMOR",
+            "OPT_ELEPHANT_DOWNUPGRADE_NO_ARMOR",
+            "OPT_ELEPHANT_ADD_SHIELDS",
+            "OPT_ELEPHANT_ADD_HOWDA_TOWER"
+        ],
+        "defaultWeapon": "JAVELIN",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "PARTIAL",
+        "noDeployToken": true,
+        "armies": [
+            "cartaginian"
+        ]
+    }
+}

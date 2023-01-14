@@ -1,0 +1,34 @@
+button {
+    cursor          : pointer;
+    border          : 1px solid $bg-primary__dark;
+    padding         : $padding_sm $padding_xl;
+    border-radius   : $rounded;
+    font-size       : $font_size_small;
+    transition      : $transition_ease;
+    background-color: transparent;
+    text-transform  : uppercase;
+
+    &:hover {
+        background-color: $bg-primary;
+    }
+
+    &:disabled {
+        background-color: $bg-disabled;
+        cursor          : not-allowed
+    }
+
+    &.invisible {
+        border    : none;
+        cursor    : default;
+        transition: none;
+
+        &:hover,
+        &:disabled {
+            background-color: transparent;
+        }
+
+        svg {
+            display: none;
+        }
+    }
+}

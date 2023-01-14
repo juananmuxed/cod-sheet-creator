@@ -1,0 +1,40 @@
+footer {
+  display        : flex;
+  flex-flow      : row;
+  flex-direction : column;
+  justify-content: flex-end;
+  padding        : 1em 2em;
+  align-items    : center;
+  min-height     : $size-footer;
+  font-size      : $font_size_h6;
+
+  &>* {
+    margin: $padding_sm 0;
+  }
+
+  &> :first-child {
+    margin-top: 0;
+  }
+
+  & :last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 43rem) {
+  footer {
+    flex-direction: row;
+
+    &>* {
+      margin: 0 $padding_sm;
+    }
+
+    &> :first-child {
+      margin-left: 0;
+    }
+
+    & :last-child {
+      margin-right: 0;
+    }
+  }
+}

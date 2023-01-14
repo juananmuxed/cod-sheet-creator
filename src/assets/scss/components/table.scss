@@ -1,0 +1,107 @@
+.table {
+    width     : 100%;
+    margin-top: $padding_xl;
+
+    &-header,
+    &-body {
+        display   : block;
+        text-align: left;
+
+        .row {
+            display      : block;
+            width        : 100%;
+            position     : relative;
+            border-bottom: 1px solid $bg-primary__dark;
+
+            .cell {
+                width         : 5%;
+                padding       : $padding_xs 0;
+                font-size     : $font_size_p;
+                display       : inline-block;
+                vertical-align: top;
+                box-sizing    : border-box;
+                min-height    : 80px;
+
+                &-wide {
+                    width: 22.5%;
+                }
+
+                &-xwide {
+                    width: 32%;
+                }
+
+                &-medium {
+                    width: 12.5%;
+                }
+
+                &-full {
+                    width: 100%;
+                }
+
+                &-slim {
+                    min-height: auto;
+                }
+
+                .options-buttons,
+                .flex {
+                    display        : flex;
+                    flex-wrap      : wrap;
+                    justify-content: flex-start;
+
+                    * {
+                        margin: $padding_xxs;
+                    }
+                }
+
+                .deployment-number {
+                    display        : flex;
+                    justify-content: center;
+
+                    span {
+                        width          : 32px;
+                        height         : 32px;
+                        display        : flex;
+                        justify-content: center;
+                        align-items    : center;
+                        border         : 2px solid $bg-primary__dark;
+                        border-radius  : 32px;
+                    }
+                }
+
+                .options-buttons {
+                    flex-direction: column;
+                }
+
+                .counter {
+                    justify-content: flex-start;
+                    align-items    : center;
+                }
+            }
+        }
+    }
+
+    &-header {
+        font-weight: bold;
+
+
+        .row {
+            border-width: 2px;
+
+            .cell {
+
+                min-height: auto;
+            }
+        }
+    }
+
+    button {
+        padding    : $padding_xs;
+        margin     : $padding_xs 0;
+        font-weight: bold;
+        max-height : 32px;
+        max-width  : 32px;
+        height     : 32px;
+        width      : 32px;
+
+    }
+}

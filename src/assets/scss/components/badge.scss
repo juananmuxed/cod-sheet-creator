@@ -1,0 +1,37 @@
+.badge {
+  display       : inline-flex;
+  padding       : $padding_xs $padding_sm;
+  border-radius : $rounded;
+  font-size     : $font_size_small;
+  vertical-align: baseline;
+
+  &.rounded {
+    border-radius: $rounded_full;
+  }
+
+  &.primary {
+    background-color: $bg-primary;
+  }
+
+  &.success {
+    background-color: $bg-success;
+  }
+
+  &.warning {
+    background-color: $bg-warning;
+  }
+
+  &.error {
+    background-color: $bg-error;
+  }
+
+  &.outlined {
+    background-color: transparent;
+    border          : 2px solid $bg-primary__dark;
+  }
+
+  &.small {
+    border-width: 1px;
+    padding     : $padding_xxs $padding_xs;
+  }
+}

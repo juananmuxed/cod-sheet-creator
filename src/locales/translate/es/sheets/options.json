@@ -1,0 +1,13 @@
+{
+    "optBuckler": "Añade rodela",
+    "optShield": "Añade escudo",
+    "optDownNoArmour": "Reduce armadura parcial a sin armadura",
+    "optDownHeavyShield": "Reduce escudo pesado a escudo",
+    "optDownPartialArmour": "Reduce armadura completa a parcial",
+    "optJavToBow": "Cambia jabalina por arco",
+    "optElephantThrustingSpear": "Añade lanza de impacto",
+    "optElephantUpgradeFullArmor": "Cambia a armadura completa",
+    "optElephantDownupgradeNoArmor": "Reduce a sin armadura",
+    "optElephantAddShields": "Añade escudos",
+    "optElephantAddHowdaTower": "Añade torre Howda"
+}

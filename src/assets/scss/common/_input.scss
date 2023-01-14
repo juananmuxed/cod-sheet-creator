@@ -1,0 +1,15 @@
+input {
+    padding         : $padding_sm $padding_md;
+    border          : 2px solid $bg-primary;
+    background-color: transparent;
+    border-radius   : 4px;
+    transition      : $transition_ease;
+
+    &:focus {
+        border-color: $bg-primary__dark;
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+}

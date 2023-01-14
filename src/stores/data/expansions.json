@@ -1,0 +1,18 @@
+{
+    "punic": {
+        "id": "PUN",
+        "active": true
+    },
+    "riseEagles": {
+        "id": "RIS"
+    },
+    "clashKatanas": {
+        "id": "CLK"
+    },
+    "darkAges": {
+        "id": "DKA"
+    },
+    "alexandrian": {
+        "id": "ALE"
+    }
+}

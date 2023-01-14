@@ -1,0 +1,18 @@
+{
+    "noArmour": "Sin armadura",
+    "noShield": "Sin escudo",
+    "buckler": "Rodela",
+    "full": "Completa",
+    "fullImproved": "Completa mejorada",
+    "plate": "Placas",
+    "enclosed": "Cerrada",
+    "enclosedImproved": "Cerrada mejorada",
+    "partial": "Parcial",
+    "partialImproved": "Parcial mejorada",
+    "shield": "Escudo",
+    "heavyShield": "Escudo pesado",
+    "shieldHowda": "Escudo Howda",
+    "barding": "Barda",
+    "halfBarding": "Media barda",
+    "noBarding": "Sin barda"
+}

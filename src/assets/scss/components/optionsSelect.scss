@@ -1,0 +1,33 @@
+.select-option {
+    display        : flex;
+    justify-content: space-between;
+
+    .checkbox-group,
+    .checkbox-group-selected {
+        display  : flex;
+        flex-wrap: wrap;
+        width    : 50%;
+        float    : left;
+
+        label {
+            margin       : $padding-xxs;
+            cursor       : pointer;
+            border       : 1px solid $bg-primary__dark;
+            padding      : $padding_xxs $padding_xs;
+            border-radius: $rounded;
+            font-size    : $font_size_small;
+            transition   : $transition_ease;
+            display      : flex;
+            align-items  : center;
+
+            input {
+                display: none;
+            }
+        }
+    }
+
+    .checkbox-group-selected {
+        justify-content: flex-end;
+        align-items    : flex-end;
+    }
+}

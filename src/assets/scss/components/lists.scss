@@ -1,0 +1,11 @@
+.army {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+@media (min-width: 43rem) {
+    .army {
+        flex-direction: row;
+    }
+}

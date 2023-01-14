@@ -1,0 +1,60 @@
+{
+    "OPT_BUCKLER": {
+        "id": "optBuckler",
+        "cost": 1,
+        "upgradeShield": "BUCKLER",
+        "upgradeTraits": [
+            "BUCKLER"
+        ]
+    },
+    "OPT_SHIELD": {
+        "id": "optShield",
+        "cost": 1,
+        "upgradeShield": "SHIELD"
+    },
+    "OPT_DOWN_PARTIAL_ARMOUR": {
+        "id": "optDownPartialArmour",
+        "cost": -1,
+        "upgradeArmour": "PARTIAL"
+    },
+    "OPT_DOWN_HEAVY_SHIELD": {
+        "id": "optDownHeavyShield",
+        "cost": -1,
+        "upgradeShield": "SHIELD"
+    },
+    "OPT_DOWN_NO_ARMOUR": {
+        "id": "optDownNoArmour",
+        "cost": -2,
+        "upgradeArmour": "NO_ARMOUR"
+    },
+    "OPT_JAV_TO_BOW": {
+        "id": "optJavToBow",
+        "cost": 0,
+        "upgradeWeapon": "BOW"
+    },
+    "OPT_ELEPHANT_THRUSTING_SPEAR": {
+        "id": "optElephantThrustingSpear",
+        "cost": 1,
+        "upgradeWeapon": "THRUSTING"
+    },
+    "OPT_ELEPHANT_UPGRADE_FULL_ARMOR": {
+        "id": "optElephantUpgradeFullArmor",
+        "cost": 1,
+        "upgradeArmour": "FULL"
+    },
+    "OPT_ELEPHANT_DOWNUPGRADE_NO_ARMOR": {
+        "id": "optElephantDownupgradeNoArmor",
+        "cost": -2,
+        "upgradeArmour": "NO_ARMOUR"
+    },
+    "OPT_ELEPHANT_ADD_SHIELDS": {
+        "id": "optElephantAddShields",
+        "cost": 2,
+        "upgradeShield": "SHIELD"
+    },
+    "OPT_ELEPHANT_ADD_HOWDA_TOWER": {
+        "id": "optElephantAddHowdaTower",
+        "cost": 4,
+        "upgradeShield": "SHIELD_HOWDA"
+    }
+}

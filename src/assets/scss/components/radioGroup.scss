@@ -1,0 +1,31 @@
+.radio-group {
+    display  : flex;
+    margin   : $padding-sm 0;
+    flex-wrap: wrap;
+
+    label {
+        margin       : $padding-sm;
+        cursor       : pointer;
+        border       : 2px solid $bg-primary__dark;
+        padding      : $padding_xs $padding_sm;
+        border-radius: $rounded;
+        font-size    : $font_size_small;
+        transition   : $transition_ease;
+        display      : flex;
+        align-items  : center;
+
+        img {
+            margin-right: $padding_sm;
+            max-height  : 24px;
+        }
+
+        &.active {
+            background-color: $text-link-active;
+            color           : $text__dark;
+        }
+
+        input {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#app {
+  min-height        : 100vh;
+  margin            : 0;
+  display           : grid;
+  grid-template-rows: auto 1fr auto;
+  height            : auto;
+
+  main {
+    min-height: 100%;
+    margin    : 0 auto;
+    max-width : $width-content;
+    padding   : 12px 20px;
+    width     : auto;
+  }
+}
+
+@media (min-width: $width-content) {
+  #app main {
+    width: $width-content;
+  }
+}

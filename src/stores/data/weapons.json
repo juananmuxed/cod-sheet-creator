@@ -1,0 +1,132 @@
+{
+    "JAVELIN": {
+        "id": "javelin",
+        "rangeShort": 6,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "THROW"
+        ]
+    },
+    "SLING": {
+        "id": "sling",
+        "rangeShort": 8,
+        "rangeLong": 12,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "SHOOT",
+            "SLING_SAVE"
+        ]
+    },
+    "BOW": {
+        "id": "bow",
+        "rangeShort": 8,
+        "rangeLong": 16,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "SHOOT"
+        ]
+    },
+    "THROWING": {
+        "id": "throwing",
+        "rangeShort": 4,
+        "saveModification": -1,
+        "type": [
+            "ranged",
+            "melee"
+        ],
+        "special": [
+            "THROW",
+            "UNLOAD"
+        ],
+        "initiative": 2
+    },
+    "JAVELIN_MOUNTED": {
+        "id": "javelinMounted",
+        "rangeShort": 4,
+        "saveModification": 0,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "SHOOT_MOUNTED"
+        ]
+    },
+    "BOW_MOUNTED": {
+        "id": "bowMounted",
+        "rangeShort": 8,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "SHOOT_MOUNTED"
+        ]
+    },
+    "THRUSTING": {
+        "id": "thrusting",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 3
+    },
+    "CAVALRY_SPEAR": {
+        "id": "cavalrySpear",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 2
+    },
+    "XYSTON": {
+        "id": "xyston",
+        "type": [
+            "melee"
+        ],
+        "special": [
+            "NOT_SHIELDS"
+        ],
+        "initiative": 3
+    },
+    "KONTOS": {
+        "id": "kontos",
+        "type": [
+            "melee"
+        ],
+        "special": [
+            "NOT_SHIELDS"
+        ],
+        "initiative": 3
+    },
+    "PIKE": {
+        "id": "pike",
+        "type": [
+            "melee"
+        ],
+        "special": [
+            "NOT_SHIELDS",
+            "OPEN_ONE_HAND"
+        ],
+        "initiative": 4
+    },
+    "AX": {
+        "id": "ax",
+        "type": [
+            "melee"
+        ],
+        "saveModification": -2,
+        "special": [
+            "NOT_SHIELDS",
+            "OPEN_ONE_HAND"
+        ],
+        "initiative": 4
+    }
+}

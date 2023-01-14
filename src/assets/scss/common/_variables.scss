@@ -1,0 +1,57 @@
+// Colors
+$background      : #ffffff;
+$background__dark: #231925;
+$background_gray : #353535;
+
+$text                  : #1a1a1a;
+$text__dark            : #fafafa;
+$text-link__dark       : #31753e;
+$text-link-active__dark: #2f4564;
+$text-link-hover__dark : #2d4d4d;
+$text-link             : #3b5180;
+$text-link-active      : #628674;
+$text-link-hover       : #9095ad;
+
+$bg-primary      : #c0c0c0;
+$bg-primary__dark: #4b4b4b;
+$bg-success      : #51cd81;
+$bg-success__dark: #286131;
+$bg-warning      : #cd8951;
+$bg-warning__dark: #8a6f35;
+$bg-error        : #e05e5e;
+$bg-error__dark  : #753131;
+
+$bg-disabled: #e7e7e7;
+
+// Fonts
+$font_size_basic : 13px;
+$font_size_h1    : 2.4rem;
+$font_size_h2    : 2rem;
+$font_size_h3    : 1.8rem;
+$font_size_h4    : 1.4rem;
+$font_size_h5    : 1.2rem;
+$font_size_h6    : 1rem;
+$font_size_p     : 1rem;
+$font_size_menu  : 1.2rem;
+$font_size_small : 0.8rem;
+$font_size_xsmall: 0.7rem;
+
+// Sizes
+$size-header  : 62px;
+$size-footer  : 52px;
+$width-content: 58rem;
+
+// Spaces
+$padding_xs   : 0.2em;
+$padding_xxs  : 0.1em;
+$padding_sm   : 0.5em;
+$padding_md   : 1em;
+$padding_xl   : 1.5em;
+$padding_table: 0.4em;
+
+// Borders
+$rounded     : 4px;
+$rounded_full: 9999px;
+
+// Transitions
+$transition_ease: 0.3s ease;

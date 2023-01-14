@@ -1,0 +1,383 @@
+{
+    "cartaginian": {
+        "id": "CARTA",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "lowlandGallic": {
+        "id": "LOWGAL",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "ligurian": {
+        "id": "LIGUR",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "greeksSicilian": {
+        "id": "GREEKS",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "greeksItaly": {
+        "id": "GREEKI",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "celtIberian": {
+        "id": "CELTI",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "iberian": {
+        "id": "IBERI",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "lusitanian": {
+        "id": "LUSIT",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "etruscanCampanian": {
+        "id": "ETRUSC",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "samnite": {
+        "id": "SAMNI",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "roman": {
+        "id": "ROMAN",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "numidian": {
+        "id": "NUMI",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "pyrrus": {
+        "id": "PHYRR",
+        "expansions": [
+            "punic"
+        ],
+        "active": true
+    },
+    "lateRepublicRome": {
+        "id": "LATERE",
+        "expansions": [
+            "riseEagles"
+        ],
+        "isWarParty": true
+    },
+    "earlyImperianRome": {
+        "id": "EARLYIMP",
+        "expansions": [
+            "riseEagles"
+        ],
+        "isWarParty": true
+    },
+    "ancientBritish": {
+        "id": "ANCBRI",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "dacians": {
+        "id": "DACIAN",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "germanPlains": {
+        "id": "GERMPLA",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "germanForest": {
+        "id": "GERMFOR",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "parthians": {
+        "id": "PARTI",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "pontic": {
+        "id": "PONTIC",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "laterSelucid": {
+        "id": "LATSELU",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "laterMacedonianHelenistic": {
+        "id": "LATMACE",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "laterPtolemaic": {
+        "id": "LATPTOL",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "thracians": {
+        "id": "THRAC",
+        "expansions": [
+            "riseEagles"
+        ]
+    },
+    "shimazu": {
+        "id": "SHIMA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "chosokabe": {
+        "id": "CHOSOK",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "mori": {
+        "id": "MORI",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "oda": {
+        "id": "ODA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "toyotomi": {
+        "id": "TOYOTO",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "tokugawa": {
+        "id": "TOKUGA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "takeda": {
+        "id": "TAKEDA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "uesugi": {
+        "id": "UESUG",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "hojo": {
+        "id": "HOJO",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "date": {
+        "id": "DATE",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "ikkoIkki": {
+        "id": "IKKO",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "iga": {
+        "id": "IGA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "wako": {
+        "id": "WAKO",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "joseonKoreans": {
+        "id": "KOREA",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "mingChinese": {
+        "id": "MING",
+        "expansions": [
+            "clashKatanas"
+        ]
+    },
+    "byzantine": {
+        "id": "BYZAN",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "norman": {
+        "id": "NORMAN",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "irish": {
+        "id": "IRISH",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "viking": {
+        "id": "VIKING",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "angloSaxon": {
+        "id": "ANGLOSA",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "angloDane": {
+        "id": "ANGLODA",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "welsh": {
+        "id": "WELSH",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "strathclyde": {
+        "id": "STRATH",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "scotsPicts": {
+        "id": "SCOTSPI",
+        "expansions": [
+            "darkAges"
+        ]
+    },
+    "macedonian": {
+        "id": "MACEDON",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "alexanderGalgamala": {
+        "id": "ALEXGAL",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "alexanderIndus": {
+        "id": "ALEXIND",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "alexanderSuccessors": {
+        "id": "ALEXSUC",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "getae": {
+        "id": "GETAE",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "thraciansAlex": {
+        "id": "THRACALEX",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "illyrians": {
+        "id": "ILLYR",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "greekCityStates": {
+        "id": "GREEKCIT",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "greekMercenaries": {
+        "id": "GREEKMER",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "persians": {
+        "id": "PERSIAN",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "steppeNomads": {
+        "id": "STEPPE",
+        "expansions": [
+            "alexandrian"
+        ]
+    },
+    "indian": {
+        "id": "INDIAN",
+        "expansions": [
+            "alexandrian"
+        ]
+    }
+}
