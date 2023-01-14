@@ -14,7 +14,7 @@
 
 ### Demo deploy status
 
-[![Deploy status](https://img.shields.io/github/workflow/status/juananmuxed/cod-sheet-creator/Deploy/develop?label=Develop%20status)](https://teamcoo.muxed.es)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/juananmuxed/cod-sheet-creator/deploy.yml?label=Workflow)](https://cos.muxed.es)
 [![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&up_color=green&up_message=Online&url=https://cos.muxed.es)](https://cos.muxed.es) 
 
 ## 🎱 Introduction
