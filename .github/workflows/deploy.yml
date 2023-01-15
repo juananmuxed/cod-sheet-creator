@@ -18,6 +18,8 @@ jobs:
           script: |
             cd ${{ secrets.PROJECT_PATH }}
             git pull
+            npm i
+            git restore package-lock.json
             npm run build
             cp example.htaccess dist/.htaccess
             
