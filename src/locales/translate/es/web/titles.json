@@ -1,4 +1,16 @@
 {
     "expansion": "Expansión",
-    "army": "Ejercito"
+    "army": "Ejercito",
+    "home": "Generador de Clash of Spears",
+    "welcome": "Bienvenido",
+    "sections": "Secciones",
+    "expansionsAvailable": "Expansiones disponibles",
+    "news": "Novedades",
+    "about": "Sobre la web",
+    "whatIsThisWeb": "¿Qué es esta web?",
+    "howReportBugs": "¿Cómo reportar errores en la web?",
+    "howSaveLists": "¿Cómo guardar listas?",
+    "whoIsProject": "¿Quién es parte del proyecto?",
+    "developers": "Desarrolladores",
+    "translaters": "Traductores"
 }

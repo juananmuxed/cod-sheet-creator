@@ -19,5 +19,27 @@
     "totalCostUnit": "Coste total de unidad",
     "ofFigures": "sin figuras | de {count} figura | de {count} figuras",
     "inUnits": "sin unidades | en {count} unidad | en {count} unidades",
-    "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada <b>{count}</b> unidad | Punto de rotura cada <b>{count}</b> unidades"
+    "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada <b>{count}</b> unidad | Punto de rotura cada <b>{count}</b> unidades",
+    "about": {
+        "p": {
+            "whatIsThisWeb01": "Esto es una herramienta <b>NO OFICIAL</b> para construir listas del juego \"Clash of Spears\". Todos los derechos reservados a los creadores.",
+            "whatIsThisWeb02": "Para cualquier consulta sobre reglas del juego contacta con los creadores del mismo.",
+            "howReportBugs01": "Si encuentra cualquier <b>Error (bug)</b> en la web, puede reportarlo por Discord o GitHub siguiendo los enlaces siguientes.",
+            "howReportBugs02": "También puede comunicar cualquier <b>nueva característica</b> que desee que se implemente en la web.",
+            "howSaveLists01": "Las listas se guardan simplemente con el botón correspondiente y se almacenan en el navegador (Local Storage) por lo que en cada equipo y navegador podrás guardar distintos.",
+            "howSaveLists02": "Para poder compartir o exportar solo necesitas el \"id\" de la lista que podrás encontrar en al URL de dicha lista justo después de \"?id=\". Este enlace si será una copia exacta de la lista que estés viendo en pantalla.",
+            "howSaveLists03": "Compartiendo dicho enlace, cualquiera podrá ver esta lista.",
+            "whoIsProject01": "Si desea <b>colaborar</b> ya sea modificando código o traduciendo a otros idiomas (o mejorando las traducciones) usa la misma fuente de comunicación que mas arriba, <b>Discord o Github</b>"
+        }
+    },
+    "home": {
+        "p": {
+            "welcome01": "Este sitio web te permite crear listas de ejercito para el juego de miniaturas <b>Clash of Spears</b>. Podrás <b>crear, compartir e imprimir</b> tus listas de los ejercitos disponibles para las distintas expansiones.",
+            "welcome02": "Eres más que bienvenido a usar esta web para disfrutar al máximo de este juego.",
+            "sections01": "Dentro de la sección de <b>Listas</b> podrás revisar listas o crear nuevas, así como compartiras. Además en la sección de <b>Configuración</b> podrás cambiar algunas cosas a la hora de Imprimir o ver las listas.",
+            "news01": "Añadidas las listas para <b>Clash of Spears</b>",
+            "news02": "Añadidas las opciones de general de <b>Rise of Blood</b>",
+            "listAllChanges": "Listado completo de <a href=\"{url}\" target=\"_blank\">todos los cambios</a>"
+        }
+    }
 }
