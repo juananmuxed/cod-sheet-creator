@@ -3,8 +3,6 @@ header {
 }
 
 nav {
-  font-size: $font_size_menu;
-
   ul {
     list-style     : none;
     padding        : 0 $padding_md;
@@ -17,6 +15,7 @@ nav {
       padding        : $padding_xs $padding_sm;
       display        : flex;
       justify-content: flex-end;
+      font-size: $font_size_menu;
 
       a.router-link-active {
         color        : $text-link-active__dark;
