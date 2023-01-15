@@ -40,4 +40,8 @@ body {
         margin-top   : 0;
         margin-bottom: 0.6em;
     }
+    ul,
+    ol {
+        font-size: $font_size_p;
+    }
 }

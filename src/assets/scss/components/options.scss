@@ -20,14 +20,15 @@
     }
 
     .options-buttons {
-        display       : flex;
-        max-height    : 62px;
+        display : flex;
+        flex-wrap: wrap;
         flex-direction: row;
         margin-top    : $padding-sm;
 
         button {
             font-size      : $font_size_xsmall;
-            margin         : 0 $padding-sm;
+            margin : $padding-sm;
+            max-height : 62px;
             display        : flex;
             flex-direction : column;
             align-items    : center;
