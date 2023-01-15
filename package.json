@@ -1,8 +1,8 @@
 {
-  "name": "clash-of-spears-sheet",
-  "version": "0.5.2",
+  "name": "cod-sheet-creator",
+  "version": "0.6.0",
   "private": true,
-  "repository": "juananmuxed/clash-of-spears-sheets",
+  "repository": "juananmuxed/cod-sheet-creator",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
