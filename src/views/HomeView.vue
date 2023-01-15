@@ -2,7 +2,28 @@
 
 <template>
   <div class="container">
-    <h1>Home</h1>
-    <!-- TODO: finish home view -->
+    <h1>⚔️ {{ $t("web.titles.home") }} ⚔️</h1>
+    <h3>{{ $t("web.titles.welcome") }}</h3>
+    <p v-html="$t('web.texts.home.p.welcome01')"></p>
+    <p v-html="$t('web.texts.home.p.welcome02')"></p>
+    <h3>{{ $t("web.titles.sections") }}</h3>
+    <p v-html="$t('web.texts.home.p.sections01')"></p>
+    <h3>{{ $t("web.titles.expansionsAvailable") }}</h3>
+    <ul>
+      <li>Clash of Spears</li>
+      <li>Rise of Blood</li>
+    </ul>
+    <h3>{{ $t("web.titles.news") }}</h3>
+    <ul>
+      <li v-html="$t('web.texts.home.p.news01')"></li>
+      <li v-html="$t('web.texts.home.p.news02')"></li>
+    </ul>
+    <p
+      v-html="
+        $t('web.texts.home.p.listAllChanges', {
+          url: 'https://github.com/juananmuxed/cod-sheet-creator/blob/main/CHANGELOG.md',
+        })
+      "
+    ></p>
   </div>
 </template>
