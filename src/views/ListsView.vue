@@ -1,19 +1,3 @@
-<script setup lang="ts">
-import { useSheetsStore } from "@/stores/sheets";
-import { useOptionsStore } from "@/stores/options";
-import ExpansionSelectorComponent from "@/components/Lists/ExpansionSelectorComponent.vue";
-import ArmySelectorComponent from "@/components/Lists/ArmySelectorComponent.vue";
-import SheetOptionsComponent from "@/components/Lists/SheetOptionsComponent.vue";
-import ArmyDataComponent from "@/components/Lists/ArmyDataComponent.vue";
-import ArmyTableComponent from "@/components/Lists/ArmyTableComponent.vue";
-import TableAditionalComponent from "@/components/Lists/TableAditionalComponent.vue";
-
-const sheets = useSheetsStore();
-const options = useOptionsStore();
-
-sheets.getUriParams();
-</script>
-
 <template>
   <div class="container">
     <div class="army">
@@ -40,23 +24,41 @@ sheets.getUriParams();
       <TableAditionalComponent
         :title="$t('web.titles.traitsDescriptions')"
         type="traits"
-        :items="sheets.availableTraits"
-        v-if="options.printTraitsTable && sheets.availableTraits.length > 0"
+        :items="units.availableTraits"
+        v-if="options.printTraitsTable && units.availableTraits.length > 0"
       ></TableAditionalComponent>
       <TableAditionalComponent
         :title="$t('web.titles.weaponsDescriptions')"
         type="weapons"
-        :items="sheets.availableWeapons"
-        v-if="options.printWeaponsTable && sheets.availableWeapons.length > 0"
+        :items="units.availableWeapons"
+        v-if="options.printWeaponsTable && units.availableWeapons.length > 0"
       ></TableAditionalComponent>
       <TableAditionalComponent
         :title="$t('web.titles.armoursDescriptions')"
         type="armors"
-        :items="sheets.availableArmours"
-        v-if="options.printArmourTable && sheets.availableArmours.length > 0"
+        :items="units.availableArmours"
+        v-if="options.printArmourTable && units.availableArmours.length > 0"
       ></TableAditionalComponent>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { useSheetsStore } from "@/stores/sheets";
+import { useOptionsStore } from "@/stores/options";
+import { useUnitsStore } from "@/stores/units";
+import ExpansionSelectorComponent from "@/components/Lists/ExpansionSelectorComponent.vue";
+import ArmySelectorComponent from "@/components/Lists/ArmySelectorComponent.vue";
+import SheetOptionsComponent from "@/components/Lists/SheetOptionsComponent.vue";
+import ArmyDataComponent from "@/components/Lists/ArmyDataComponent.vue";
+import ArmyTableComponent from "@/components/Lists/ArmyTableComponent.vue";
+import TableAditionalComponent from "@/components/Lists/TableAditionalComponent.vue";
+
+const sheets = useSheetsStore();
+const units = useUnitsStore();
+const options = useOptionsStore();
+
+sheets.getUriParams();
+</script>
 
 <style scoped src="@/assets/scss/components/lists.scss"></style>

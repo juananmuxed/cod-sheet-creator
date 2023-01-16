@@ -2,24 +2,24 @@
   <div v-if="sheets.isCreatingList">
     <h4
       v-text="
-        `${sheets.getCompleteArmy?.label} (${sheets.costTotal} ${$t(
+        `${sheets.getCompleteArmy?.label} (${units.costTotal} ${$t(
           'web.texts.points'
         )})`
       "
     ></h4>
     <p>
-      {{ $t(`sheets.warbandTypes.${sheets.warbandType}`) }} ({{
-        sheets.warbandType
+      {{ $t(`sheets.warbandTypes.${units.warbandType}`) }} ({{
+        units.warbandType
       }})
       {{
-        $t("web.texts.ofFigures", sheets.figuresTotal) +
+        $t("web.texts.ofFigures", units.figuresTotal) +
         " " +
-        $t("web.texts.inUnits", sheets.unitsTotal)
+        $t("web.texts.inUnits", units.unitsTotal)
       }}
     </p>
     <p
       v-html="
-        $t('web.texts.breakPointsEveryFigures', sheets.breakPointThreshold)
+        $t('web.texts.breakPointsEveryFigures', units.breakPointThreshold)
       "
     ></p>
   </div>
@@ -35,8 +35,10 @@
 
 <script setup lang="ts">
 import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 import RadioGroupComponent from "../RadioGroupComponent.vue";
 
+const units = useUnitsStore();
 const sheets = useSheetsStore();
 </script>
 

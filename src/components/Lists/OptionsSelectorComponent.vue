@@ -39,12 +39,12 @@
 </template>
 
 <script setup lang="ts">
-import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 import type { IUnitObject } from "@/types/sheetTypes";
 import { computed } from "vue";
 import IconComponent from "../IconComponent.vue";
 
-const sheets = useSheetsStore();
+const units = useUnitsStore();
 
 const props = defineProps<{
   unit: IUnitObject;
@@ -52,9 +52,9 @@ const props = defineProps<{
   print: boolean;
 }>();
 
-const options = computed(() => sheets.filteredOptions(props.unit));
+const options = computed(() => units.filteredOptions(props.unit));
 const selectedOptions = computed(() =>
-  sheets.mapedOptions(props.unit.selectedOptions || [])
+  units.mapedOptions(props.unit.selectedOptions || [])
 );
 
 const emit = defineEmits(["selectOption", "unselectOption"]);

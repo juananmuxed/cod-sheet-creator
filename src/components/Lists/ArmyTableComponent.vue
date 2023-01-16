@@ -2,11 +2,11 @@
   <div class="units-add no-print">
     <h4>{{ $t("web.texts.units") }}</h4>
     <CheckboxGroupComponent
-      v-model="sheets.selectedUnits"
-      :options="sheets.availableUnits"
+      v-model="units.selectedUnits"
+      :options="units.availableUnits"
     ></CheckboxGroupComponent>
     <div>
-      <button @click="sheets.addUnits" :disabled="!sheets.isSelectedUnits">
+      <button @click="units.addUnits" :disabled="!units.isSelectedUnits">
         {{ $t("web.texts.addUnits") }}
       </button>
     </div>
@@ -32,7 +32,7 @@
     <div class="table-body">
       <div
         class="row"
-        v-for="(unit, index) in sheets.unitsInArmy"
+        v-for="(unit, index) in units.unitsInArmy"
         :key="index + '-unit'"
       >
         <UnitRowComponent :unit="unit" :index="index"></UnitRowComponent>
@@ -42,11 +42,11 @@
 </template>
 
 <script setup lang="ts">
-import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 import CheckboxGroupComponent from "../CheckboxGroupComponent.vue";
 import UnitRowComponent from "./UnitRowComponent.vue";
 
-const sheets = useSheetsStore();
+const units = useUnitsStore();
 </script>
 
 <style scoped src="@/assets/scss/components/table.scss"></style>

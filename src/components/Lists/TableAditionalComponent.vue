@@ -9,9 +9,7 @@
               <span class="name">
                 {{
                   $t(
-                    `sheets.${type}.${
-                      sheets.getTraitTranslate(item.name).text
-                    }`,
+                    `sheets.${type}.${units.getTraitTranslate(item.name).text}`,
                     {
                       value: "X",
                     }
@@ -26,7 +24,7 @@
               {{
                 $t(
                   `sheets.${type}.descriptions.${
-                    sheets.getTraitTranslate(item.name).text
+                    units.getTraitTranslate(item.name).text
                   }`
                 )
               }}
@@ -53,9 +51,9 @@
 
 <script setup lang="ts">
 import type { ITableAditionalRow } from "@/types/sheetTypes";
-import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 
-const sheets = useSheetsStore();
+const units = useUnitsStore();
 
 defineProps<{
   title: string;

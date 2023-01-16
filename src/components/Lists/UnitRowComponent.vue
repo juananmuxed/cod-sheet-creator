@@ -2,16 +2,16 @@
   <div class="cell no-print">
     <div class="options-buttons">
       <button
-        :class="sheets.isFirstUnit(index) ? 'invisible' : ''"
-        :disabled="sheets.isFirstUnit(index)"
-        @click="sheets.orderUp(index)"
+        :class="units.isFirstUnit(index) ? 'invisible' : ''"
+        :disabled="units.isFirstUnit(index)"
+        @click="units.orderUp(index)"
       >
         <IconComponent name="arrow-up"></IconComponent>
       </button>
       <button
-        :class="sheets.isLastUnit(index) ? 'invisible' : ''"
-        :disabled="sheets.isLastUnit(index)"
-        @click="sheets.orderDown(index)"
+        :class="units.isLastUnit(index) ? 'invisible' : ''"
+        :disabled="units.isLastUnit(index)"
+        @click="units.orderDown(index)"
       >
         <IconComponent name="arrow-down"></IconComponent>
       </button>
@@ -21,7 +21,7 @@
     <div class="flex column">
       <span>
         <b>{{ $t(`sheets.units.${unit.translate}`) }}</b>
-        ({{ sheets.getAvailability(unit.availability) }})
+        ({{ units.getAvailability(unit.availability) }})
       </span>
       <span v-if="unit.isLeader">
         <BadgeComponent color="primary" outlined small>{{
@@ -39,7 +39,7 @@
   <div class="cell" v-if="unit.grit">{{ unit.grit }}+</div>
   <div class="cell" v-else></div>
   <div class="cell" v-if="!unit.isCharacter">
-    {{ sheets.calculateSave(unit) }}+
+    {{ units.calculateSave(unit) }}+
   </div>
   <div class="cell" v-else></div>
   <div class="cell cell-medium">
@@ -48,10 +48,10 @@
         color="primary"
         outlined
         small
-        v-if="unit.weapon && !sheets.isHidenItem(unit.weapon)"
+        v-if="unit.weapon && !units.isHidenItem(unit.weapon)"
         >{{
-          $t(`sheets.weapons.${sheets.getWeaponTranslate(unit.weapon)}`) +
-          sheets.getWeaponIniciative(unit.weapon)
+          $t(`sheets.weapons.${units.getWeaponTranslate(unit.weapon)}`) +
+          units.getWeaponIniciative(unit.weapon)
         }}</BadgeComponent
       >
     </span>
@@ -62,27 +62,27 @@
         color="primary"
         outlined
         small
-        v-if="unit.shield && !sheets.isHidenItem(unit.shield)"
+        v-if="unit.shield && !units.isHidenItem(unit.shield)"
         >{{
-          $t(`sheets.armors.${sheets.getArmourTranslate(unit.shield)}`)
+          $t(`sheets.armors.${units.getArmourTranslate(unit.shield)}`)
         }}</BadgeComponent
       >
       <BadgeComponent
         color="primary"
         outlined
         small
-        v-if="unit.body && !sheets.isHidenItem(unit.body)"
+        v-if="unit.body && !units.isHidenItem(unit.body)"
         >{{
-          $t(`sheets.armors.${sheets.getArmourTranslate(unit.body)}`)
+          $t(`sheets.armors.${units.getArmourTranslate(unit.body)}`)
         }}</BadgeComponent
       >
       <BadgeComponent
         color="primary"
         outlined
         small
-        v-if="unit.barding && !sheets.isHidenItem(unit.barding)"
+        v-if="unit.barding && !units.isHidenItem(unit.barding)"
         >{{
-          $t(`sheets.armors.${sheets.getArmourTranslate(unit.barding)}`)
+          $t(`sheets.armors.${units.getArmourTranslate(unit.barding)}`)
         }}</BadgeComponent
       >
     </span>
@@ -96,8 +96,8 @@
         v-for="(trait, index) in unit.traits"
         :key="'trait' + index"
         >{{
-          $t(`sheets.traits.${sheets.getTraitTranslate(trait).text}`, {
-            value: sheets.getTraitTranslate(trait).value,
+          $t(`sheets.traits.${units.getTraitTranslate(trait).text}`, {
+            value: units.getTraitTranslate(trait).value,
           })
         }}</BadgeComponent
       >
@@ -105,7 +105,7 @@
   </div>
   <div class="cell no-print">
     <div class="options-buttons">
-      <button @click="sheets.deleteUnit(index)">
+      <button @click="units.deleteUnit(index)">
         <IconComponent name="close"></IconComponent>
       </button>
     </div>
@@ -116,14 +116,14 @@
       v-if="!unit.noDeployToken && options.deploymentNumber"
     >
       <span>
-        {{ sheets.getDeploymentNumber(index) }}
+        {{ units.getDeploymentNumber(index) }}
       </span>
     </div>
   </div>
   <div class="cell cell-slim cell-wide">
     <div class="flex counter">
       <button
-        @click="sheets.decreaseSize(index)"
+        @click="units.decreaseSize(index)"
         v-if="unit.fixedFigures === undefined"
       >
         <IconComponent name="minus"></IconComponent>
@@ -139,7 +139,7 @@
         }}
       </span>
       <button
-        @click="sheets.increaseSize(index)"
+        @click="units.increaseSize(index)"
         v-if="unit.fixedFigures === undefined"
       >
         <IconComponent name="plus"></IconComponent>
@@ -153,7 +153,7 @@
   </div>
   <div class="cell cell-slim cell-wide">
     {{ $t("web.texts.totalCostUnit") }}:
-    {{ sheets.calculateUnitCost(unit) }}
+    {{ units.calculateUnitCost(unit) }}
   </div>
   <div
     class="cell cell-full cell-slim"
@@ -172,14 +172,14 @@
 
 <script setup lang="ts">
 import { useOptionsStore } from "@/stores/options";
-import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 import type { IUnitObject } from "@/types/sheetTypes";
 import { computed } from "vue";
 import BadgeComponent from "../BadgeComponent.vue";
 import IconComponent from "../IconComponent.vue";
 import OptionsSelectorComponent from "./OptionsSelectorComponent.vue";
 
-const sheets = useSheetsStore();
+const units = useUnitsStore();
 const options = useOptionsStore();
 
 const props = defineProps<{
@@ -194,11 +194,11 @@ const isPrintable = computed(
 const hasOptions = computed(() => props.unit.options.length > 0);
 
 function upgrade(option: string) {
-  sheets.upgradeUnit(option, props.index);
+  units.upgradeUnit(option, props.index);
 }
 
 function downgrade(option: string) {
-  sheets.downgradeUnit(option, props.index);
+  units.downgradeUnit(option, props.index);
 }
 </script>
 

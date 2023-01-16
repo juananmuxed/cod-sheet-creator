@@ -1,18 +1,18 @@
 <template>
   <div class="data">
     <ul>
-      <li>{{ $t("web.titles.leaders") }}: {{ sheets.leadersTotal }}</li>
-      <li>{{ $t("web.titles.civis") }}: {{ sheets.civisTotal }}</li>
-      <li>{{ $t("web.titles.milites") }}: {{ sheets.militesTotal }}</li>
-      <li>{{ $t("web.titles.rares") }}: {{ sheets.raresTotal }}</li>
+      <li>{{ $t("web.titles.leaders") }}: {{ units.leadersTotal }}</li>
+      <li>{{ $t("web.titles.civis") }}: {{ units.civisTotal }}</li>
+      <li>{{ $t("web.titles.milites") }}: {{ units.militesTotal }}</li>
+      <li>{{ $t("web.titles.rares") }}: {{ units.raresTotal }}</li>
     </ul>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useSheetsStore } from "@/stores/sheets";
+import { useUnitsStore } from "@/stores/units";
 
-const sheets = useSheetsStore();
+const units = useUnitsStore();
 </script>
 
 <style scoped src="@/assets/scss/components/data.scss"></style>
