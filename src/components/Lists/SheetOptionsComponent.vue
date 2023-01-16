@@ -2,7 +2,7 @@
   <div class="options">
     <div class="options-name">
       <span>
-        {{ $t("web.texts.armyName") }}
+        <span class="no-print">{{ $t("web.texts.armyName") }}</span>
         <span class="rendered-name" v-text="sheets.listName"></span>
       </span>
       <input type="text" v-model="sheets.listName" />

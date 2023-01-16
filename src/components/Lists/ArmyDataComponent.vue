@@ -1,10 +1,10 @@
 <template>
   <div class="data">
     <ul>
-      <li>Personajes: {{ sheets.leadersTotal }}</li>
-      <li>Civis: {{ sheets.civisTotal }}</li>
-      <li>Milites: {{ sheets.militesTotal }}</li>
-      <li>Rare: {{ sheets.raresTotal }}</li>
+      <li>{{ $t("web.titles.leaders") }}: {{ sheets.leadersTotal }}</li>
+      <li>{{ $t("web.titles.civis") }}: {{ sheets.civisTotal }}</li>
+      <li>{{ $t("web.titles.milites") }}: {{ sheets.militesTotal }}</li>
+      <li>{{ $t("web.titles.rares") }}: {{ sheets.raresTotal }}</li>
     </ul>
   </div>
 </template>
