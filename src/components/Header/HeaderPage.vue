@@ -8,6 +8,9 @@ const language = useLanguageStore();
 
 <template>
   <header>
+    <div class="logo">
+      <img src="@/assets/images/logo.png" alt="Clash of Spears" />
+    </div>
     <nav>
       <ul>
         <li v-for="(link, index) in menu.links" :key="index">

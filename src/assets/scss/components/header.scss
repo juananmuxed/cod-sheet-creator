@@ -1,37 +1,49 @@
 header {
   min-height: $size-header;
-}
+  display        : flex;
+  justify-content: space-between;
 
-nav {
-  ul {
-    list-style     : none;
-    padding        : 0 $padding_md;
-    display        : flex;
-    flex-wrap      : nowrap;
-    flex-direction : column;
-    justify-content: flex-end;
+  .logo {
+    padding    : $padding_md;
+    margin-left: $padding_xl;
 
-    li {
-      padding        : $padding_xs $padding_sm;
-      display        : flex;
-      justify-content: flex-end;
-      font-size: $font_size_menu;
-
-      a.router-link-active {
-        color        : $text-link-active__dark;
-        border-bottom: 2px solid $text-link__dark;
-      }
+    img {
+      width : 42px;
+      height: auto;
     }
   }
 
-  select {
-    font-size       : $font_size_menu;
-    border          : none;
-    color           : $text-link__dark;
-    background-color: $text;
-    cursor          : pointer;
-    transition      : all $transition_ease;
-  }
+  nav {
+    ul {
+      list-style    : none;
+      padding       : 0 $padding_md;
+      display       : flex;
+      flex-wrap     : nowrap;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      li {
+        padding: $padding_xs $padding_sm;
+        display: flex;
+        justify-content: flex-end;
+        font-size : $font_size_menu;
+
+        a.router-link-active {
+          color        : $text-link-active__dark;
+          border-bottom: 2px solid $text-link__dark;
+        }
+        }
+        }
+
+    select {
+      font-size       : $font_size_menu;
+      border          : none;
+      color           : $text-link__dark;
+      background-color: $text;
+      cursor          : pointer;
+      transition      : all $transition_ease;
+    }
+    }
 }
 
 .light {
@@ -53,9 +65,11 @@ nav {
 }
 
 @media (min-width: 43rem) {
-  nav {
-    ul {
-      flex-direction: row;
+  header {
+    nav {
+      ul {
+        flex-direction: row;
+      }
     }
   }
 }
