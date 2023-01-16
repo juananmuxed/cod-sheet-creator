@@ -9,10 +9,14 @@
         display: none !important;
     }
 
-    #app main {
-        width  : 100%;
-        padding: 0;
-        margin : 0;
+    #app {
+        display: block;
+
+        main {
+            width  : 100%;
+            padding: 0;
+            margin : 0;
+        }
     }
 
     body,
@@ -50,7 +54,12 @@
             }
         }
     }
-
+    table {
+        td {
+            padding  : $padding_sm 0 !important;
+            font-size: $font_size_xsmall !important;
+        }
+    }
     .badge {
         border-width: 1px !important;
     }
