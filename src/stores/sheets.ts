@@ -12,7 +12,7 @@ import type {
   IListUnit,
   IListUpgrade,
 } from "@/types/sheetTypes";
-import { setLS } from "@/utils/localStorage";
+import { getLS, setLS } from "@/utils/localStorage";
 
 import expansionsJSON from "./data/expansions.json";
 import armiesJSON from "./data/armies.json";
@@ -114,9 +114,7 @@ export const useSheetsStore = defineStore("sheets", () => {
   }
 
   function getUriParams() {
-    const url = new URL(window.location.href);
-    url.searchParams.get("id");
-    setCompactList(url.searchParams.get("id"));
+    setCompactList(getLS(Constants.LS_NAMES.COMPACT_LIST));
   }
 
   function getCompactList() {
