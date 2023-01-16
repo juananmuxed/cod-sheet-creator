@@ -59,7 +59,6 @@ const units = useUnitsStore();
 const options = useOptionsStore();
 
 sheets.getUriParams();
-console.log("test");
 </script>
 
 <style scoped src="@/assets/scss/components/lists.scss"></style>
