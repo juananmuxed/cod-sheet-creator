@@ -1,3 +1,8 @@
+.units-add {
+    margin-top    : $padding_xl;
+    flex-direction: column;
+    display       : flex;
+}
 .table {
     width     : 100%;
     margin-top: $padding_xl;
@@ -11,7 +16,7 @@
             display      : block;
             width        : 100%;
             position     : relative;
-            border-bottom: 1px solid $bg-primary__dark;
+            border-top: 1px solid $bg-primary__dark;
 
             .cell {
                 width         : 5%;
@@ -51,6 +56,9 @@
                     * {
                         margin: $padding_xxs;
                     }
+                    &.column {
+                        flex-direction: column;
+                    }
                 }
 
                 .deployment-number {
@@ -77,6 +85,9 @@
                     align-items    : center;
                 }
             }
+        }
+        &:last-child {
+            border-bottom: 1px solid $bg-primary__dark;
         }
     }
 
