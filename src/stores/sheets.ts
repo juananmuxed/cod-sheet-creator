@@ -202,7 +202,7 @@ export const useSheetsStore = defineStore("sheets", () => {
       );
       const unitsArray: string[] = compactUnits.map(
         (unit) =>
-          Object.keys(units.importedOptions)[
+          Object.keys(units.importedUnits)[
             Number(unit.split(Constants.SEPARATORS.UNIT_VALUES)[1])
           ]
       );
