@@ -2,10 +2,7 @@
     "OPT_BUCKLER": {
         "id": "optBuckler",
         "cost": 1,
-        "upgradeShield": "BUCKLER",
-        "upgradeTraits": [
-            "BUCKLER"
-        ]
+        "upgradeShield": "BUCKLER"
     },
     "OPT_SHIELD": {
         "id": "optShield",
@@ -25,6 +22,11 @@
     "OPT_DOWN_NO_ARMOUR": {
         "id": "optDownNoArmour",
         "cost": -2,
+        "upgradeArmour": "NO_ARMOUR"
+    },
+    "OPT_DOWN_FULL_TO_NO_ARMOUR": {
+        "id": "optDownFullNoArmour",
+        "cost": -3,
         "upgradeArmour": "NO_ARMOUR"
     },
     "OPT_JAV_TO_BOW": {
@@ -56,5 +58,90 @@
         "id": "optElephantAddHowdaTower",
         "cost": 4,
         "upgradeShield": "SHIELD_HOWDA"
+    },
+    "OPT_LEADER_THRUSTING": {
+        "id": "optLeaderThrusting",
+        "cost": 1,
+        "upgradeWeapon": "THRUSTING"
+    },
+    "OPT_LEADER_THROWING": {
+        "id": "optLeaderThrowing",
+        "cost": 1,
+        "upgradeWeapon": "THROWING"
+    },
+    "OPT_LEADER_CAVALRY_SPEAR": {
+        "id": "optLeaderCavalrySpear",
+        "cost": 1,
+        "upgradeWeapon": "CAVALRY_SPEAR",
+        "neededTraits": [
+            "MOUNTED",
+            "CHARIOT"
+        ]
+    },
+    "OPT_LEADER_JAVELIN": {
+        "id": "optLeaderJavelin",
+        "cost": 2,
+        "upgradeWeapon": "JAVELIN"
+    },
+    "OPT_LEADER_HORSE": {
+        "id": "optLeaderHorse",
+        "cost": 4,
+        "upgradeTraits": [
+            "MOUNTED"
+        ],
+        "incompatibleTraits": [
+            "CHARIOT"
+        ],
+        "incompatibleShields": [
+            "HEAVY_SHIELD"
+        ]
+    },
+    "OPT_LEADER_DOWNGRADE_NO_SHIELD": {
+        "id": "optLeaderDowngradeNoShield",
+        "cost": -1,
+        "upgradeShield": "NO_SHIELD"
+    },
+    "OPT_LEADER_UPGRADE_HEAVY_SHIELD": {
+        "id": "optLeaderUpgradeHeavyShield",
+        "cost": 1,
+        "upgradeShield": "HEAVY_SHIELD",
+        "incompatibleTraits": [
+            "MOUNTED"
+        ]
+    },
+    "OPT_LEADER_MUSICIAN": {
+        "id": "optLeaderMusician",
+        "cost": 15,
+        "upgradeTraits": [
+            "MUSICIAN"
+        ]
+    },
+    "OPT_LEADER_STANDARD_BEARER": {
+        "id": "optLeaderStandardBearer",
+        "cost": 15,
+        "upgradeTraits": [
+            "STANDARD"
+        ]
+    },
+    "OPT_LEADER_UPGRADE_CHARIOT": {
+        "id": "optLeaderUpgradeChariot",
+        "cost": 8,
+        "upgradeTraits": [
+            "CHARIOT"
+        ],
+        "incompatibleTraits": [
+            "MOUNTED"
+        ],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ]
+    },
+    "OPT_NOT_REPRESENTED": {
+        "id": "optNotRepresented",
+        "cost": 5,
+        "upgradeTraits": [
+            "NOT_REPRESENTED"
+        ]
     }
 }

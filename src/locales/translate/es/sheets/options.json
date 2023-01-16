@@ -9,5 +9,17 @@
     "optElephantUpgradeFullArmor": "Cambia a armadura completa",
     "optElephantDownupgradeNoArmor": "Reduce a sin armadura",
     "optElephantAddShields": "Añade escudos",
-    "optElephantAddHowdaTower": "Añade torre Howda"
+    "optElephantAddHowdaTower": "Añade una torre",
+    "optLeaderThrusting": "Añade lanza de impacto",
+    "optLeaderThrowing": "Añade lanza arrojadiza",
+    "optLeaderCavalrySpear": "Añade lanza de caballería",
+    "optLeaderJavelin": "Añade jabalina",
+    "optLeaderHorse": "Montar a caballo",
+    "optLeaderDowngradeNoShield": "Reduce a sin escudo",
+    "optLeaderUpgradeHeavyShield": "Mejora a escudo pesado",
+    "optLeaderMusician": "Añade un músico",
+    "optLeaderStandardBearer": "Añade un porta estandartes",
+    "optDownFullNoArmour": "Reduce armadura completa a sin armadura",
+    "optLeaderUpgradeChariot": "Monta en carro",
+    "optNotRepresented": "Sin representar"
 }

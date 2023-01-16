@@ -1,138 +1,120 @@
 {
     "IRON_WILL": {
         "id": "ironWill",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 73
     },
     "SKIRMISH_SPECIALIST": {
         "id": "skirmishSpecialist",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 70
     },
     "WALL_OF_SPEARS": {
         "id": "wallOfSpears",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 71
     },
     "OFFENSIVE_SPEAR": {
         "id": "offensiveSpear",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 70
     },
     "SHIELD_OVERLAP": {
         "id": "shieldOverlap",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 70
     },
     "DRILLED": {
         "id": "drilled",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 66
     },
     "GUERRILLA": {
         "id": "guerrilla",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 67
     },
     "IMPULSUM": {
         "id": "impulsum",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 68
     },
     "IMPETUS": {
         "id": "impetus",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 67
     },
     "DETERMINED": {
         "id": "determined",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 72
     },
     "ALLIES": {
         "id": "allies",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 72
     },
     "MOUNTED": {
         "id": "mounted",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 69
     },
     "MARAUDERS": {
         "id": "marauders",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 73
     },
     "EXTRA_EQUIPMENT": {
         "id": "extraEquipment",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0,
+        "book": "Clash of Spears",
+        "page": 66,
         "value": true
     },
     "ATACKS": {
         "id": "atacks",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0,
+        "book": "Clash of Spears",
+        "page": 74,
         "value": true
     },
     "WOUNDS": {
         "id": "wounds",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0,
+        "book": "Clash of Spears",
+        "page": 74,
         "value": true
     },
     "ELEPHANT": {
         "id": "elephant",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
-    },
-    "BUCKLER": {
-        "id": "buckler",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 76
     },
     "SLING_EXPERTS": {
         "id": "slingExperts",
-        "description": "",
-        "book": "",
-        "requires": "",
-        "page": 0
+        "book": "Clash of Spears",
+        "page": 71
+    },
+    "MUSICIAN": {
+        "id": "musician",
+        "book": "Clash of Spears",
+        "page": 118
+    },
+    "STANDARD": {
+        "id": "standard",
+        "book": "Clash of Spears",
+        "page": 118
+    },
+    "CHARIOT": {
+        "id": "chariot",
+        "book": "Clash of Spears",
+        "page": 82
+    },
+    "OMENS": {
+        "id": "omens",
+        "book": "Clash of Spears",
+        "page": 118
+    },
+    "NOT_REPRESENTED": {
+        "id": "notRepresented",
+        "book": "Clash of Spears",
+        "page": 118
     }
 }

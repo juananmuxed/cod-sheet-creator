@@ -7,7 +7,9 @@
         ],
         "special": [
             "THROW"
-        ]
+        ],
+        "book": "Clash of Spears",
+        "page": 61
     },
     "SLING": {
         "id": "sling",
@@ -20,7 +22,9 @@
         "special": [
             "SHOOT",
             "SLING_SAVE"
-        ]
+        ],
+        "book": "Clash of Spears",
+        "page": 62
     },
     "BOW": {
         "id": "bow",
@@ -32,7 +36,9 @@
         ],
         "special": [
             "SHOOT"
-        ]
+        ],
+        "book": "Clash of Spears",
+        "page": 62
     },
     "THROWING": {
         "id": "throwing",
@@ -46,7 +52,9 @@
             "THROW",
             "UNLOAD"
         ],
-        "initiative": 2
+        "initiative": 2,
+        "book": "Clash of Spears",
+        "page": 60
     },
     "JAVELIN_MOUNTED": {
         "id": "javelinMounted",
@@ -57,7 +65,9 @@
         ],
         "special": [
             "SHOOT_MOUNTED"
-        ]
+        ],
+        "book": "Clash of Spears",
+        "page": 62
     },
     "BOW_MOUNTED": {
         "id": "bowMounted",
@@ -68,7 +78,9 @@
         ],
         "special": [
             "SHOOT_MOUNTED"
-        ]
+        ],
+        "book": "Clash of Spears",
+        "page": 63
     },
     "THRUSTING": {
         "id": "thrusting",
@@ -76,7 +88,9 @@
             "melee"
         ],
         "special": [],
-        "initiative": 3
+        "initiative": 3,
+        "book": "Clash of Spears",
+        "page": 60
     },
     "CAVALRY_SPEAR": {
         "id": "cavalrySpear",
@@ -84,7 +98,9 @@
             "melee"
         ],
         "special": [],
-        "initiative": 2
+        "initiative": 2,
+        "book": "Clash of Spears",
+        "page": 60
     },
     "XYSTON": {
         "id": "xyston",
@@ -94,7 +110,9 @@
         "special": [
             "NOT_SHIELDS"
         ],
-        "initiative": 3
+        "initiative": 3,
+        "book": "Clash of Spears",
+        "page": 61
     },
     "KONTOS": {
         "id": "kontos",
@@ -104,7 +122,9 @@
         "special": [
             "NOT_SHIELDS"
         ],
-        "initiative": 3
+        "initiative": 3,
+        "book": "Clash of Spears",
+        "page": 61
     },
     "PIKE": {
         "id": "pike",
@@ -115,7 +135,9 @@
             "NOT_SHIELDS",
             "OPEN_ONE_HAND"
         ],
-        "initiative": 4
+        "initiative": 4,
+        "book": "Clash of Spears",
+        "page": 61
     },
     "AX": {
         "id": "ax",
@@ -127,6 +149,18 @@
             "NOT_SHIELDS",
             "OPEN_ONE_HAND"
         ],
-        "initiative": 4
+        "initiative": 4,
+        "book": "Clash of Spears",
+        "page": 60
+    },
+    "ONE_HAND": {
+        "id": "oneHand",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 1,
+        "book": "Clash of Spears",
+        "page": 60
     }
 }

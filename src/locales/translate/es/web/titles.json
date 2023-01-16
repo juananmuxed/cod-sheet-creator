@@ -1,6 +1,9 @@
 {
     "expansion": "Expansión",
     "army": "Ejercito",
+    "traitsDescriptions": "Descripción de los rasgos",
+    "weaponsDescriptions": "Descripción de las armas",
+    "armoursDescriptions": "Descripción de las armaduras",
     "home": "Generador de Clash of Spears",
     "welcome": "Bienvenido",
     "sections": "Secciones",
@@ -12,5 +15,9 @@
     "howSaveLists": "¿Cómo guardar listas?",
     "whoIsProject": "¿Quién es parte del proyecto?",
     "developers": "Desarrolladores",
-    "translaters": "Traductores"
+    "translaters": "Traductores",
+    "civis": "Civis",
+    "milites": "Milites",
+    "rares": "Raros",
+    "leaders": "Líderes"
 }

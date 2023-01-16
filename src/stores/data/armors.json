@@ -2,81 +2,113 @@
     "NO_ARMOUR": {
         "id": "noArmour",
         "value": 0,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "NO_SHIELD": {
         "id": "noShield",
         "value": 0,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "BUCKLER": {
         "id": "buckler",
         "value": 0,
-        "special": true
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 64
     },
     "FULL": {
         "id": "full",
         "value": 2,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "FULL_IMPROVED": {
         "id": "fullImproved",
         "value": 2,
-        "special": true
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "PLATE": {
         "id": "plate",
         "value": 3,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "ENCLOSED": {
         "id": "enclosed",
         "value": 3,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "ENCLOSED_IMPROVED": {
         "id": "enclosedImproved",
         "value": 3,
-        "special": true
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "PARTIAL": {
         "id": "partial",
         "value": 1,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "PARTIAL_IMPROVED": {
         "id": "partialImproved",
         "value": 1,
-        "special": true
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "SHIELD": {
         "id": "shield",
         "value": 1,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "HEAVY_SHIELD": {
         "id": "heavyShield",
         "value": 2,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "SHIELD_HOWDA": {
         "id": "shieldHowda",
         "value": 2,
-        "special": false
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 80
     },
     "BARDING": {
         "id": "barding",
         "value": 1,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "HALF_BARDING": {
         "id": "halfBarding",
         "value": 0,
-        "special": true
+        "special": true,
+        "book": "Clash of Spears",
+        "page": 65
     },
     "NO_BARDING": {
         "id": "noBarding",
         "value": 0,
-        "special": false
+        "special": false,
+        "book": "Clash of Spears",
+        "page": 65
     }
 }

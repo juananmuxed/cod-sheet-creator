@@ -219,9 +219,6 @@
         ],
         "cost": 16.5,
         "options": [],
-        "defaultWeapon": "HIDE_OPTION",
-        "defaultShield": "HIDE_OPTION",
-        "defaultBody": "HIDE_OPTION",
         "noDeployToken": true,
         "armies": [
             "cartaginian"

@@ -11,6 +11,30 @@
         id="deployment-number"
       />
       <label for="deployment-number">Deployment number</label>
+    </p>
+    <p>
+      <input
+        type="checkbox"
+        v-model="options.printTraitsTable"
+        id="table-traits"
+      />
+      <label for="table-traits">Show traits table</label>
+    </p>
+    <p>
+      <input
+        type="checkbox"
+        v-model="options.printWeaponsTable"
+        id="table-weapons"
+      />
+      <label for="table-weapons">Show weapons table</label>
+    </p>
+    <p>
+      <input
+        type="checkbox"
+        v-model="options.printArmourTable"
+        id="table-armours"
+      />
+      <label for="table-armours">Show armours table</label>
       <!-- TODO: finish config view -->
     </p>
   </div>

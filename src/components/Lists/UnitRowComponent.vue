@@ -18,15 +18,30 @@
     </div>
   </div>
   <div class="cell cell-wide">
-    <span>
-      <b>{{ $t(`sheets.units.${unit.translate}`) }}</b>
-      ({{ sheets.getAvailability(unit.availability) }})
-    </span>
+    <div class="flex column">
+      <span>
+        <b>{{ $t(`sheets.units.${unit.translate}`) }}</b>
+        ({{ sheets.getAvailability(unit.availability) }})
+      </span>
+      <span v-if="unit.isLeader">
+        <BadgeComponent color="primary" outlined small>{{
+          `${unit.commandPoints}${$t("web.texts.combatCommandPoints")} / ${
+            unit.commandRange
+          }"`
+        }}</BadgeComponent>
+      </span>
+    </div>
   </div>
-  <div class="cell">{{ unit.combat }}+</div>
-  <div class="cell">{{ unit.ranged }}+</div>
-  <div class="cell">{{ unit.grit }}+</div>
-  <div class="cell">{{ sheets.calculateSave(unit) }}+</div>
+  <div class="cell" v-if="unit.combat">{{ unit.combat }}+</div>
+  <div class="cell" v-else></div>
+  <div class="cell" v-if="unit.ranged">{{ unit.ranged }}+</div>
+  <div class="cell" v-else></div>
+  <div class="cell" v-if="unit.grit">{{ unit.grit }}+</div>
+  <div class="cell" v-else></div>
+  <div class="cell" v-if="!unit.isCharacter">
+    {{ sheets.calculateSave(unit) }}+
+  </div>
+  <div class="cell" v-else></div>
   <div class="cell cell-medium">
     <span class="flex">
       <BadgeComponent
@@ -101,26 +116,32 @@
       v-if="!unit.noDeployToken && options.deploymentNumber"
     >
       <span>
-        {{ index + 1 }}
+        {{ sheets.getDeploymentNumber(index) }}
       </span>
     </div>
   </div>
   <div class="cell cell-slim cell-wide">
     <div class="flex counter">
-      <button @click="sheets.decreaseSize(index)" v-if="!unit.fixedFigures">
+      <button
+        @click="sheets.decreaseSize(index)"
+        v-if="unit.fixedFigures === undefined"
+      >
         <IconComponent name="minus"></IconComponent>
       </button>
       <span>
-        <b v-if="!unit.fixedFigures">{{ unit.size }}</b>
+        <b v-if="unit.fixedFigures === undefined">{{ unit.size }}</b>
         <b v-else>{{ unit.fixedFigures }}</b>
         {{
           $t(
             "web.texts.figure",
-            !unit.fixedFigures ? unit.size || 1 : unit.fixedFigures
+            unit.fixedFigures === undefined ? unit.size || 1 : unit.fixedFigures
           )
         }}
       </span>
-      <button @click="sheets.increaseSize(index)" v-if="!unit.fixedFigures">
+      <button
+        @click="sheets.increaseSize(index)"
+        v-if="unit.fixedFigures === undefined"
+      >
         <IconComponent name="plus"></IconComponent>
       </button>
     </div>

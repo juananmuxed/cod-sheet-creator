@@ -11,8 +11,26 @@
     "partialImproved": "Parcial mejorada",
     "shield": "Escudo",
     "heavyShield": "Escudo pesado",
-    "shieldHowda": "Escudo Howda",
+    "shieldHowda": "Torre Howda",
     "barding": "Barda",
     "halfBarding": "Media barda",
-    "noBarding": "Sin barda"
+    "noBarding": "Sin barda",
+    "descriptions": {
+        "noArmour": "0 Puntos de armadura.",
+        "noShield": "0 Puntos de armadura.",
+        "buckler": "1 Punto de armadura cuerpo a cuerpo y 0 a distancia.",
+        "full": "2 Puntos de armadura.",
+        "fullImproved": "2 puntos de armadura.",
+        "plate": "3 puntos de armadura.",
+        "enclosed": "3 puntos de armadura.",
+        "enclosedImproved": "3 puntos de armadura.",
+        "partial": "1 Punto de armadura.",
+        "partialImproved": "1 Punto de armadura.",
+        "shield": "1 Punto de armadura.",
+        "heavyShield": "2 Punto de armadura.",
+        "shieldHowda": "2 Puntos de armadura pero no afecta al valor base de la estadística de Salvación cuando se consulta la Fatiga.",
+        "barding": "2 Puntos de armadura.",
+        "halfBarding": "1 Punto de armadura.",
+        "noBarding": "0 Puntos de armadura."
+    }
 }

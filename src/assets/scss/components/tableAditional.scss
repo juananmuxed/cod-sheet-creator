@@ -1,0 +1,38 @@
+.table-aditional {
+    margin-top: $padding_xl;
+
+    table {
+        border-collapse: collapse;
+        width          : 100%;
+
+        td {
+            padding   : $padding_md 0;
+            border-top: 1px solid $bg-primary__dark;
+
+            &.small {
+                width: 20%;
+            }
+
+            &.wide {
+                width: 80%;
+            }
+
+            span {
+                display       : flex;
+                flex-direction: column;
+
+                &.name {
+                    font-weight: bold;
+                }
+
+                &.sub-text {
+                    font-style: italic;
+                }
+            }
+        }
+
+        &:last-child {
+            border-bottom: 1px solid $bg-primary__dark;
+        }
+    }
+}

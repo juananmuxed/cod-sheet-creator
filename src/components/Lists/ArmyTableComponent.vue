@@ -1,11 +1,11 @@
 <template>
   <div class="units-add no-print">
+    <h4>{{ $t("web.texts.units") }}</h4>
     <CheckboxGroupComponent
       v-model="sheets.selectedUnits"
       :options="sheets.availableUnits"
     ></CheckboxGroupComponent>
     <div>
-      <!-- TODO: add characters -->
       <button @click="sheets.addUnits" :disabled="!sheets.isSelectedUnits">
         {{ $t("web.texts.addUnits") }}
       </button>

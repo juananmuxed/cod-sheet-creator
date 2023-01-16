@@ -3,12 +3,24 @@
     "sling": "Honda",
     "bow": "Arco",
     "throwing": "Lanza arrojadiza",
-    "javelinMounted": "Jabalina montada",
-    "bowMounted": "Arco montado",
     "thrusting": "Lanza de impacto",
     "cavalrySpear": "Lanza de caballería",
     "xyston": "Xyston",
     "kontos": "Kontos",
     "pike": "Pica",
-    "ax": "Arma a dos manos"
+    "ax": "Arma a dos manos",
+    "oneHand": "Arma de mano",
+    "descriptions": {
+        "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
+        "sling": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1.",
+        "bow": "No se puede usar con Escudo ni Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
+        "throwing": "Usadas tanto para cuerpo a cuerpo como para ser lanzadas. Si se usa a distancia recibirá un marcador de Descargada y mientras no recargues en cuerpo a cuerpo usará un Arma de Mano.",
+        "thrusting": "Sin reglas especiales.",
+        "cavalrySpear": "Solo puede ser usada con el rasgo Montado.",
+        "xyston": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
+        "kontos": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
+        "pike": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional o el Rasgo Instrucción Macedonia. Si las tropas luchan en Orden Abierto, dejan de usar la Pica y usan una Arma de Mano.",
+        "ax": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
+        "oneHand": "Sin reglas especiales."
+    }
 }

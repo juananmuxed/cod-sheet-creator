@@ -30,13 +30,13 @@ export interface IOptionRadio {
 }
 export interface IUnitObject {
   availability: string;
-  combat: number;
-  ranged: number;
-  grit: number;
-  defaultWeapon: string;
-  defaultBody: string;
+  combat?: number;
+  ranged?: number;
+  grit?: number;
+  defaultWeapon?: string;
+  defaultBody?: string;
   defaultBarding?: string;
-  defaultShield: string;
+  defaultShield?: string;
   traits: string[];
   cost: number;
   options: string[];
@@ -58,6 +58,12 @@ export interface IUnitObject {
   upgradedBarding?: boolean;
   upgradedShield?: boolean;
   upgradedCommand?: boolean;
+  upgradedMount?: boolean;
+  isLeader?: boolean;
+  isCharacter?: boolean;
+  zeroFigures?: boolean;
+  commandRange?: number;
+  commandPoints?: number;
 }
 
 export interface IUnit {
@@ -68,6 +74,8 @@ export interface IArmorObject {
   id: string;
   value: number;
   special: boolean;
+  book?: string;
+  page?: number;
 }
 
 export interface IArmor {
@@ -82,6 +90,8 @@ export interface IWeaponObject {
   type: string[];
   special: string[];
   initiative?: number;
+  book?: string;
+  page?: number;
 }
 
 export interface IWeapon {
@@ -101,6 +111,10 @@ export interface IUnitOptionObject {
   upgradeBarding?: string;
   upgradeTraits?: string[];
   removeTraits?: string[];
+  neededTraits?: string[];
+  incompatibleTraits?: string[];
+  incompatibleShields?: string[];
+  armies?: string[];
 }
 
 export interface IUnitOption {
@@ -109,10 +123,9 @@ export interface IUnitOption {
 
 export interface ITraitObject {
   id: string;
-  description: string;
-  book: string;
-  requires: string;
-  page: number;
+  book?: string;
+  requires?: string;
+  page?: number;
   value?: boolean;
 }
 
@@ -136,4 +149,10 @@ export interface IListUnit {
 export interface IListUpgrade {
   upgrade: string;
   index: number;
+}
+
+export interface ITableAditionalRow {
+  name: string;
+  page?: number;
+  book?: string;
 }

@@ -1,5 +1,7 @@
 {
     "civis": "Civis",
     "milites": "Milites",
-    "rare": "Raro"
+    "rare": "Raro",
+    "leader": "Líder",
+    "specialCharacter": "Personaje especial"
 }

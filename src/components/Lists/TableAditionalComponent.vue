@@ -1,0 +1,67 @@
+<template>
+  <div class="table-aditional">
+    <h4>{{ title }}</h4>
+    <table>
+      <tbody>
+        <tr v-for="(item, index) in items" :key="index">
+          <template v-if="type === 'traits'">
+            <td class="small">
+              <span class="name">
+                {{
+                  $t(
+                    `sheets.${type}.${
+                      sheets.getTraitTranslate(item.name).text
+                    }`,
+                    {
+                      value: "X",
+                    }
+                  )
+                }}</span
+              >
+              <span class="sub-text">{{
+                `${$t("web.texts.pageCompact")}.${item.page} (${item.book})`
+              }}</span>
+            </td>
+            <td class="wide">
+              {{
+                $t(
+                  `sheets.${type}.descriptions.${
+                    sheets.getTraitTranslate(item.name).text
+                  }`
+                )
+              }}
+            </td>
+          </template>
+          <template v-else>
+            <td class="small">
+              <span class="name">
+                {{ $t(`sheets.${type}.${item.name}`) }}
+              </span>
+              <span class="sub-text">{{
+                `${$t("web.texts.pageCompact")}.${item.page} (${item.book})`
+              }}</span>
+            </td>
+            <td class="wide">
+              {{ $t(`sheets.${type}.descriptions.${item.name}`) }}
+            </td>
+          </template>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script setup lang="ts">
+import type { ITableAditionalRow } from "@/types/sheetTypes";
+import { useSheetsStore } from "@/stores/sheets";
+
+const sheets = useSheetsStore();
+
+defineProps<{
+  title: string;
+  type: string;
+  items: ITableAditionalRow[];
+}>();
+</script>
+
+<style scoped src="@/assets/scss/components/tableAditional.scss"></style>

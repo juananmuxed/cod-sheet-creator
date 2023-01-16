@@ -17,6 +17,7 @@ import type {
   IListUnit,
   IListUpgrade,
   ITrait,
+  ITableAditionalRow,
 } from "@/types/sheetTypes";
 import { setLS } from "@/utils/localStorage";
 
@@ -123,7 +124,21 @@ export const useSheetsStore = defineStore("sheets", () => {
     );
   });
 
-  const leadersTotal = computed(() => 0);
+  const availableTraits = computed(() => {
+    return mapTraits();
+  });
+
+  const availableWeapons = computed(() => {
+    return mapWeapons();
+  });
+
+  const availableArmours = computed(() => {
+    return mapArmours();
+  });
+
+  const leadersTotal = computed(() => {
+    return sumType(Constants.AVAILABILITIES_TYPES.LEADER);
+  });
 
   const civisTotal = computed(() => {
     return sumType(Constants.AVAILABILITIES_TYPES.CIVIS);
@@ -348,9 +363,15 @@ export const useSheetsStore = defineStore("sheets", () => {
       return {
         ...importedUnits[unit],
         translate: unit,
-        weapon: importedUnits[unit].defaultWeapon,
-        body: importedUnits[unit].defaultBody,
-        shield: importedUnits[unit].defaultShield,
+        weapon: importedUnits[unit].isCharacter
+          ? undefined
+          : importedUnits[unit].defaultWeapon,
+        body: importedUnits[unit].isCharacter
+          ? undefined
+          : importedUnits[unit].defaultBody,
+        shield: importedUnits[unit].isCharacter
+          ? undefined
+          : importedUnits[unit].defaultShield,
         size: sizes
           ? sizes[index] || options.defaultUnitNumber
           : options.defaultUnitNumber,
@@ -360,12 +381,58 @@ export const useSheetsStore = defineStore("sheets", () => {
     });
   }
 
-  function mapSelectedUnits(sizes?: number[]) {
-    return mapUnits(selectedUnits.value, sizes);
+  function mapTraits(): ITableAditionalRow[] {
+    let traitsFromUnits: string[] = [];
+    unitsInArmy.value.forEach((unit) => {
+      traitsFromUnits = traitsFromUnits.concat(unit.traits);
+    });
+    const traitsFromUnitsCheck = traitsFromUnits.map(
+      (trait) => importedTraits[getTraitTranslate(trait).id || ""]
+    );
+    return [...new Set(traitsFromUnitsCheck)].map((trait) => {
+      return {
+        name: trait.id,
+        book: trait.book,
+        page: trait.page,
+      };
+    });
+  }
+
+  function mapWeapons(): ITableAditionalRow[] {
+    const weaponsFromUnits: string[] = [];
+    unitsInArmy.value.forEach((unit) => {
+      weaponsFromUnits.push(unit.weapon || unit.defaultWeapon || "");
+    });
+    return [...new Set(weaponsFromUnits)]
+      .filter((weapon) => weapon !== "")
+      .map((trait) => {
+        return {
+          name: importedWeapons[trait].id,
+          book: importedWeapons[trait].book,
+          page: importedWeapons[trait].page,
+        };
+      });
+  }
+
+  function mapArmours(): ITableAditionalRow[] {
+    const armoursFromUnits: string[] = [];
+    unitsInArmy.value.forEach((unit) => {
+      armoursFromUnits.push(unit.body || unit.defaultBody || "");
+      armoursFromUnits.push(unit.shield || unit.defaultShield || "");
+    });
+    return [...new Set(armoursFromUnits)]
+      .filter((armor) => armor !== "")
+      .map((trait) => {
+        return {
+          name: importedArmors[trait].id,
+          book: importedArmors[trait].book,
+          page: importedArmors[trait].page,
+        };
+      });
   }
 
   function addUnits() {
-    const mapedUnits = mapSelectedUnits();
+    const mapedUnits = mapUnits(selectedUnits.value);
     if (mapedUnits !== undefined) {
       unitsInArmy.value = unitsInArmy.value?.concat(mapedUnits);
     }
@@ -414,6 +481,14 @@ export const useSheetsStore = defineStore("sheets", () => {
     return t(`sheets.availabilities.${importedAvailabilities[availability]}`);
   }
 
+  function getDeploymentNumber(index: number) {
+    const notDeploymentUnits = unitsInArmy.value.reduce(
+      (acc, unit) => (unit.noDeployToken !== undefined ? 1 + acc : 0 + acc),
+      0
+    );
+    return index + 1 - notDeploymentUnits;
+  }
+
   function calculateUnitCost(unit: IUnitObject): number {
     return getIndividualCost(unit) * getUnitSize(unit);
   }
@@ -425,14 +500,14 @@ export const useSheetsStore = defineStore("sheets", () => {
     const barding = unit.barding || unit.defaultBarding;
     const body = unit.body || unit.defaultBody;
     if (body && importedArmors[body]) save -= importedArmors[body].value || 0;
-    if (shield && importedArmors[body])
+    if (shield && body && importedArmors[body])
       save -= importedArmors[shield].value || 0;
-    if (barding && importedArmors[body])
+    if (barding && body && importedArmors[body])
       save -= importedArmors[barding || -1].value || 0;
     if (
-      importedArmors[body].special ||
-      importedArmors[shield].special ||
-      importedArmors[barding || -1]?.special
+      (body && importedArmors[body].special) ||
+      (shield && importedArmors[shield].special) ||
+      (barding && importedArmors[barding]?.special)
     )
       return `*${save}`;
     return save.toString();
@@ -455,6 +530,7 @@ export const useSheetsStore = defineStore("sheets", () => {
     const translationObject: Record<string, string | undefined> = {
       text: undefined,
       value: undefined,
+      id: key.split("(")[0],
     };
     translationObject.text = importedTraits[key] ? importedTraits[key].id : key;
     if (roundBracketsRegexExtract.test(key))
@@ -511,6 +587,34 @@ export const useSheetsStore = defineStore("sheets", () => {
       })
       .filter((option) => {
         return !(option.upgradeBarding && unit.upgradedBarding);
+      })
+      .filter((option) => {
+        return !(
+          option.neededTraits &&
+          option.neededTraits.filter((trait: string) =>
+            unit.traits.includes(trait)
+          ).length == 0
+        );
+      })
+      .filter((option) => {
+        return !(
+          option.incompatibleTraits &&
+          option.incompatibleTraits.filter((trait: string) =>
+            unit.traits.includes(trait)
+          ).length > 0
+        );
+      })
+      .filter((option) => {
+        return !(
+          option.incompatibleShields &&
+          option.incompatibleShields.includes(unit.shield || "")
+        );
+      })
+      .filter((option) => {
+        return !(
+          option.armies !== undefined &&
+          !option.armies.includes(selectedArmy.value || "")
+        );
       });
   }
 
@@ -601,9 +705,13 @@ export const useSheetsStore = defineStore("sheets", () => {
     updateUriParams();
   }
 
-  function saveList() {}
+  function saveList() {
+    // TODO: crear guardado
+  }
 
-  function deleteList() {}
+  function deleteList() {
+    // TODO: crear eliminado
+  }
 
   function printList() {
     window.print();
@@ -623,6 +731,9 @@ export const useSheetsStore = defineStore("sheets", () => {
     costTotal,
     selectedUnits,
     availableUnits,
+    availableTraits,
+    availableWeapons,
+    availableArmours,
     isSelectedUnits,
     addUnits,
     increaseSize,
@@ -640,6 +751,7 @@ export const useSheetsStore = defineStore("sheets", () => {
     getWeaponTranslate,
     getWeaponIniciative,
     getTraitTranslate,
+    getDeploymentNumber,
     filteredOptions,
     mapedOptions,
     upgradeUnit,

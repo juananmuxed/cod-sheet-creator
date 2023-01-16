@@ -15,6 +15,7 @@ export class Constants {
     CIVIS: "CIVIS",
     MILITES: "MILITES",
     RARE: "RARE",
+    LEADER: "LEADER",
   };
   static readonly WARBAND_TYPES = {
     WARPARTY: "warParty",
@@ -37,5 +38,8 @@ export class Constants {
     DEFAULT_UNIT_NUMBER: "default-unit-number",
     DEPLOYMENT_NUMBER: "deployment-number",
     COMPACT_LIST: "compact-list",
+    PRINT_TRAITS: "print-traits",
+    PRINT_WEAPONS: "print-weapons",
+    PRINT_ARMOURS: "print-armours",
   };
 }
