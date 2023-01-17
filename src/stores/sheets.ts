@@ -23,8 +23,12 @@ export const useSheetsStore = defineStore("sheets", () => {
 
   const selectedExpansion: Ref<string | undefined> = ref(undefined);
   const selectedArmy: Ref<string | undefined> = ref(undefined);
+  const selectedSavedList: Ref<string | undefined> = ref(undefined);
   const inList: Ref<boolean> = ref(false);
   const listName: Ref<string> = ref("");
+  const savedLists: Ref<Record<string, string>> = ref(
+    JSON.parse(getLS(Constants.LS_NAMES.SAVED_LISTS) || "{}")
+  );
 
   const importedExpansions: IExpansion = expansionsJSON;
   const importedExpansionsKeys: string[] = Object.keys(expansionsJSON);
@@ -57,6 +61,7 @@ export const useSheetsStore = defineStore("sheets", () => {
   watch(selectedArmy, updateUriParams);
   watch(inList, updateUriParams);
   watch(listName, updateUriParams);
+  watch(savedLists, updateSavedLists, { deep: true });
 
   const isSelectedExpansion: ComputedRef<Boolean> = computed(
     () => selectedExpansion.value !== undefined
@@ -82,6 +87,25 @@ export const useSheetsStore = defineStore("sheets", () => {
     );
   });
 
+  const isInSavedList = computed(() => {
+    return savedLists.value[listName.value] !== undefined;
+  });
+
+  const isEditedList = computed(() => {
+    return savedLists.value[listName.value] !== getCompactList();
+  });
+
+  const availabedSavedLists: ComputedRef<IOptionRadio[]> = computed(() => {
+    return Object.keys(savedLists.value).map((key) => {
+      return {
+        label: key,
+        value: key,
+        name: key + "-list",
+        active: true,
+      };
+    });
+  });
+
   function changeSelectedExpansion(
     _value: Ref<string | number | undefined>,
     oldValue?: Ref<string | number | undefined>
@@ -92,17 +116,6 @@ export const useSheetsStore = defineStore("sheets", () => {
 
   function clearSelectedArmy() {
     selectedArmy.value = undefined;
-  }
-
-  function startList() {
-    inList.value = true;
-    listName.value = t(`web.texts.newArmy`);
-  }
-
-  function resetList() {
-    inList.value = false;
-    listName.value = "";
-    units.unitsInArmy = [];
   }
 
   function updateUriParams() {
@@ -238,12 +251,35 @@ export const useSheetsStore = defineStore("sheets", () => {
     };
   }
 
+  function startList() {
+    inList.value = true;
+    listName.value = t(`web.texts.newArmy`);
+  }
+
+  function resetList() {
+    selectedExpansion.value = undefined;
+    inList.value = false;
+    listName.value = "";
+    units.unitsInArmy = [];
+  }
+
   function saveList() {
-    // TODO: crear guardado
+    const compactList = getCompactList();
+    savedLists.value[listName.value] = compactList;
   }
 
   function deleteList() {
-    // TODO: crear eliminado
+    delete savedLists.value[listName.value];
+    resetList();
+  }
+
+  function loadList() {
+    setCompactList(savedLists.value[selectedSavedList.value || ""]);
+    selectedSavedList.value = undefined;
+  }
+
+  function updateSavedLists() {
+    setLS(Constants.LS_NAMES.SAVED_LISTS, JSON.stringify(savedLists.value));
   }
 
   function printList() {
@@ -263,10 +299,15 @@ export const useSheetsStore = defineStore("sheets", () => {
     listName,
     updateUriParams,
     getUriParams,
+    isInSavedList,
+    isEditedList,
+    availabedSavedLists,
+    selectedSavedList,
     startList,
     resetList,
     saveList,
     deleteList,
+    loadList,
     printList,
   };
 });

@@ -156,3 +156,12 @@ export interface ITableAditionalRow {
   page?: number;
   book?: string;
 }
+
+type ToastColors = "success" | "error" | "warning" | "light" | "dark";
+
+export interface IToast {
+  text?: string;
+  color?: ToastColors;
+  time?: number;
+  closable?: boolean;
+}

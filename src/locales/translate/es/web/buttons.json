@@ -3,5 +3,6 @@
     "reset": "Restaurar",
     "save": "Guardar",
     "delete": "Eliminar",
-    "print": "Imprimir"
+    "print": "Imprimir",
+    "loadList": "Cargar lista"
 }

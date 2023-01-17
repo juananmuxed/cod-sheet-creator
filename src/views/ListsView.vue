@@ -1,5 +1,22 @@
 <template>
   <div class="container">
+    <h1 class="no-print" v-text="$t('web.titles.lists')"></h1>
+    <div
+      class="saved-lists no-print"
+      v-if="sheets.availabedSavedLists.length > 0"
+    >
+      <h3 v-text="$t('web.titles.savedLists')"></h3>
+      <RadioGroupComponent
+        v-model="sheets.selectedSavedList"
+        :options="sheets.availabedSavedLists"
+      ></RadioGroupComponent>
+      <button
+        :disabled="!Boolean(sheets.selectedSavedList)"
+        @click="sheets.loadList"
+      >
+        {{ $t("web.buttons.loadList") }}
+      </button>
+    </div>
     <div class="army">
       <div class="titles">
         <ExpansionSelectorComponent></ExpansionSelectorComponent>
@@ -53,6 +70,7 @@ import SheetOptionsComponent from "@/components/Lists/SheetOptionsComponent.vue"
 import ArmyDataComponent from "@/components/Lists/ArmyDataComponent.vue";
 import ArmyTableComponent from "@/components/Lists/ArmyTableComponent.vue";
 import TableAditionalComponent from "@/components/Lists/TableAditionalComponent.vue";
+import RadioGroupComponent from "@/components/RadioGroupComponent.vue";
 
 const sheets = useSheetsStore();
 const units = useUnitsStore();

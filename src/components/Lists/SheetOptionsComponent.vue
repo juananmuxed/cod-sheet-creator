@@ -12,11 +12,11 @@
         <IconComponent name="undo"></IconComponent>
         {{ $t("web.buttons.reset") }}
       </button>
-      <button @click="sheets.saveList">
+      <button @click="sheets.saveList" :disabled="!sheets.isEditedList">
         <IconComponent name="save"></IconComponent>
         {{ $t("web.buttons.save") }}
       </button>
-      <button @click="sheets.deleteList">
+      <button @click="sheets.deleteList" :disabled="!sheets.isInSavedList">
         <IconComponent name="delete"></IconComponent>
         {{ $t("web.buttons.delete") }}
       </button>
