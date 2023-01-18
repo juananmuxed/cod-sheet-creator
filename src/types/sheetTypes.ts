@@ -62,6 +62,7 @@ export interface IUnitObject {
   isLeader?: boolean;
   isCharacter?: boolean;
   zeroFigures?: boolean;
+  freeUnits?: number;
   commandRange?: number;
   commandPoints?: number;
 }
@@ -124,7 +125,7 @@ export interface IUnitOption {
 export interface ITraitObject {
   id: string;
   book?: string;
-  requires?: string;
+  requires?: boolean;
   page?: number;
   value?: boolean;
 }
@@ -155,6 +156,7 @@ export interface ITableAditionalRow {
   name: string;
   page?: number;
   book?: string;
+  requires?: boolean;
 }
 
 type ToastColors = "success" | "error" | "warning" | "light" | "dark";

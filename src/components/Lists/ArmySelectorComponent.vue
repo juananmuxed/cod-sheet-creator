@@ -17,11 +17,16 @@
         $t("web.texts.inUnits", units.unitsTotal)
       }}
     </p>
-    <p
-      v-html="
-        $t('web.texts.breakPointsEveryFigures', units.breakPointThreshold)
-      "
-    ></p>
+    <div class="breakpoint-marks">
+      <p
+        v-html="
+          $t('web.texts.breakPointsEveryFigures', units.breakPointThreshold)
+        "
+      ></p>
+      <span v-for="number in 3" :key="number"
+        ><b>{{ units.breakPointThreshold }}</b></span
+      >
+    </div>
   </div>
   <div v-else>
     <h2 v-text="$t('web.titles.army')"></h2>
@@ -42,4 +47,4 @@ const units = useUnitsStore();
 const sheets = useSheetsStore();
 </script>
 
-<style scoped></style>
+<style scoped src="@/assets/scss/components/armySelector.scss"></style>

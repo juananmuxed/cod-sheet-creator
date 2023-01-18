@@ -75,7 +75,10 @@ export const useUnitsStore = defineStore("units", () => {
 
   const figureCountForBreak = computed(() => {
     return unitsInArmy.value.reduce((a, unit) => {
-      return a + (unit.dontCountForBreak ? 0 : getUnitSize(unit));
+      return (
+        a +
+        (unit.dontCountForBreak ? 0 : getUnitSize(unit) + (unit.freeUnits || 0))
+      );
     }, 0);
   });
 
@@ -134,6 +137,7 @@ export const useUnitsStore = defineStore("units", () => {
       ? Constants.WARBAND_TYPES.MUSTER
       : Constants.WARBAND_TYPES.ADHOC;
   });
+
   function mapUnits(units: string[], sizes?: number[]) {
     return units.map((unit, index) => {
       return {
@@ -170,6 +174,7 @@ export const useUnitsStore = defineStore("units", () => {
         name: trait.id,
         book: trait.book,
         page: trait.page,
+        requires: trait.requires,
       };
     });
   }
@@ -257,11 +262,14 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function getDeploymentNumber(index: number) {
-    const notDeploymentUnits = unitsInArmy.value.reduce(
-      (acc, unit) => (unit.noDeployToken !== undefined ? 1 + acc : 0 + acc),
-      0
-    );
-    return index + 1 - notDeploymentUnits;
+    let acc = 0;
+    for (let i = 0; i < unitsInArmy.value.length; i++) {
+      if (!unitsInArmy.value[i].noDeployToken) {
+        ++acc;
+        if (index === i) break;
+      }
+    }
+    return acc;
   }
 
   function calculateUnitCost(unit: IUnitObject): number {
