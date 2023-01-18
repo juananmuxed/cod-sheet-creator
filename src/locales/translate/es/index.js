@@ -2,6 +2,7 @@ import menu from "./web/menu.json";
 import titles from "./web/titles.json";
 import texts from "./web/texts.json";
 import buttons from "./web/buttons.json";
+import toasts from "./web/toasts.json";
 import expansions from "./sheets/expansion.json";
 import armies from "./sheets/armies.json";
 import units from "./sheets/units.json";
@@ -18,6 +19,7 @@ export default {
     titles,
     texts,
     buttons,
+    toasts,
   },
   sheets: {
     expansions,

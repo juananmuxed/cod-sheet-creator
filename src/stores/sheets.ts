@@ -2,6 +2,7 @@ import { computed, ref, watch, type ComputedRef, type Ref } from "vue";
 import { defineStore } from "pinia";
 import { useI18n } from "vue-i18n";
 import { useUnitsStore } from "./units";
+import { useToastStore } from "./toast";
 import { Constants } from "@/utils/constants";
 import type {
   IArmy,
@@ -20,6 +21,7 @@ import armiesJSON from "./data/armies.json";
 export const useSheetsStore = defineStore("sheets", () => {
   const { t } = useI18n();
   const units = useUnitsStore();
+  const toasts = useToastStore();
 
   const selectedExpansion: Ref<string | undefined> = ref(undefined);
   const selectedArmy: Ref<string | undefined> = ref(undefined);
@@ -266,16 +268,31 @@ export const useSheetsStore = defineStore("sheets", () => {
   function saveList() {
     const compactList = getCompactList();
     savedLists.value[listName.value] = compactList;
+    toasts.addToast({
+      text: t("web.toasts.saveList"),
+      color: "success",
+      time: 4000,
+    });
   }
 
   function deleteList() {
     delete savedLists.value[listName.value];
     resetList();
+    toasts.addToast({
+      text: t("web.toasts.deletedList"),
+      color: "warning",
+      time: 4000,
+    });
   }
 
   function loadList() {
     setCompactList(savedLists.value[selectedSavedList.value || ""]);
     selectedSavedList.value = undefined;
+    toasts.addToast({
+      text: t("web.toasts.loadedList"),
+      color: "success",
+      time: 4000,
+    });
   }
 
   function updateSavedLists() {

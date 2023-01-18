@@ -2,10 +2,11 @@
 import { RouterView } from "vue-router";
 import HeaderPage from "@/components/Header/HeaderPage.vue";
 import FooterPage from "@/components/Footer/FooterPage.vue";
+import ToastListComponent from "@/components/Toast/ToastListComponent.vue";
 </script>
 
 <template>
-  <HeaderPage />
+  <HeaderPage class="no-print" />
   <main>
     <RouterView v-slot="{ Component }">
       <Transition name="fade" mode="out-in">
@@ -13,7 +14,8 @@ import FooterPage from "@/components/Footer/FooterPage.vue";
       </Transition>
     </RouterView>
   </main>
-  <FooterPage />
+  <FooterPage class="no-print" />
+  <ToastListComponent class="no-print" />
 </template>
 
 <style lang="scss">

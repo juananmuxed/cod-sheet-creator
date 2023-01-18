@@ -1,0 +1,69 @@
+.list-toasts {
+    position       : fixed;
+    padding        : $padding-xl;
+    bottom         : 0;
+    display        : flex;
+    justify-content: flex-end;
+    flex-direction : column;
+    height         : 100%;
+    font-size      : $font_size_p;
+    font-weight    : bold;
+
+    .toast-container {
+        -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.30);
+        box-shadow        : 1px 1px 2px 1px rgba(0, 0, 0, 0.30);
+        width             : 300px;
+        padding           : $padding-md;
+        margin            : $padding-sm 0;
+        display           : flex;
+        align-items       : center;
+        justify-content   : space-between;
+        background-color  : white;
+        border-radius     : $rounded;
+
+        span {
+            padding-right: $padding-xl;
+            flex         : 4 1 auto;
+        }
+
+        button {
+            padding      : $padding_xs;
+            margin       : $padding_xs 0;
+            border-radius: 32px;
+            height       : 32px;
+            min-width    : 32px;
+            border       : none;
+            flex         : 1 1 auto;
+        }
+
+        &.light {
+            background-color: $bg-primary;
+        }
+
+        &.dark {
+            background-color: $bg-primary__dark;
+        }
+
+        &.success {
+            background-color: $bg-success;
+        }
+
+        &.error {
+            background-color: $bg-error;
+        }
+
+        &.warning {
+            background-color: $bg-warning;
+        }
+
+    }
+
+    > :first-child {
+        margin-top: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+}
