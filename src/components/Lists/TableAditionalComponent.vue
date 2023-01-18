@@ -21,14 +21,26 @@
               }}</span>
             </td>
             <td class="wide">
-              {{
-                $t(
-                  `sheets.${type}.descriptions.${
-                    units.getTraitTranslate(item.name).text
-                  }`
-                )
-              }}
+              <span class="require" v-if="item.requires">
+                <i>{{
+                  $t(
+                    `sheets.${type}.requires.${
+                      units.getTraitTranslate(item.name).text
+                    }`
+                  )
+                }}</i>
+              </span>
+              <span class="description">
+                {{
+                  $t(
+                    `sheets.${type}.descriptions.${
+                      units.getTraitTranslate(item.name).text
+                    }`
+                  )
+                }}
+              </span>
             </td>
+            <td class="wide"></td>
           </template>
           <template v-else>
             <td class="small">
