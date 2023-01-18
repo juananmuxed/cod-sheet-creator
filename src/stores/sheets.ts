@@ -263,6 +263,7 @@ export const useSheetsStore = defineStore("sheets", () => {
     inList.value = false;
     listName.value = "";
     units.unitsInArmy = [];
+    units.selectedUnits = [];
   }
 
   function saveList() {
