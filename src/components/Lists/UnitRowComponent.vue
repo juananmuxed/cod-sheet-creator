@@ -91,6 +91,11 @@
     <span class="flex">
       <BadgeComponent
         color="primary"
+        :title="
+          $t(
+            `sheets.traits.descriptions.${units.getTraitTranslate(trait).text}`
+          )
+        "
         outlined
         small
         v-for="(trait, index) in unit.traits"
@@ -136,7 +141,7 @@
             "web.texts.figure",
             unit.fixedFigures === undefined ? unit.size || 1 : unit.fixedFigures
           )
-        }}
+        }}{{ unit.freeUnits ? `(+${unit.freeUnits})` : "" }}
       </span>
       <button
         @click="units.increaseSize(index)"

@@ -9,7 +9,7 @@
     ]"
     :style="{ verticalAlign: align }"
   >
-    <span class="label" v-if="$slots.default || label">
+    <span class="label" v-if="$slots.default || label" :title="title">
       <slot v-if="!label"></slot>
       <template v-else>{{ label }}</template>
     </span>
@@ -39,6 +39,10 @@ defineProps({
     default: false,
   },
   align: {
+    type: String,
+    default: "",
+  },
+  title: {
     type: String,
     default: "",
   },
