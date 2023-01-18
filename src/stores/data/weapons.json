@@ -162,5 +162,15 @@
         "initiative": 1,
         "book": "Clash of Spears",
         "page": 60
+    },
+    "TEETH": {
+        "id": "teeth",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 1,
+        "book": "Clash of Spears",
+        "page": 60
     }
 }

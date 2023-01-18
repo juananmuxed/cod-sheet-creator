@@ -7,41 +7,49 @@
     "SKIRMISH_SPECIALIST": {
         "id": "skirmishSpecialist",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 70
     },
     "WALL_OF_SPEARS": {
         "id": "wallOfSpears",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 71
     },
     "OFFENSIVE_SPEAR": {
         "id": "offensiveSpear",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 70
     },
     "SHIELD_OVERLAP": {
         "id": "shieldOverlap",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 70
     },
     "DRILLED": {
         "id": "drilled",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 66
     },
     "GUERRILLA": {
         "id": "guerrilla",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 67
     },
     "IMPULSUM": {
         "id": "impulsum",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 68
     },
     "IMPETUS": {
         "id": "impetus",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 67
     },
     "DETERMINED": {
@@ -90,6 +98,7 @@
     "SLING_EXPERTS": {
         "id": "slingExperts",
         "book": "Clash of Spears",
+        "requires": true,
         "page": 71
     },
     "MUSICIAN": {
@@ -116,5 +125,22 @@
         "id": "notRepresented",
         "book": "Clash of Spears",
         "page": 118
+    },
+    "FUROR": {
+        "id": "furor",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 73
+    },
+    "IRA": {
+        "id": "ira",
+        "book": "Clash of Spears",
+        "page": 73
+    },
+    "FERAL": {
+        "id": "feral",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 72
     }
 }

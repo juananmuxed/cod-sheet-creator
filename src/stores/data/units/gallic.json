@@ -1,0 +1,295 @@
+{
+    "juves": {
+        "availability": "CIVIS",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_SHIELD"
+        ],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ]
+    },
+    "archers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ]
+    },
+    "slingers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "SLING",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ]
+    },
+    "tribesmenLowLand": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 13,
+        "options": [],
+        "armies": [
+            "lowlandGallic"
+        ]
+    },
+    "tribesmenLigurian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "ligurian"
+        ]
+    },
+    "warriorsLowLand": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "FUROR"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "lowlandGallic"
+        ]
+    },
+    "warriorsLigurian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "FUROR"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "ligurian"
+        ]
+    },
+    "liguriansAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "FUROR",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "lowlandGallic"
+        ]
+    },
+    "lowLandAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "FUROR",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "ligurian"
+        ]
+    },
+    "noblesLowLand": {
+        "availability": "CIVIS",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "FUROR"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "lowlandGallic"
+        ]
+    },
+    "noblesLigurian": {
+        "availability": "CIVIS",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "FUROR"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "ligurian"
+        ]
+    },
+    "noblesMountedLowLand": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR"
+        ],
+        "armies": [
+            "lowlandGallic"
+        ]
+    },
+    "noblesMountedLigurian": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR"
+        ],
+        "armies": [
+            "ligurian"
+        ]
+    },
+    "gaesatae": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "FUROR",
+            "IRA"
+        ],
+        "cost": 20,
+        "options": [],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ]
+    },
+    "dogs": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "TEETH",
+        "traits": [
+            "FERAL"
+        ],
+        "freeUnits": 1,
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "ligurian"
+        ]
+    }
+}
