@@ -20,6 +20,9 @@
     "musician": "Músico",
     "standard": "Porta estandarte",
     "chariot": "Carro",
+    "furor": "Furor",
+    "ira": "Ira",
+    "feral": "Animales",
     "omens": "Presagios",
     "notRepresented": "Figura no representada",
     "descriptions": {
@@ -38,13 +41,30 @@
         "marauders": "Siempre en rango del personaje aliado más cercano.",
         "extraEquipment": "Al Preparar o Mover la unidad se gana un marcador de Equipamiento Adicional y dar acceso a poder usar dicho equipamiento o volver al equipamiento original.",
         "atacks": "La miniatura realiza (X) ataques en cuerpo a cuerpo.",
-        "wounds": "La miniatura se elimna cuando ha sufrido (X) heridas.",
+        "wounds": "La miniatura se elimina cuando ha sufrido (X) heridas.",
         "elephant": "Ver reglas especiales Elefantes",
         "slingExperts": "Aumenta el alcance largo de la Honda a 16\"",
         "musician": "Aumenta la distancia de mando del personje a 16\" solo para activar unidades.",
         "standard": "Puede volver a lanzar cualquier dado fallido al intentar recuperar fatiga.",
-        "chariot": "Ver reglas especiales Carro",
+        "chariot": "Ver reglas especiales Carro.",
+        "furor": "Al hacer Ataque sin Cuartel, el enemigo añade 1D6 al Chequeo de Moral causado por el combate cuerpo a cuerpo.",
+        "ira": "Las heridas no se convierten en bajas hasta el paso de Recuperación y Efectos Retardados en la Fase Final.",
+        "feral": "La unidad mueve 8\" al hacer un Ataque sin Cuartel. No puede seleccionar Defender como respuesta a un combate. Gana un modificador a salvación de +2 contra proyectiles en Terreno Abierto, +3 en cobertura. Para más revisar reglas completas de Animales.",
         "omens": "Permite repetir el resultado al elegir Consultar los Augurios al determinar Puntos de Destino de la banda.",
         "notRepresented": "Si no tienes miniatura para representar la unidad, aumenta el coste."
+    },
+    "requires": {
+        "drilled": "Orden Cerrado",
+        "guerrilla": "Orden Abierto",
+        "impetus": "Orden Abierto y Kontos/Xyston o Lanza de Caballería",
+        "impulsum": "Lanza arrojadiza",
+        "offensiveSpear": "Orden Cerrado",
+        "shieldOverlap": "Orden Cerrado y escudo pesado",
+        "skirmishSpecialist": "Orden Abierto",
+        "slingExperts": "Orden Abierto",
+        "wallOfSpears": "Orden Cerrado",
+        "feral": "Especial",
+        "furor": "Orden Abierto",
+        "endurance": "Orden Abierto"
     }
 }

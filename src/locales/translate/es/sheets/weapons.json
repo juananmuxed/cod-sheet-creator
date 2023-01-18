@@ -10,6 +10,7 @@
     "pike": "Pica",
     "ax": "Arma a dos manos",
     "oneHand": "Arma de mano",
+    "teeth": "Dientes",
     "descriptions": {
         "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
         "sling": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1.",
@@ -21,6 +22,7 @@
         "kontos": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
         "pike": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional o el Rasgo Instrucción Macedonia. Si las tropas luchan en Orden Abierto, dejan de usar la Pica y usan una Arma de Mano.",
         "ax": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
-        "oneHand": "Sin reglas especiales."
+        "oneHand": "Sin reglas especiales.",
+        "teeth": "Sin reglas especiales."
     }
 }
