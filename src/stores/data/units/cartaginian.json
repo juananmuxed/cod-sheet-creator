@@ -183,7 +183,10 @@
             "OPT_BUCKLER"
         ],
         "armies": [
-            "cartaginian"
+            "cartaginian",
+            "celtIberian",
+            "iberian",
+            "lusitanian"
         ]
     },
     "punicCav": {
