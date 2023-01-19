@@ -19,6 +19,19 @@
         "cost": -1,
         "upgradeShield": "SHIELD"
     },
+    "OPT_UP_PARTIAL_ARMOUR": {
+        "id": "optUpPartialArmour",
+        "cost": 2,
+        "upgradeArmour": "PARTIAL"
+    },
+    "OPT_CHARGING": {
+        "id": "optCharging",
+        "cost": 3,
+        "upgradeTraits": [
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(CAVALRY_SPEAR)"
+        ]
+    },
     "OPT_DOWN_NO_ARMOUR": {
         "id": "optDownNoArmour",
         "cost": -2,

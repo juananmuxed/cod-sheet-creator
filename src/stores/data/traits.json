@@ -52,6 +52,23 @@
         "requires": true,
         "page": 67
     },
+    "AIM": {
+        "id": "aim",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 66
+    },
+    "MACEDONIAN_INSTRUCTION": {
+        "id": "macedonianInstruction",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 68
+    },
+    "FIDELIS": {
+        "id": "fidelis",
+        "book": "Clash of Spears",
+        "page": 73
+    },
     "DETERMINED": {
         "id": "determined",
         "book": "Clash of Spears",

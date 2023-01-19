@@ -15,7 +15,10 @@
             "OPT_SHIELD"
         ],
         "armies": [
-            "cartaginian"
+            "cartaginian",
+            "numidian",
+            "etruscanCampanian",
+            "samnite"
         ]
     },
     "citizenPunic": {
@@ -221,7 +224,8 @@
         "options": [],
         "noDeployToken": true,
         "armies": [
-            "cartaginian"
+            "cartaginian",
+            "numidian"
         ]
     },
     "elephantAfricaForestCrew": {
@@ -248,7 +252,8 @@
         "defaultBody": "PARTIAL",
         "noDeployToken": true,
         "armies": [
-            "cartaginian"
+            "cartaginian",
+            "pyrrus"
         ]
     }
 }

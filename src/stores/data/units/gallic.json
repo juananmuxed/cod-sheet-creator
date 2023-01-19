@@ -36,7 +36,10 @@
         ],
         "armies": [
             "lowlandGallic",
-            "ligurian"
+            "ligurian",
+            "greeksSicilian",
+            "greeksItaly",
+            "pyrrus"
         ]
     },
     "slingers": {
@@ -56,7 +59,10 @@
         ],
         "armies": [
             "lowlandGallic",
-            "ligurian"
+            "ligurian",
+            "greeksSicilian",
+            "greeksItaly",
+            "pyrrus"
         ]
     },
     "tribesmenLowLand": {
