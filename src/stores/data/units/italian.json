@@ -1,0 +1,233 @@
+{
+    "samnitaAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "ALLIES"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "thirdClass": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 13,
+        "options": [],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "secondClass": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "firstClass": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "hoplitaCampanianAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED",
+            "ALLIES"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "samnite"
+        ]
+    },
+    "warriorsSamnites": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "GUERRILLA"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "samnite"
+        ]
+    },
+    "veteranWarriorsSamnites": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "GUERRILLA"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "samnite"
+        ]
+    },
+    "slingersMilites": {
+        "availability": "MILITES",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "SLING",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "etruscanCampanian",
+            "samnite"
+        ]
+    },
+    "cavalryCampanian": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_ADD_JAVELIN_AND_EXTRA_JAVELIN"
+        ],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "axeWarriors": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "AX",
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 14,
+        "options": [],
+        "armies": [
+            "etruscanCampanian"
+        ]
+    },
+    "cavalrySamnite": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_NO_SHIELD",
+            "OPT_CHARGING"
+        ],
+        "armies": [
+            "samnite"
+        ]
+    }
+}

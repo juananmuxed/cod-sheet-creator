@@ -96,7 +96,8 @@
         "cost": 18,
         "options": [],
         "armies": [
-            "celtIberian"
+            "celtIberian",
+            "cartaginian"
         ]
     },
     "scutariiIberian": {

@@ -81,7 +81,8 @@
         "armies": [
             "lowlandGallic",
             "celtIberian",
-            "iberian"
+            "iberian",
+            "samnite"
         ]
     },
     "tribesmenLigurian": {

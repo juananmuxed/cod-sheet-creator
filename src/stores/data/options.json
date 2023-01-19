@@ -52,6 +52,18 @@
         "cost": 0,
         "upgradeWeapon": "BOW"
     },
+    "OPT_NO_SHIELD": {
+        "id": "optJavToBow",
+        "cost": -1,
+        "upgradeShield": "NO_SHIELD"
+    },
+    "OPT_ADD_JAVELIN_AND_EXTRA_JAVELIN": {
+        "id": "optJavAndExtraJav",
+        "cost": 3,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ]
+    },
     "OPT_ELEPHANT_THRUSTING_SPEAR": {
         "id": "optElephantThrustingSpear",
         "cost": 1,
@@ -152,7 +164,9 @@
         ],
         "armies": [
             "lowlandGallic",
-            "ligurian"
+            "ligurian",
+            "etruscanCampanian",
+            "samnite"
         ]
     },
     "OPT_NOT_REPRESENTED": {

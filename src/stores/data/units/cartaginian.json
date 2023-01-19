@@ -61,27 +61,6 @@
             "cartaginian"
         ]
     },
-    "scutariiIberian": {
-        "availability": "CIVIS",
-        "combat": 4,
-        "ranged": 5,
-        "grit": 4,
-        "defaultWeapon": "THROWING",
-        "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
-        "traits": [
-            "WALL_OF_SPEARS",
-            "GUERRILLA",
-            "IMPULSUM",
-            "DETERMINED",
-            "ALLIES"
-        ],
-        "cost": 18,
-        "options": [],
-        "armies": [
-            "cartaginian"
-        ]
-    },
     "veteranPunic": {
         "availability": "MILITES",
         "cost": 23,
