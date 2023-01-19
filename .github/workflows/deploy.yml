@@ -20,6 +20,6 @@ jobs:
             git pull
             npm i
             git restore package-lock.json
-            npm run build
+            npm run build-only
             cp example.htaccess dist/.htaccess
             
