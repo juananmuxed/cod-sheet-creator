@@ -37,6 +37,11 @@
         "cost": -2,
         "upgradeArmour": "NO_ARMOUR"
     },
+    "OPT_UP_FULL_ARMOUR": {
+        "id": "optUpFullArmour",
+        "cost": 1,
+        "upgradeArmour": "FULL"
+    },
     "OPT_DOWN_FULL_TO_NO_ARMOUR": {
         "id": "optDownFullNoArmour",
         "cost": -3,
