@@ -185,5 +185,146 @@
         "upgradeTraits": [
             "NOT_REPRESENTED"
         ]
+    },
+    "OPT_COMMANDER_BATTLE_LINE": {
+        "id": "optCommanderBattleLine",
+        "cost": 15,
+        "upgradeTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ],
+        "armies": [
+            "cartaginian",
+            "lowlandGallic",
+            "ligurian",
+            "greeksSicilian",
+            "greeksItaly",
+            "celtIberian",
+            "iberian",
+            "lusitanian",
+            "etruscanCampanian",
+            "samnite",
+            "roman",
+            "numidian",
+            "pyrrus"
+        ],
+        "incompatibleTraits": [
+            "HEADHUNTER",
+            "TACTICAL_COORDINATION",
+            "ZEALOT",
+            "PATHFINDER",
+            "RESOLUTE_COMMANDER",
+            "EASY_TROT",
+            "ONE_US",
+            "MULTICULTURAL"
+        ]
+    },
+    "OPT_COMMANDER_HEADHUNTER": {
+        "id": "optCommanderHeadhunter",
+        "cost": 15,
+        "upgradeTraits": [
+            "HEADHUNTER"
+        ],
+        "armies": [
+            "lowlandGallic",
+            "ligurian"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_TACTICAL_COORDINATION": {
+        "id": "optCommanderTacticalCoordination",
+        "cost": 15,
+        "upgradeTraits": [
+            "TACTICAL_COORDINATION"
+        ],
+        "armies": [
+            "roman"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_ZEALOT": {
+        "id": "optCommanderZealot",
+        "cost": 15,
+        "upgradeTraits": [
+            "ZEALOT"
+        ],
+        "armies": [
+            "etruscanCampanian",
+            "samnite"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_PATHFINDER": {
+        "id": "optCommanderPathfinder",
+        "cost": 15,
+        "upgradeTraits": [
+            "PATHFINDER"
+        ],
+        "armies": [
+            "celtIberian",
+            "iberian",
+            "lusitanian"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_RESOLUTE_COMMANDER": {
+        "id": "optCommanderResoluteCommander",
+        "cost": 15,
+        "upgradeTraits": [
+            "RESOLUTE_COMMANDER"
+        ],
+        "armies": [
+            "pyrrus"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_EASY_TROT": {
+        "id": "optCommanderEasyTrot",
+        "cost": 15,
+        "upgradeTraits": [
+            "EASY_TROT"
+        ],
+        "armies": [
+            "numidian"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_ONE_US": {
+        "id": "optCommanderOneUs",
+        "cost": 15,
+        "upgradeTraits": [
+            "ONE_US"
+        ],
+        "armies": [
+            "greeksItaly",
+            "greeksSicilian"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_COMMANDER_MULTICULTURAL": {
+        "id": "optCommanderMulticultural",
+        "cost": 15,
+        "upgradeTraits": [
+            "MULTICULTURAL"
+        ],
+        "armies": [
+            "cartaginian"
+        ],
+        "incompatibleTraits": [
+            "BATTLE_LINE_COMMANDER"
+        ]
     }
 }

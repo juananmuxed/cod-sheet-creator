@@ -27,5 +27,14 @@
     "optDownFullNoArmour": "Reduce armadura completa a sin armadura",
     "optJavAndExtraJav": "Añade jabalina y equipamiento adicional (jabalina)",
     "optLeaderUpgradeChariot": "Monta en carro",
-    "optNotRepresented": "Sin representar"
+    "optNotRepresented": "Sin representar",
+    "optCommanderBattleLine": "Comandante de frente de batalla",
+    "optCommanderHeadhunter": "Cazacabezas",
+    "optCommanderTacticalCoordination": "Coordinación táctica",
+    "optCommanderZealot": "Fanático",
+    "optCommanderPathfinder": "Explorador",
+    "optCommanderResoluteCommander": "Comandante decidido",
+    "optCommanderEasyTrot": "Trote cómodo",
+    "optCommanderOneUs": "Uno de los nuestros",
+    "optCommanderMulticultural": "Multicultural"
 }

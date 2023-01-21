@@ -171,5 +171,50 @@
         "book": "Clash of Spears",
         "requires": true,
         "page": 68
+    },
+    "BATTLE_LINE_COMMANDER": {
+        "id": "battleLineCommander",
+        "book": "Fields of Blood",
+        "page": 35
+    },
+    "HEADHUNTER": {
+        "id": "headhunter",
+        "book": "Fields of Blood",
+        "page": 36
+    },
+    "TACTICAL_COORDINATION": {
+        "id": "tacticalCoordination",
+        "book": "Fields of Blood",
+        "page": 37
+    },
+    "ZEALOT": {
+        "id": "zealot",
+        "book": "Fields of Blood",
+        "page": 37
+    },
+    "PATHFINDER": {
+        "id": "pathfinder",
+        "book": "Fields of Blood",
+        "page": 37
+    },
+    "RESOLUTE_COMMANDER": {
+        "id": "resoluteCommander",
+        "book": "Fields of Blood",
+        "page": 38
+    },
+    "EASY_TROT": {
+        "id": "easyTrot",
+        "book": "Fields of Blood",
+        "page": 38
+    },
+    "ONE_US": {
+        "id": "oneUs",
+        "book": "Fields of Blood",
+        "page": 38
+    },
+    "MULTICULTURAL": {
+        "id": "multicultural",
+        "book": "Fields of Blood",
+        "page": 39
     }
 }
