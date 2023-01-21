@@ -1,47 +1,51 @@
 <template>
   <div class="container">
-    <h1>Configuration</h1>
-    <p>
-      <input type="number" v-model="options.defaultUnitNumber" />
-    </p>
-    <p>
-      <input
-        type="checkbox"
-        v-model="options.deploymentNumber"
-        id="deployment-number"
-      />
-      <label for="deployment-number">Deployment number</label>
-    </p>
-    <p>
-      <input
-        type="checkbox"
+    <h1>{{ $t("web.titles.config") }}</h1>
+    <h3>{{ $t("web.titles.configList") }}</h3>
+    <div class="config-item">
+      <NumberInputComponent
+        v-model="options.defaultUnitNumber"
+        :max="Constants.UNIT_SIZE.MAX"
+        :min="Constants.UNIT_SIZE.MIN"
+      >
+        {{ $t("web.texts.configLabels.defaultUnitNumber") }}
+      </NumberInputComponent>
+    </div>
+    <h3>{{ $t("web.titles.configPrint") }}</h3>
+    <div class="config-item">
+      <CheckboxComponent
         v-model="options.printTraitsTable"
-        id="table-traits"
-      />
-      <label for="table-traits">Show traits table</label>
-    </p>
-    <p>
-      <input
-        type="checkbox"
+        id="printTraitsTable"
+      >
+        {{ $t("web.texts.configLabels.showTraitsTable") }}
+      </CheckboxComponent>
+    </div>
+    <div class="config-item">
+      <CheckboxComponent
         v-model="options.printWeaponsTable"
-        id="table-weapons"
-      />
-      <label for="table-weapons">Show weapons table</label>
-    </p>
-    <p>
-      <input
-        type="checkbox"
+        id="printWeaponsTable"
+      >
+        {{ $t("web.texts.configLabels.printWeaponsTable") }}
+      </CheckboxComponent>
+    </div>
+    <div class="config-item">
+      <CheckboxComponent
         v-model="options.printArmourTable"
-        id="table-armours"
-      />
-      <label for="table-armours">Show armours table</label>
-      <!-- TODO: finish config view -->
-    </p>
+        id="printArmourTable"
+      >
+        {{ $t("web.texts.configLabels.printArmourTable") }}
+      </CheckboxComponent>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import CheckboxComponent from "@/components/CheckboxComponent.vue";
+import NumberInputComponent from "@/components/NumberInputComponent.vue";
 import { useOptionsStore } from "@/stores/options";
+import { Constants } from "@/utils/constants";
 
 const options = useOptionsStore();
 </script>
+
+<style scoped src="@/assets/scss/components/config.scss"></style>

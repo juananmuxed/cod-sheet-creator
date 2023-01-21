@@ -46,5 +46,11 @@
             "news02": "Añadidas las opciones de general de <b>Rise of Blood</b>",
             "listAllChanges": "Listado completo de <a href=\"{url}\" target=\"_blank\">todos los cambios</a>"
         }
+    },
+    "configLabels": {
+        "defaultUnitNumber": "Número de unidades por defecto al añadir unidades",
+        "showTraitsTable": "Ver tabla de rasgos en la lista",
+        "printWeaponsTable": "Ver tabla de armas en la lista",
+        "printArmourTable": "Ver tabla de armaduras en la lista"
     }
 }
