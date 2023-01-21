@@ -13,6 +13,8 @@
     "mounted": "Montado",
     "aim": "Disparo preciso",
     "marauders": "Merodeadores",
+    "endurance": "Resistencia",
+    "massiveCharge": "Carga masiva",
     "fidelis": "Fidelis",
     "macedonianInstruction": "Instrucción macedonia",
     "extraEquipment": "Equipamiento adicional ({value})",
@@ -53,6 +55,8 @@
         "musician": "Aumenta la distancia de mando del personje a 16\" solo para activar unidades.",
         "standard": "Puede volver a lanzar cualquier dado fallido al intentar recuperar fatiga.",
         "chariot": "Ver reglas especiales Carro.",
+        "massiveCharge": "Obtiene además rasgo Impetus en Orden Abierto. Si realiza acción de Ataque en Orden Cerrado puede mover 8\" en linea recta si hace contacto con el enemigo. Si tiene un arma con iniciativa más alta, solo los supervivientes contratacan, añade 1D6 al chequeo de moral del enemigo, -1 de salvación si tiene Lanza de Caballería o Kontos/Xyston y si tiene Lanza Pesada, sufre un -2. Si la iniciativa es igual o menor ambas unidades sufren los modificadores anteriores según las armas, ambas unidades sufren -1 a la Salvación y la unidad enemiga sufre un -1 a sus tiradas de Chequeo de Moral. Ver detalles.",
+        "endurance": "Una unidad con dos marcadores de acción que usa una tercera acción para hacer un movimiento no gana fatiga y mueve 6\" en lugar de 4\"",
         "furor": "Al hacer Ataque sin Cuartel, el enemigo añade 1D6 al Chequeo de Moral causado por el combate cuerpo a cuerpo.",
         "ira": "Las heridas no se convierten en bajas hasta el paso de Recuperación y Efectos Retardados en la Fase Final.",
         "feral": "La unidad mueve 8\" al hacer un Ataque sin Cuartel. No puede seleccionar Defender como respuesta a un combate. Gana un modificador a salvación de +2 contra proyectiles en Terreno Abierto, +3 en cobertura. Para más revisar reglas completas de Animales.",
@@ -73,6 +77,7 @@
         "wallOfSpears": "Orden Cerrado",
         "feral": "Especial",
         "furor": "Orden Abierto",
+        "massiveCharge": "Orden Cerrado",
         "endurance": "Orden Abierto"
     }
 }
