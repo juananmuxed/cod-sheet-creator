@@ -1,7 +1,7 @@
 {
+    "LEADER": "leader",
+    "SPECIAL_CHARACTER": "specialCharacter",
     "CIVIS": "civis",
     "MILITES": "milites",
-    "RARE": "rare",
-    "LEADER": "leader",
-    "SPECIAL_CHARACTER": "specialCharacter"
+    "RARE": "rare"
 }

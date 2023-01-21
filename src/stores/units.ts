@@ -43,6 +43,7 @@ export const useUnitsStore = defineStore("units", () => {
       name: unit,
       value: unit,
       armies: importedUnits[unit].armies,
+      availability: importedUnits[unit].availability,
     };
   });
 
@@ -52,9 +53,9 @@ export const useUnitsStore = defineStore("units", () => {
     () => selectedUnits.value?.length > 0
   );
 
-  const availableUnits = computed(() => {
-    return units.filter((unit) =>
-      unit.armies?.includes(sheets.selectedArmy || "")
+  const availableUnitsByType = computed(() => {
+    return orderUnitsByAvailability(
+      units.filter((unit) => unit.armies?.includes(sheets.selectedArmy || ""))
     );
   });
 
@@ -137,6 +138,15 @@ export const useUnitsStore = defineStore("units", () => {
       ? Constants.WARBAND_TYPES.MUSTER
       : Constants.WARBAND_TYPES.ADHOC;
   });
+
+  function orderUnitsByAvailability(units: IOptionRadio[]) {
+    const availabilitiesOrder = Object.keys(importedAvailabilities);
+    return units.sort(
+      (a, b) =>
+        availabilitiesOrder.indexOf(a.availability || "") -
+        availabilitiesOrder.indexOf(b.availability || "")
+    );
+  }
 
   function mapUnits(units: string[], sizes?: number[]) {
     return units.map((unit, index) => {
@@ -493,7 +503,7 @@ export const useUnitsStore = defineStore("units", () => {
     importedOptions,
     costTotal,
     selectedUnits,
-    availableUnits,
+    availableUnitsByType,
     isSelectedUnits,
     availableTraits,
     availableWeapons,

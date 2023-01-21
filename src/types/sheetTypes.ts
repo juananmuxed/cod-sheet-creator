@@ -25,6 +25,7 @@ export interface IOptionRadio {
   imgUrl?: string;
   expansions?: string[];
   armies?: string[];
+  availability?: string;
   isWarParty?: boolean;
   active?: boolean;
 }

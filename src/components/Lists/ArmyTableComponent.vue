@@ -3,7 +3,7 @@
     <h4>{{ $t("web.texts.units") }}</h4>
     <CheckboxGroupComponent
       v-model="units.selectedUnits"
-      :options="units.availableUnits"
+      :options="units.availableUnitsByType"
     ></CheckboxGroupComponent>
     <div>
       <button @click="units.addUnits" :disabled="!units.isSelectedUnits">
