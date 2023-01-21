@@ -1,1 +1,124 @@
-{}
+{
+    "tribesmen": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 13,
+        "options": [
+            "OPT_DOWN_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "numidian"
+        ]
+    },
+    "warriorsNumidian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "ENDURANCE"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_HEAVY_SHIELD_BUCKLER"
+        ],
+        "armies": [
+            "numidian"
+        ]
+    },
+    "cavalryNumidian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "MOUNTED",
+            "MARAUDERS"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "numidian"
+        ]
+    },
+    "noblesNumidian": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "traits": [
+            "MOUNTED",
+            "MARAUDERS"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "numidian"
+        ]
+    },
+    "legionairesImmitation": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "numidian"
+        ]
+    },
+    "elephantCrewNumidian": {
+        "dontCountForBreak": true,
+        "fixedFigures": 2,
+        "availability": "RARE",
+        "traits": [
+            "IRON_WILL"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_JAV_TO_BOW",
+            "OPT_ELEPHANT_THRUSTING_SPEAR",
+            "OPT_ELEPHANT_UPGRADE_PARTIAL",
+            "OPT_ELEPHANT_ADD_SHIELDS",
+            "OPT_ELEPHANT_ADD_HOWDA_TOWER"
+        ],
+        "defaultWeapon": "JAVELIN",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultShield": "NO_SHIELD",
+        "defaultBody": "NO_ARMOUR",
+        "noDeployToken": true,
+        "armies": [
+            "numidian"
+        ]
+    }
+}

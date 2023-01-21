@@ -159,5 +159,11 @@
         "book": "Clash of Spears",
         "requires": true,
         "page": 72
+    },
+    "ENDURANCE": {
+        "id": "endurance",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 72
     }
 }

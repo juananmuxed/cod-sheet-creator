@@ -19,6 +19,11 @@
         "cost": -1,
         "upgradeShield": "SHIELD"
     },
+    "OPT_DOWN_HEAVY_SHIELD_BUCKLER": {
+        "id": "optDownHeavyShieldBuckler",
+        "cost": -1,
+        "upgradeShield": "BUCKLER"
+    },
     "OPT_UP_PARTIAL_ARMOUR": {
         "id": "optUpPartialArmour",
         "cost": 2,
@@ -73,6 +78,11 @@
         "id": "optElephantUpgradeFullArmor",
         "cost": 1,
         "upgradeArmour": "FULL"
+    },
+    "OPT_ELEPHANT_UPGRADE_PARTIAL": {
+        "id": "optElephantUpgradePartial",
+        "cost": 1,
+        "upgradeArmour": "PARTIAL"
     },
     "OPT_ELEPHANT_DOWNUPGRADE_NO_ARMOR": {
         "id": "optElephantDownupgradeNoArmor",
