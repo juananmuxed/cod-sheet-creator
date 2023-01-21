@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for Core Clash of Spears armies
   - Republican rome
   - Numidian
-  - Pyrro
+  - Pyrrus
 
 ## [v0.11.9]
 

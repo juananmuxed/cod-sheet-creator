@@ -165,5 +165,11 @@
         "book": "Clash of Spears",
         "requires": true,
         "page": 72
+    },
+    "MASSIVE_CHARGE": {
+        "id": "massiveCharge",
+        "book": "Clash of Spears",
+        "requires": true,
+        "page": 68
     }
 }

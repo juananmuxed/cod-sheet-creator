@@ -1,0 +1,198 @@
+{
+    "psiloi": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultBody": "NO_ARMOUR",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "javelinPezhetairoi": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [],
+        "cost": 14,
+        "options": [
+            "OPT_BUCKLER"
+        ],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "pikesPezhetairoi": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "MACEDONIAN_INSTRUCTION",
+            "DRILLED"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "rawHoplitesAllied": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "NO_ARMOUR",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "ALLIES"
+        ],
+        "cost": 13,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "hoplites": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "hoplitesVeteran": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "greekCavalry": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultBody": "FULL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_CHARGING",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "hetairoi": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "XYSTON",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "MASSIVE_CHARGE",
+            "DRILLED",
+            "MOUNTED"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "skirmishersMounted": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultBody": "NO_ARMOUR",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "pyrrus"
+        ]
+    },
+    "elephantAsian": {
+        "dontCountForBreak": true,
+        "availability": "RARE",
+        "fixedFigures": 5,
+        "combat": 3,
+        "ranged": 7,
+        "grit": 4,
+        "fixedSave": 3,
+        "traits": [
+            "ATACKS(4)",
+            "WOUNDS(5)",
+            "ELEPHANT"
+        ],
+        "cost": 14.4,
+        "options": [],
+        "noDeployToken": true,
+        "armies": [
+            "cartaginian"
+        ]
+    }
+}

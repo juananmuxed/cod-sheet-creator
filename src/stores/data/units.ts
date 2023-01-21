@@ -6,7 +6,7 @@ import iberian from "./units/iberian.json";
 import italian from "./units/italian.json";
 import roman from "./units/roman.json";
 import numidian from "./units/numidian.json";
-import pyrro from "./units/pyrro.json";
+import pyrrus from "./units/pyrrus.json";
 
 export default {
   ...characters,
@@ -17,5 +17,5 @@ export default {
   ...italian,
   ...roman,
   ...numidian,
-  ...pyrro,
+  ...pyrrus,
 };
