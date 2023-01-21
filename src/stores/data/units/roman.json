@@ -1,5 +1,5 @@
 {
-    "psiloi": {
+    "levas": {
         "availability": "CIVIS",
         "combat": 5,
         "ranged": 5,
@@ -13,15 +13,14 @@
         "cost": 8,
         "options": [],
         "armies": [
-            "greeksSicilian",
-            "greeksItaly"
+            "roman"
         ]
     },
-    "peltastas": {
+    "velites": {
         "availability": "CIVIS",
         "combat": 4,
         "ranged": 5,
-        "grit": 4,
+        "grit": 5,
         "defaultWeapon": "JAVELIN",
         "defaultBody": "NO_ARMOUR",
         "defaultShield": "SHIELD",
@@ -31,181 +30,156 @@
         "cost": 13,
         "options": [],
         "armies": [
-            "greeksSicilian",
-            "greeksItaly"
+            "roman"
         ]
     },
-    "rawCitizenHoplites": {
+    "rawLegionary": {
         "availability": "CIVIS",
         "combat": 4,
         "ranged": 5,
         "grit": 5,
-        "defaultWeapon": "THRUSTING",
+        "defaultWeapon": "THROWING",
         "defaultBody": "NO_ARMOUR",
         "defaultShield": "HEAVY_SHIELD",
         "traits": [
             "SHIELD_OVERLAP",
-            "WALL_OF_SPEARS",
-            "OFFENSIVE_SPEAR"
+            "WALL_OF_SPEARS"
         ],
-        "cost": 13,
+        "cost": 14,
         "options": [
             "OPT_UP_PARTIAL_ARMOUR"
         ],
         "armies": [
-            "greeksSicilian",
-            "greeksItaly"
+            "roman"
         ]
     },
-    "citizenHoplites": {
+    "samniteAllies": {
         "availability": "CIVIS",
         "combat": 4,
         "ranged": 5,
         "grit": 4,
-        "defaultWeapon": "THRUSTING",
+        "defaultWeapon": "THROWING",
         "defaultBody": "PARTIAL",
         "defaultShield": "HEAVY_SHIELD",
         "traits": [
             "SHIELD_OVERLAP",
             "WALL_OF_SPEARS",
-            "OFFENSIVE_SPEAR",
-            "DRILLED"
-        ],
-        "cost": 18,
-        "options": [
-            "OPT_DOWN_NO_ARMOUR"
-        ],
-        "armies": [
-            "greeksSicilian",
-            "greeksItaly"
-        ]
-    },
-    "thureophoroi": {
-        "availability": "MILITES",
-        "combat": 4,
-        "ranged": 5,
-        "grit": 4,
-        "defaultWeapon": "JAVELIN",
-        "defaultBody": "NO_ARMOUR",
-        "defaultShield": "HEAVY_SHIELD",
-        "traits": [
-            "WALL_OF_SPEARS",
-            "OFFENSIVE_SPEAR",
-            "EXTRA_EQUIPMENT(THRUSTING)"
-        ],
-        "cost": 16,
-        "options": [],
-        "armies": [
-            "greeksSicilian",
-            "greeksItaly"
-        ]
-    },
-    "veteranHoplites": {
-        "availability": "MILITES",
-        "combat": 3,
-        "ranged": 5,
-        "grit": 3,
-        "defaultWeapon": "THRUSTING",
-        "defaultBody": "PARTIAL",
-        "defaultShield": "HEAVY_SHIELD",
-        "traits": [
-            "SHIELD_OVERLAP",
-            "WALL_OF_SPEARS",
-            "OFFENSIVE_SPEAR",
-            "DRILLED"
-        ],
-        "cost": 22,
-        "options": [
-            "OPT_DOWN_NO_ARMOUR"
-        ],
-        "armies": [
-            "greeksSicilian",
-            "greeksItaly"
-        ]
-    },
-    "cretanArchers": {
-        "availability": "RARE",
-        "combat": 4,
-        "ranged": 4,
-        "grit": 3,
-        "defaultWeapon": "BOW",
-        "defaultBody": "NO_ARMOUR",
-        "defaultShield": "NO_SHIELD",
-        "traits": [
-            "SKIRMISH_SPECIALIST",
-            "AIM",
+            "GUERRILLA",
             "ALLIES"
         ],
-        "cost": 17,
+        "cost": 19,
         "options": [
-            "OPT_BUCKLER"
+            "OPT_DOWN_NO_ARMOUR"
         ],
         "armies": [
-            "greeksSicilian",
-            "greeksItaly",
             "roman"
         ]
     },
-    "cavalryGreek": {
-        "availability": "RARE",
-        "combat": 3,
+    "hastati": {
+        "availability": "CIVIS",
+        "combat": 4,
         "ranged": 5,
-        "grit": 3,
-        "defaultWeapon": "JAVELIN",
-        "defaultBody": "FULL",
-        "defaultShield": "SHIELD",
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
         "traits": [
-            "MOUNTED"
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "IMPULSUM",
+            "DRILLED"
         ],
-        "cost": 23,
+        "cost": 20,
         "options": [
-            "OPT_DOWN_PARTIAL_ARMOUR",
-            "OPT_CHARGING"
+            "OPT_DOWN_NO_ARMOUR"
         ],
         "armies": [
-            "greeksSicilian",
-            "greeksItaly"
+            "roman"
         ]
     },
-    "tyrant": {
-        "availability": "RARE",
+    "principes": {
+        "availability": "MILITES",
         "combat": 3,
         "ranged": 5,
         "grit": 3,
-        "defaultWeapon": "THRUSTING",
+        "defaultWeapon": "THROWING",
         "defaultBody": "FULL",
         "defaultShield": "HEAVY_SHIELD",
         "traits": [
             "SHIELD_OVERLAP",
             "WALL_OF_SPEARS",
-            "DRILLED",
-            "OFFENSIVE_SPEAR",
-            "FIDELIS"
+            "IMPULSUM",
+            "DRILLED"
         ],
-        "cost": 24,
+        "cost": 25,
         "options": [
             "OPT_DOWN_PARTIAL_ARMOUR"
         ],
         "armies": [
-            "greeksSicilian"
+            "roman"
         ]
     },
-    "tarantine": {
-        "availability": "MILITES",
-        "combat": 4,
-        "ranged": 4,
+    "tirarii": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
         "grit": 3,
-        "defaultWeapon": "JAVELIN",
-        "defaultBody": "NO_ARMOUR",
-        "defaultShield": "SHIELD",
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "FULL",
+        "defaultShield": "HEAVY_SHIELD",
         "traits": [
-            "MOUNTED",
-            "MARAUDERS"
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "DRILLED",
+            "FIDELIS"
         ],
-        "cost": 21,
+        "cost": 24,
         "options": [],
         "armies": [
-            "greeksItaly"
+            "roman"
+        ]
+    },
+    "extraordinarii": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "ALLIES"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "roman"
+        ]
+    },
+    "equites": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultBody": "FULL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_ADD_JAVELIN_AND_EXTRA_JAVELIN"
+        ],
+        "armies": [
+            "roman"
         ]
     }
 }
