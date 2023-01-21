@@ -319,19 +319,18 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function getTraitTranslate(key: string) {
-    const roundBracketsRegexExtract = new RegExp(/\((.*)\)/);
     const translationObject: Record<string, string | undefined> = {
       text: undefined,
       value: undefined,
       id: key.split("(")[0],
     };
     translationObject.text = importedTraits[key] ? importedTraits[key].id : key;
-    if (roundBracketsRegexExtract.test(key))
+    if (Constants.REGEX_EXPRESIONS.ROUND_BRACKETS_EXTRACT.test(key))
       translationObject.text = importedTraits[key.split("(")[0]].id
         ? importedTraits[key.split("(")[0]].id
         : key;
     translationObject.value = getEquipmentTranslate(
-      roundBracketsRegexExtract.exec(key)?.[0]
+      Constants.REGEX_EXPRESIONS.ROUND_BRACKETS_EXTRACT.exec(key)?.[0]
     );
     return translationObject;
   }

@@ -43,4 +43,8 @@ export class Constants {
     PRINT_WEAPONS: "print-weapons",
     PRINT_ARMOURS: "print-armours",
   };
+  static readonly REGEX_EXPRESIONS = {
+    ROUND_BRACKETS_EXTRACT: /\((.*)\)/,
+    ONLY_DIGITS: /^-?\d+$/,
+  };
 }
