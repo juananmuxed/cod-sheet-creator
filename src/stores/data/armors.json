@@ -31,8 +31,8 @@
         "id": "fullImproved",
         "value": 2,
         "special": true,
-        "book": "Clash of Spears",
-        "page": 65
+        "book": "Clash of Katanas",
+        "page": 21
     },
     "PLATE": {
         "id": "plate",
@@ -45,15 +45,15 @@
         "id": "enclosed",
         "value": 3,
         "special": false,
-        "book": "Clash of Spears",
-        "page": 65
+        "book": "Clash of Katanas",
+        "page": 21
     },
     "ENCLOSED_IMPROVED": {
         "id": "enclosedImproved",
         "value": 3,
         "special": true,
-        "book": "Clash of Spears",
-        "page": 65
+        "book": "Clash of Katanas",
+        "page": 21
     },
     "PARTIAL": {
         "id": "partial",
@@ -66,8 +66,8 @@
         "id": "partialImproved",
         "value": 1,
         "special": true,
-        "book": "Clash of Spears",
-        "page": 65
+        "book": "Clash of Katanas",
+        "page": 21
     },
     "SHIELD": {
         "id": "shield",
