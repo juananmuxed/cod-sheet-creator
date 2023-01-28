@@ -149,7 +149,7 @@
             "NOT_SHIELDS",
             "OPEN_ONE_HAND"
         ],
-        "initiative": 4,
+        "initiative": 1,
         "book": "Clash of Spears",
         "page": 60
     },
@@ -172,5 +172,143 @@
         "initiative": 1,
         "book": "Clash of Spears",
         "page": 60
+    },
+    "POLEARMS": {
+        "id": "polearms",
+        "type": [
+            "melee"
+        ],
+        "saveModification": -1,
+        "special": [],
+        "initiative": 2,
+        "book": "Clash of Katanas",
+        "page": 17
+    },
+    "ADITIONAL_HAND_WEAPON": {
+        "id": "aditionalHandWeapon",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 1,
+        "book": "Clash of Katanas",
+        "page": 15
+    },
+    "MIXED_WEAPONS": {
+        "id": "mixedWeapons",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 2,
+        "book": "Clash of Katanas",
+        "page": 15
+    },
+    "CAVALRY_LONG_SPEAR": {
+        "id": "cavalryLongSpear",
+        "type": [
+            "melee"
+        ],
+        "special": [],
+        "initiative": 3,
+        "book": "Clash of Katanas",
+        "page": 15
+    },
+    "WAR_BOW": {
+        "id": "warBow",
+        "rangeShort": 8,
+        "rangeLong": 20,
+        "saveModification": 0,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "WAR_BOW_SAVE"
+        ],
+        "book": "Clash of Katanas",
+        "page": 18
+    },
+    "WAR_BOW_MOUNTED": {
+        "id": "warBowMounted",
+        "rangeShort": 4,
+        "rangeLong": 16,
+        "saveModification": 0,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "WAR_BOW_MOUNTED_SAVE"
+        ],
+        "book": "Clash of Katanas",
+        "page": 18
+    },
+    "CROSSBOW": {
+        "id": "crossbow",
+        "rangeShort": 8,
+        "rangeLong": 16,
+        "saveModification": 0,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "CROSSBOW_SPECIAL"
+        ],
+        "book": "Clash of Katanas",
+        "page": 19
+    },
+    "REPEATING_CROSSBOW": {
+        "id": "repeatingCrossbow",
+        "rangeShort": 6,
+        "rangeLong": 10,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "REPEATING_CROSSBOW_SPECIAL"
+        ],
+        "book": "Clash of Katanas",
+        "page": 20
+    },
+    "ARQUEBUS": {
+        "id": "arquebus",
+        "rangeShort": 8,
+        "rangeLong": 16,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "ARQUEBUS_SPECIAL"
+        ],
+        "book": "Clash of Katanas",
+        "page": 20
+    },
+    "EARLY_FIREARMS": {
+        "id": "earlyFirearms",
+        "rangeShort": 8,
+        "rangeLong": 12,
+        "saveModification": 1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "EARLY_FIREARMS_SPECIAL"
+        ],
+        "book": "Clash of Katanas",
+        "page": 21
+    },
+    "GRANADES": {
+        "id": "granades",
+        "rangeShort": 6,
+        "saveModification": -1,
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "GRANADES_SPECIAL"
+        ],
+        "book": "Clash of Katanas",
+        "page": 20
     }
 }
