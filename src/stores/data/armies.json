@@ -168,91 +168,113 @@
         "id": "SHIMA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
+    },
+    "otomo": {
+        "id": "OTOMO",
+        "expansions": [
+            "clashKatanas"
+        ],
+        "active": true
     },
     "chosokabe": {
         "id": "CHOSOK",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "mori": {
         "id": "MORI",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "oda": {
         "id": "ODA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "toyotomi": {
         "id": "TOYOTO",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "tokugawa": {
         "id": "TOKUGA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "takeda": {
         "id": "TAKEDA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "uesugi": {
         "id": "UESUG",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "hojo": {
         "id": "HOJO",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "date": {
         "id": "DATE",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "ikkoIkki": {
         "id": "IKKO",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "iga": {
         "id": "IGA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "wako": {
         "id": "WAKO",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "joseonKoreans": {
         "id": "KOREA",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "mingChinese": {
         "id": "MING",
         "expansions": [
             "clashKatanas"
-        ]
+        ],
+        "active": true
     },
     "byzantine": {
         "id": "BYZAN",
