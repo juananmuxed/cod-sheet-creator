@@ -216,5 +216,55 @@
         "id": "multicultural",
         "book": "Fields of Blood",
         "page": 39
+    },
+    "HONORABLE": {
+        "id": "honorable",
+        "book": "Clash of Katanas",
+        "page": 40
+    },
+    "THE_OLD_WAYS": {
+        "id": "theOldWays",
+        "book": "Clash of Katanas",
+        "page": 41
+    },
+    "INDEPENDENT": {
+        "id": "independent",
+        "book": "Clash of Katanas",
+        "page": 40
+    },
+    "YOJI_GAKURE": {
+        "id": "yojiGakure",
+        "book": "Clash of Katanas",
+        "page": 35
+    },
+    "DEADLY_STRIKE": {
+        "id": "deadlyStrike",
+        "book": "Clash of Katanas",
+        "page": 24
+    },
+    "OFF_HAND_PARRY": {
+        "id": "offHandParry",
+        "book": "Clash of Katanas",
+        "page": 31
+    },
+    "TEA_CEREMONY": {
+        "id": "teaCeremony",
+        "book": "Clash of Katanas",
+        "page": 11
+    },
+    "BUDDHIST_SHRINE": {
+        "id": "buddhistShrine",
+        "book": "Clash of Katanas",
+        "page": 63
+    },
+    "SAKE_RATIONS": {
+        "id": "sakeRations",
+        "book": "Clash of Katanas",
+        "page": 64
+    },
+    "TSUKAIBAN": {
+        "id": "tsukaiban",
+        "book": "Clash of Katanas",
+        "page": 10
     }
 }
