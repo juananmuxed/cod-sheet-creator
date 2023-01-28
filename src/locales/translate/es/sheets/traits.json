@@ -39,6 +39,16 @@
     "easyTrot": "Trote cómodo",
     "oneUs": "Uno de los nuestros",
     "multicultural": "Multicultural",
+    "honorable": "Honorable",
+    "theOldWays": "Tradiciones antiguas",
+    "independent": "Independiente",
+    "yojiGakure": "Yoji-gakure",
+    "deadlyStrike": "Ataque letal",
+    "offHandParry": "Parada con arma secundaria",
+    "teaCeremony": "Ceremonia del té",
+    "buddhistShrine": "Templo budista portátil",
+    "sakeRations": "Raciones de sake",
+    "tsukaiban": "Tsukaiban (Mensajero)",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -79,7 +89,17 @@
         "resoluteCommander": "El personaje añadido a una unidad que se pare como resultado de un chequeo de moral puede gastar 1 CP para cancelar el efecto y continuar la activación.",
         "easyTrot": "El personaje añadido a una unidad con los rasgos Montado y Merodeador y la unidad decide descansada puedes gastar 1 CP para realizar un movimiento gratuíto de 4\" sin fatiga.",
         "oneUs": "El personaje añadido a una unidad con el rasgo Muro de Lanzas gana la opción de que si al gastar CP en un chequeo de moral en cuerpo a cuerpo y pasa el chequeo sin ganar fatiga, recupera inmediatamente el CP gastado.",
-        "multicultural": "El personaje con este Rasgo podrá dirigir contigentes aliados ignorando las restricciones del libro básico (pag. 119). Además al final del turno el personaje podrá gastar 1 CP para eliminar contadores de acción ganados en el chequeo de rotura y si está dentro de la distancia del personaje."
+        "multicultural": "El personaje con este Rasgo podrá dirigir contigentes aliados ignorando las restricciones del libro básico (pag. 119). Además al final del turno el personaje podrá gastar 1 CP para eliminar contadores de acción ganados en el chequeo de rotura y si está dentro de la distancia del personaje.",
+        "honorable": "No necesitan pasar Chequeo de Moral cuando una unidad a 4\" destruye a una amiga en cuerpo a cuerpo a menos que también tenga este rasgo. Además pueden repetir los resultados de 1 en los Chequeos de moral antes de aplicar modificadores a menos que sea parte de un combate con unidades con este mismo rasgo. Si una unidad con este rasgo ataca a otra con el mismo rasgo en Combate cuerpo a cuerpo y que en ese momento tenga 3 marcadores de acción, perderá el rasgo Honorable para el resto de la batalla.",
+        "theOldWays": "Un personaje con este rasgo puede decapitar como acción personajes enemigos con el mismo rasgo que haya matado. A final de turno el bando con menos cabezas, sufre un modificado de -1 a los chequeos de ruptura. Genera chequeos de Moral a 10\" si retiras a mas de 4\" entre dos personajes con este rasgo. Puedes evitar el corte de cabeza realizando Seppuku mediante una acción.",
+        "independent": "No requieren de puntos de mando para activarse mientras no tengan acciones.",
+        "yojiGakure": "Al realizar un ataque contra una unidad con menor numero de figuras que los ataques del atacante, el posible Contraataque recibe un -2 a las tiradas de impacto. Se recibe un rasgo de descargado y se tiene que retirar para volver a usar.",
+        "deadlyStrike": "Cuando se usa Ataque Letal, si el defensor elige Contraataque, este contraataque se resolverá antes. Cualquier figura con el rasgo Heridas, sufrirá 2 heridas por cada impacto no salvado al realizar el Ataque Letal.",
+        "offHandParry": "Mientras estés en Orden Abierto y defienda como respuesta a un ataque puede repetir cualquier tirada de 1 o 2 antes de aplicar modificadores.",
+        "teaCeremony": "Ver reglas especiales de Ceremonia del Té.",
+        "buddhistShrine": "Se coloca a 6\" del borde propio de la mesa. Podrás volver a lanzar el resultado cuando entones los Cánticos Nembutsu. Si una miniatura enemiga acaba en contacto peana con peana con el santuario se retira de la partida.",
+        "sakeRations": "Si compras raciones de saque, puedes volver a lanzar el resultado al proclamar un Discurso Inspirador.",
+        "tsukaiban": "Ver reglas especiales de Tsukaiban (Mensajero)."
     },
     "requires": {
         "drilled": "Orden Cerrado",
@@ -96,6 +116,7 @@
         "feral": "Especial",
         "furor": "Orden Abierto",
         "massiveCharge": "Orden Cerrado",
-        "endurance": "Orden Abierto"
+        "endurance": "Orden Abierto",
+        "deadlyStrike": "Orden Abierto y acción de defensa"
     }
 }

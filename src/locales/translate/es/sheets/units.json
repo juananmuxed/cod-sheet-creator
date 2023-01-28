@@ -88,5 +88,18 @@
     "leaderLevel4": "Líder nivel IV",
     "leaderLevel3": "Líder nivel III",
     "leaderLevel2": "Líder nivel II",
-    "soothsayer": "Adivino"
+    "katanasLeaderLevel5": "Líder nivel V",
+    "katanasLeaderLevel4": "Líder nivel IV",
+    "katanasLeaderLevel3": "Líder nivel III",
+    "katanasLeaderLevel2": "Líder nivel II",
+    "noClanKatanasLeaderLevel5": "Líder nivel V",
+    "noClanKatanasLeaderLevel4": "Líder nivel IV",
+    "noClanKatanasLeaderLevel3": "Líder nivel III",
+    "noClanKatanasLeaderLevel2": "Líder nivel II",
+    "soothsayer": "Adivino",
+    "assasins": "Asesino",
+    "assasinsMaster": "Maestro asesino",
+    "geisha": "Geisha",
+    "buddhistShrine": "Santuario budista portátil",
+    "sakeRations": "Raciones de sake"
 }
