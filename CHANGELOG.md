@@ -7,7 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix Two handed weapons initiative (to 1)
+
+### Added
+
+- New weapons and armours for Clash of Katanas
+- New characters for Clash of Katanas
+- New traits for Clash of Katanas
+- New options for Clash of Katanas
+- Special A deployment for Assasin and Master Assasin
+- Support for Clash of Katanas armies
+  - Shimazu
+  - Otomo
+  - Chosokabe
+  - Mori
+  - Oda
+  - Toyotomi
+  - Tokugawa
+  - Takeda
+  - Uesugi
+  - Hojo
+  - Date
+  - Ikko Ikki
+  - Iga Warriors
+  - Wako bandits
+  - Joseon koreans
+  - Ming chinese
+
 ## [v0.14.0]
+
+### Added
 
 - Support for Rise of Blood Expansion
 - Support for Core Clash of Spears armies
