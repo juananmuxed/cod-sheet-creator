@@ -272,9 +272,13 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function getDeploymentNumber(index: number) {
+    if (unitsInArmy.value[index].specialDeployAssasin) return "A";
     let acc = 0;
     for (let i = 0; i < unitsInArmy.value.length; i++) {
-      if (!unitsInArmy.value[i].noDeployToken) {
+      if (
+        !unitsInArmy.value[i].noDeployToken &&
+        !unitsInArmy.value[i].specialDeployAssasin
+      ) {
         ++acc;
         if (index === i) break;
       }
@@ -390,6 +394,14 @@ export const useUnitsStore = defineStore("units", () => {
       })
       .filter((option) => {
         return !(
+          option.neededWeapons &&
+          option.neededWeapons.filter(
+            (weapon: string) => unit.weapon === weapon
+          ).length == 0
+        );
+      })
+      .filter((option) => {
+        return !(
           option.incompatibleTraits &&
           option.incompatibleTraits.filter((trait: string) =>
             unit.traits.includes(trait)
@@ -400,6 +412,12 @@ export const useUnitsStore = defineStore("units", () => {
         return !(
           option.incompatibleShields &&
           option.incompatibleShields.includes(unit.shield || "")
+        );
+      })
+      .filter((option) => {
+        return !(
+          option.incompatibleWeapons &&
+          option.incompatibleWeapons.includes(unit.weapon || "")
         );
       })
       .filter((option) => {
