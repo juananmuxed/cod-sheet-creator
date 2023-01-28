@@ -54,6 +54,7 @@ export interface IUnitObject {
   fixedFigures?: number;
   fixedSave?: number;
   noDeployToken?: boolean;
+  specialDeployAssasin?: boolean;
   upgradedWeapon?: boolean;
   upgradedBody?: boolean;
   upgradedBarding?: boolean;
@@ -114,8 +115,10 @@ export interface IUnitOptionObject {
   upgradeTraits?: string[];
   removeTraits?: string[];
   neededTraits?: string[];
+  neededWeapons?: string[];
   incompatibleTraits?: string[];
   incompatibleShields?: string[];
+  incompatibleWeapons?: string[];
   armies?: string[];
 }
 
