@@ -134,6 +134,9 @@
         ],
         "incompatibleShields": [
             "HEAVY_SHIELD"
+        ],
+        "incompatibleWeapons": [
+            "AX"
         ]
     },
     "OPT_LEADER_DOWNGRADE_NO_SHIELD": {
@@ -325,6 +328,125 @@
         ],
         "incompatibleTraits": [
             "BATTLE_LINE_COMMANDER"
+        ]
+    },
+    "OPT_DOWN_ENCLOSED_TO_NO_ARMOUR": {
+        "id": "optDownEnclosedNoArmour",
+        "cost": -5,
+        "upgradeArmour": "NO_ARMOUR"
+    },
+    "OPT_DOWN_ENCLOSED_TO_PARTIAL_ARMOUR": {
+        "id": "optDownEnclosedPartial",
+        "cost": -3,
+        "upgradeArmour": "PARTIAL"
+    },
+    "OPT_DOWN_ENCLOSED_TO_FULL": {
+        "id": "optDownEnclosedFull",
+        "cost": -2,
+        "upgradeArmour": "FULL"
+    },
+    "OPT_UP_IMPROVED_ENCLOSED": {
+        "id": "optUpImprovedEnclosed",
+        "cost": 1,
+        "upgradeArmour": "ENCLOSED_IMPROVED"
+    },
+    "OPT_UP_FULL_TO_ENCLOSED": {
+        "id": "optUpFullEnclosed",
+        "cost": 2,
+        "upgradeArmour": "ENCLOSED"
+    },
+    "OPT_UP_IMPROVED_FULL": {
+        "id": "optUpImprovedFull",
+        "cost": 1,
+        "upgradeArmour": "FULL_IMPROVED"
+    },
+    "OPT_LEADER_POLEARMS": {
+        "id": "optLeaderPolearms",
+        "cost": 2,
+        "upgradeWeapon": "POLEARMS"
+    },
+    "OPT_LEADER_AX": {
+        "id": "optLeaderAx",
+        "cost": 2,
+        "upgradeWeapon": "AX",
+        "incompatibleTraits": [
+            "MOUNTED"
+        ]
+    },
+    "OPT_LEADER_ADITIONAL_HAND_WEAPON": {
+        "id": "optLeaderAditionalHandWeapon",
+        "cost": 1,
+        "upgradeWeapon": "ADITIONAL_HAND_WEAPON",
+        "upgradeTraits": [
+            "OFF_HAND_PARRY"
+        ]
+    },
+    "OPT_LEADER_ARQUEBUS": {
+        "id": "optLeaderArquebus",
+        "cost": 3,
+        "upgradeWeapon": "ARQUEBUS",
+        "incompatibleWeapons": [
+            "THRUSTING",
+            "POLEARMS",
+            "AX",
+            "ADITIONAL_HAND_WEAPON"
+        ]
+    },
+    "OPT_LEADER_WAR_BOW": {
+        "id": "optLeaderWarBow",
+        "cost": 3,
+        "upgradeWeapon": "WAR_BOW",
+        "incompatibleWeapons": [
+            "THRUSTING",
+            "POLEARMS",
+            "AX",
+            "ADITIONAL_HAND_WEAPON"
+        ]
+    },
+    "OPT_LEADER_ARQUEBUS_ADITIONAL": {
+        "id": "optLeaderArquebusAditional",
+        "cost": 1,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(ARQUEBUS)"
+        ],
+        "neededWeapons": [
+            "THRUSTING",
+            "POLEARMS",
+            "AX",
+            "ADITIONAL_HAND_WEAPON"
+        ]
+    },
+    "OPT_LEADER_WAR_BOW_ADITIONAL": {
+        "id": "optLeaderWarBowAditional",
+        "cost": 1,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(WAR_BOW)"
+        ],
+        "neededWeapons": [
+            "THRUSTING",
+            "POLEARMS",
+            "AX",
+            "ADITIONAL_HAND_WEAPON"
+        ]
+    },
+    "OPT_LEADER_TSUKAIBAN": {
+        "id": "optLeaderTsukaiban",
+        "cost": 10,
+        "upgradeTraits": [
+            "TSUKAIBAN"
+        ],
+        "armies": [
+            "shimazu",
+            "otomo",
+            "chosokabe",
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa",
+            "takeda",
+            "uesugi",
+            "hojo",
+            "date"
         ]
     }
 }
