@@ -15,6 +15,7 @@
     "barding": "Barda",
     "halfBarding": "Media barda",
     "noBarding": "Sin barda",
+    "pavises": "Pavés",
     "descriptions": {
         "noArmour": "0 Puntos de armadura.",
         "noShield": "0 Puntos de armadura.",
@@ -31,6 +32,7 @@
         "shieldHowda": "2 Puntos de armadura pero no afecta al valor base de la estadística de Salvación cuando se consulta la Fatiga.",
         "barding": "2 Puntos de armadura.",
         "halfBarding": "1 Punto de armadura.",
-        "noBarding": "0 Puntos de armadura."
+        "noBarding": "0 Puntos de armadura.",
+        "pavises": "1 Punto de armadura contra proyectiles cuando están desplegados."
     }
 }
