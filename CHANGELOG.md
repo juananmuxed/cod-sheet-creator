@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix Two handed weapons initiative (to 1)
 
+### Upgraded
+
+- Added shuffled deployment number to units in army
+
 ### Added
 
 - New weapons and armours for Clash of Katanas
