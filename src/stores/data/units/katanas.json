@@ -1,0 +1,514 @@
+{
+    "supportAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "ONE_HAND",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [],
+        "cost": 9,
+        "options": [
+            "OPT_MIXED_WEAPONS"
+        ],
+        "armies": [
+            "shimazu",
+            "otomo"
+        ]
+    },
+    "yariAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OVERWHELM"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "shimazu",
+            "otomo"
+        ]
+    },
+    "yariNagaeAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "UTEYA",
+            "HARINEZUMI"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yariNagaeAshigaruDrilled": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "UTEYA",
+            "HARINEZUMI",
+            "DRILLED_ASHIGARU"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "teppoLevyAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "teppoLevyAshigaruVolley": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY"
+        ],
+        "cost": 13,
+        "options": [],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "teppoAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "VOLLEY"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "teppoAshigaruVolley": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "yumiAshigaru": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "AIM",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yumiAshigaruFull": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "naginataSamurai": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "KURIDASHI",
+            "FURIKAESHI"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "naginataSamuraiFuror": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "FUROR",
+            "KURIDASHI",
+            "FURIKAESHI"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "ronin": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "COMBINED_ARMS",
+            "RUTHLESS",
+            "FICKLE"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "yariSamurai": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "UTEYA",
+            "HARINEZUMI"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yariSamuraiFuror": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "FUROR",
+            "UTEYA",
+            "HARINEZUMI"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "yumiSamurai": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "AIM"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yumiSamuraiDis": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "AIM"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "daishoSamurai": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ADITIONAL_HAND_WEAPON",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "OFF_HAND_PARRY",
+            "RAIN_BLOWS"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yumiMountedSamurai": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED"
+        ],
+        "cost": 26,
+        "options": [],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yariMountedSamurai": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_LONG_SPEAR",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED",
+            "MASSED_CHARGE",
+            "FORM_UP"
+        ],
+        "cost": 26,
+        "options": [],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "yariMountedSamuraiDis": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_LONG_SPEAR",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "MOUNTED",
+            "MASSED_CHARGE",
+            "FORM_UP"
+        ],
+        "cost": 25,
+        "options": [],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "europeanMercenaries": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL_IMPROVED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY",
+            "ROTATIONAL_FIRE"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_PARTIAL_IMPROVED_NO_ARMOUR"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "hatamotoDaishoSamurai": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ADITIONAL_HAND_WEAPON",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "RAIN_BLOWS",
+            "OFF_HAND_PARRY",
+            "DUTY_BOUND",
+            "IRON_WILL"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_NO_ARMOUR"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "hatamotoDaishoSamuraiDis": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ADITIONAL_HAND_WEAPON",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "BROTHERHOOD",
+            "RAIN_BLOWS",
+            "OFF_HAND_PARRY",
+            "DUTY_BOUND",
+            "IRON_WILL"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_NO_ARMOUR",
+            "OPT_UP_IMPROVED_ENCLOSED"
+        ],
+        "armies": [
+            "otomo"
+        ]
+    },
+    "teppoSamurai": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "shimazu"
+        ]
+    },
+    "teppoMountedSamurai": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "MOUNTED",
+            "MOUNTED_GUNNERY"
+        ],
+        "cost": 26,
+        "options": [],
+        "armies": [
+            "otomo"
+        ]
+    }
+}

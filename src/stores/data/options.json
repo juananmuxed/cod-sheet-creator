@@ -448,5 +448,23 @@
             "hojo",
             "date"
         ]
+    },
+    "OPT_MIXED_WEAPONS": {
+        "id": "optMixedWeapons",
+        "cost": 1,
+        "upgradeWeapon": "MIXED_WEAPONS"
+    },
+    "OPT_DOWN_PARTIAL_IMPROVED_NO_ARMOUR": {
+        "id": "optDownPartialImprovedNoArmour",
+        "cost": -3,
+        "upgradeArmour": "NO_ARMOUR"
+    },
+    "OPT_PAVISES": {
+        "id": "optPavises",
+        "cost": 2,
+        "upgradeShield": "PAVISES",
+        "upgradeTraits": [
+            "PAVISES"
+        ]
     }
 }

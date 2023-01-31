@@ -110,5 +110,12 @@
         "special": false,
         "book": "Clash of Spears",
         "page": 65
+    },
+    "PAVISES": {
+        "id": "pavises",
+        "value": 0,
+        "special": true,
+        "book": "Clash of Katanas",
+        "page": 24
     }
 }

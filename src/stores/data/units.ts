@@ -8,6 +8,7 @@ import roman from "./units/roman.json";
 import numidian from "./units/numidian.json";
 import pyrrus from "./units/pyrrus.json";
 import charactersKatanas from "./units/charactersKatanas.json";
+import katanas from "./units/katanas.json";
 
 export default {
   ...characters,
@@ -20,4 +21,5 @@ export default {
   ...numidian,
   ...pyrrus,
   ...charactersKatanas,
+  ...katanas,
 };

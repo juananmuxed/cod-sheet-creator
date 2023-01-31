@@ -266,5 +266,105 @@
         "id": "tsukaiban",
         "book": "Clash of Katanas",
         "page": 10
+    },
+    "OVERWHELM": {
+        "id": "overwhelm",
+        "book": "Clash of Katanas",
+        "page": 33
+    },
+    "UTEYA": {
+        "id": "uteya",
+        "book": "Clash of Katanas",
+        "page": 36
+    },
+    "HARINEZUMI": {
+        "id": "harinezumi",
+        "book": "Clash of Katanas",
+        "page": 29
+    },
+    "VOLLEY": {
+        "id": "volley",
+        "book": "Clash of Katanas",
+        "page": 36
+    },
+    "PAVISES": {
+        "id": "pavises",
+        "book": "Clash of Katanas",
+        "page": 24
+    },
+    "OVERHEAD_SHOT": {
+        "id": "overheadShot",
+        "book": "Clash of Katanas",
+        "page": 33
+    },
+    "FURIKAESHI": {
+        "id": "furikaeshi",
+        "book": "Clash of Katanas",
+        "page": 27
+    },
+    "KURIDASHI": {
+        "id": "kuridashi",
+        "book": "Clash of Katanas",
+        "page": 33
+    },
+    "RAIN_BLOWS": {
+        "id": "rainBlows",
+        "book": "Clash of Katanas",
+        "page": 34
+    },
+    "MASSED_CHARGE": {
+        "id": "massedCharge",
+        "book": "Clash of Katanas",
+        "page": 31
+    },
+    "FORM_UP": {
+        "id": "formUp",
+        "book": "Clash of Katanas",
+        "page": 27
+    },
+    "DUTY_BOUND": {
+        "id": "dutyBound",
+        "book": "Clash of Katanas",
+        "page": 41
+    },
+    "COMBINED_ARMS": {
+        "id": "combinedArms",
+        "book": "Clash of Katanas",
+        "page": 26
+    },
+    "RUTHLESS": {
+        "id": "ruthless",
+        "book": "Clash of Katanas",
+        "page": 43
+    },
+    "FICKLE": {
+        "id": "fickle",
+        "book": "Clash of Katanas",
+        "page": 41
+    },
+    "MOUNTED_GUNNERY": {
+        "id": "mountedGunnery",
+        "book": "Clash of Katanas",
+        "page": 33
+    },
+    "ROTATIONAL_FIRE": {
+        "id": "rotationalFire",
+        "book": "Clash of Katanas",
+        "page": 34
+    },
+    "BROTHERHOOD": {
+        "id": "brotherhood",
+        "book": "Clash of Katanas",
+        "page": 40
+    },
+    "NORIKUZISHI": {
+        "id": "norikuzishi",
+        "book": "Clash of Katanas",
+        "page": 31
+    },
+    "DRILLED_ASHIGARU": {
+        "id": "drilledAshigaru",
+        "book": "Clash of Katanas",
+        "page": 23
     }
 }
