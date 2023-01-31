@@ -12,11 +12,13 @@
     <ul>
       <li>Clash of Spears</li>
       <li>Rise of Blood</li>
+      <li>Clash of Katanas</li>
     </ul>
     <h3>{{ $t("web.titles.news") }}</h3>
     <ul>
       <li v-html="$t('web.texts.home.p.news01')"></li>
       <li v-html="$t('web.texts.home.p.news02')"></li>
+      <li v-html="$t('web.texts.home.p.news03')"></li>
     </ul>
     <p
       v-html="
