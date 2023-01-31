@@ -121,7 +121,7 @@
       v-if="!unit.noDeployToken && options.deploymentNumber"
     >
       <span>
-        {{ units.getDeploymentNumber(index) }}
+        {{ units.deploymentNumbers[index] }}
       </span>
     </div>
   </div>

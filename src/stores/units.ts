@@ -139,6 +139,13 @@ export const useUnitsStore = defineStore("units", () => {
       : Constants.WARBAND_TYPES.ADHOC;
   });
 
+  const deploymentNumbers = computed(() => {
+    let acc = 0;
+    return suffleDeploymentNumbers(
+      unitsInArmy.value.map((unit) => (!unit.noDeployToken ? ++acc : undefined))
+    );
+  });
+
   function orderUnitsByAvailability(units: IOptionRadio[]) {
     const availabilitiesOrder = Object.keys(importedAvailabilities);
     return units.sort(
@@ -271,19 +278,16 @@ export const useUnitsStore = defineStore("units", () => {
     return t(`sheets.availabilities.${importedAvailabilities[availability]}`);
   }
 
-  function getDeploymentNumber(index: number) {
-    if (unitsInArmy.value[index].specialDeployAssasin) return "A";
-    let acc = 0;
-    for (let i = 0; i < unitsInArmy.value.length; i++) {
-      if (
-        !unitsInArmy.value[i].noDeployToken &&
-        !unitsInArmy.value[i].specialDeployAssasin
-      ) {
-        ++acc;
-        if (index === i) break;
+  function suffleDeploymentNumbers(array: Array<number | undefined>) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      if (array[i] && array[j]) {
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
       }
     }
-    return acc;
+    return array;
   }
 
   function calculateUnitCost(unit: IUnitObject): number {
@@ -525,6 +529,7 @@ export const useUnitsStore = defineStore("units", () => {
     availableTraits,
     availableWeapons,
     availableArmours,
+    deploymentNumbers,
     addUnits,
     increaseSize,
     decreaseSize,
@@ -540,7 +545,6 @@ export const useUnitsStore = defineStore("units", () => {
     getWeaponTranslate,
     getWeaponIniciative,
     getTraitTranslate,
-    getDeploymentNumber,
     filteredOptions,
     mapedOptions,
     upgradeUnit,
