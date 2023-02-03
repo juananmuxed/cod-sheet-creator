@@ -14,7 +14,12 @@
         ],
         "armies": [
             "shimazu",
-            "otomo"
+            "otomo",
+            "chosokabe",
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
         ]
     },
     "yariAshigaru": {
@@ -33,7 +38,12 @@
         "options": [],
         "armies": [
             "shimazu",
-            "otomo"
+            "otomo",
+            "chosokabe",
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
         ]
     },
     "yariNagaeAshigaru": {
@@ -72,7 +82,73 @@
             "OPT_DOWN_PARTIAL_ARMOUR"
         ],
         "armies": [
-            "otomo"
+            "otomo",
+            "mori"
+        ]
+    },
+    "yariNagaeAshigaruDrilledExtended": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "UTEYA",
+            "HARINEZUMI",
+            "DRILLED_ASHIGARU",
+            "EXTENDED_NAGAE_YARI"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yariNagaeAshigaruUpgradedDrilledExtended": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "UTEYA",
+            "HARINEZUMI",
+            "DRILLED_ASHIGARU",
+            "EXTENDED_NAGAE_YARI"
+        ],
+        "cost": 19,
+        "options": [],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yariNagaeAshigaruDrilledPartial": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "UTEYA",
+            "HARINEZUMI",
+            "DRILLED_ASHIGARU"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "chosokabe"
         ]
     },
     "teppoLevyAshigaru": {
@@ -88,6 +164,23 @@
         "options": [],
         "armies": [
             "shimazu"
+        ]
+    },
+    "teppoLevyAshigaruFull": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [],
+        "cost": 12,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mori"
         ]
     },
     "teppoLevyAshigaruVolley": {
@@ -143,7 +236,72 @@
             "OPT_DOWN_PARTIAL_ARMOUR"
         ],
         "armies": [
-            "otomo"
+            "otomo",
+            "mori"
+        ]
+    },
+    "pirates": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "GUERRILLA",
+            "COMBINED_ARMS",
+            "RUTHLESS",
+            "FICKLE"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "mori"
+        ]
+    },
+    "teppoAshigaruRotational": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY",
+            "ROTATIONAL_FIRE"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "teppoAshigaruUpgradedRotational": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY",
+            "ROTATIONAL_FIRE"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
         ]
     },
     "yumiAshigaru": {
@@ -182,7 +340,86 @@
             "OPT_DOWN_PARTIAL_ARMOUR"
         ],
         "armies": [
-            "otomo"
+            "otomo",
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yumiAshigaruUpgradedFull": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT",
+            "AIM"
+        ],
+        "cost": 20,
+        "options": [],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yumiAshigaruPartial": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "chosokabe"
+        ]
+    },
+    "yumiAshigaruUpgradedPartial": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT",
+            "AIM"
+        ],
+        "cost": 19,
+        "options": [],
+        "armies": [
+            "chosokabe"
+        ]
+    },
+    "teppoAshigaruVolleyPartial": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "VOLLEY"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "chosokabe"
         ]
     },
     "naginataSamurai": {
@@ -204,6 +441,48 @@
         ],
         "armies": [
             "shimazu"
+        ]
+    },
+    "naginataSamuraiNoOptions": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "KURIDASHI",
+            "FURIKAESHI"
+        ],
+        "cost": 23,
+        "options": [],
+        "armies": [
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "naginataSamuraiRuthless": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "KURIDASHI",
+            "FURIKAESHI",
+            "RUTHLESS"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "chosokabe"
         ]
     },
     "naginataSamuraiFuror": {
@@ -248,6 +527,27 @@
             "otomo"
         ]
     },
+    "roninRare": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "COMBINED_ARMS",
+            "RUTHLESS",
+            "FICKLE"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "chosokabe"
+        ]
+    },
     "yariSamurai": {
         "availability": "MILITES",
         "combat": 3,
@@ -267,6 +567,48 @@
         ],
         "armies": [
             "shimazu"
+        ]
+    },
+    "yariSamuraiNoOptions": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "UTEYA",
+            "HARINEZUMI"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yariSamuraiRuthless": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "UTEYA",
+            "HARINEZUMI",
+            "RUTHLESS"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "chosokabe"
         ]
     },
     "yariSamuraiFuror": {
@@ -310,6 +652,46 @@
             "shimazu"
         ]
     },
+    "yumiSamuraiNoOptions": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yumiSamuraiRiposte": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "AIM",
+            "PARRY_RIPOSTE"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "chosokabe"
+        ]
+    },
     "yumiSamuraiDis": {
         "availability": "RARE",
         "combat": 4,
@@ -327,6 +709,28 @@
         ],
         "armies": [
             "otomo"
+        ]
+    },
+    "naginataSoheiMonks": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "BROTHERHOOD",
+            "ALLIES",
+            "FURIKAESHI",
+            "FUROR"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "mori"
         ]
     },
     "daishoSamurai": {
@@ -365,7 +769,30 @@
         "cost": 26,
         "options": [],
         "armies": [
-            "shimazu"
+            "shimazu",
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yumiMountedSamuraiFull": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "chosokabe"
         ]
     },
     "yariMountedSamurai": {
@@ -385,7 +812,33 @@
         "cost": 26,
         "options": [],
         "armies": [
-            "shimazu"
+            "shimazu",
+            "mori",
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "yariMountedSamuraiFull": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_LONG_SPEAR",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED",
+            "MASSED_CHARGE",
+            "FORM_UP"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "chosokabe"
         ]
     },
     "yariMountedSamuraiDis": {
@@ -447,7 +900,8 @@
             "OPT_DOWN_ENCLOSED_TO_NO_ARMOUR"
         ],
         "armies": [
-            "shimazu"
+            "shimazu",
+            "mori"
         ]
     },
     "hatamotoDaishoSamuraiDis": {
@@ -493,6 +947,23 @@
             "shimazu"
         ]
     },
+    "teppoSamuraiNoOptions": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "mori"
+        ]
+    },
     "teppoMountedSamurai": {
         "availability": "RARE",
         "combat": 4,
@@ -509,6 +980,83 @@
         "options": [],
         "armies": [
             "otomo"
+        ]
+    },
+    "mountedNaginataSamurai": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED"
+        ],
+        "cost": 25,
+        "options": [],
+        "armies": []
+    },
+    "mountedNaginataHatamotoSamurai": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "MOUNTED",
+            "IRON_WILL",
+            "DUTY_BOUND"
+        ],
+        "cost": 27,
+        "options": [],
+        "armies": [
+            "chosokabe"
+        ]
+    },
+    "tetsuboHatamotoSamurai": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "HEAVY_WEAPON",
+        "defaultBody": "ENCLOSED",
+        "defaultShield": "NO_SHIELD",
+        "traits": [
+            "HONORABLE",
+            "IRON_WILL",
+            "DUTY_BOUND",
+            "HEAVY_STRIKE"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_NO_ARMOUR"
+        ],
+        "armies": [
+            "oda",
+            "toyotomi",
+            "tokugawa"
+        ]
+    },
+    "granadeLauncher": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "GRANADES",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "NO_SHIELD",
+        "traits": [],
+        "cost": 21,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mori"
         ]
     }
 }

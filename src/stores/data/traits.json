@@ -280,7 +280,7 @@
     "HARINEZUMI": {
         "id": "harinezumi",
         "book": "Clash of Katanas",
-        "page": 29
+        "page": 27
     },
     "VOLLEY": {
         "id": "volley",
@@ -366,5 +366,20 @@
         "id": "drilledAshigaru",
         "book": "Clash of Katanas",
         "page": 23
+    },
+    "PARRY_RIPOSTE": {
+        "id": "parryRiposte",
+        "book": "Clash of Katanas",
+        "page": 31
+    },
+    "EXTENDED_NAGAE_YARI": {
+        "id": "extendedNagaeYari",
+        "book": "Clash of Katanas",
+        "page": 25
+    },
+    "HEAVY_STRIKE": {
+        "id": "heavyStrike",
+        "book": "Clash of Katanas",
+        "page": 27
     }
 }

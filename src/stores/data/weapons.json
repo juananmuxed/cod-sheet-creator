@@ -214,6 +214,20 @@
         "book": "Clash of Katanas",
         "page": 15
     },
+    "HEAVY_WEAPON": {
+        "id": "heavyWeapon",
+        "type": [
+            "melee"
+        ],
+        "saveModification": -2,
+        "special": [
+            "NOT_SHIELDS",
+            "OPEN_ONE_HAND"
+        ],
+        "initiative": 1,
+        "book": "Clash of Katanas",
+        "page": 14
+    },
     "WAR_BOW": {
         "id": "warBow",
         "rangeShort": 8,
