@@ -466,5 +466,14 @@
         "upgradeTraits": [
             "PAVISES"
         ]
+    },
+    "OPT_DOWN_PAVISE_TATE": {
+        "id": "optDownPaviseTate",
+        "cost": -3,
+        "upgradeShield": "NO_SHIELD",
+        "removeTraits": [
+            "PAVISES",
+            "TATE_SPECIALIST"
+        ]
     }
 }

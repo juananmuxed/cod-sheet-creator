@@ -381,5 +381,15 @@
         "id": "heavyStrike",
         "book": "Clash of Katanas",
         "page": 27
+    },
+    "TATE_SPECIALIST": {
+        "id": "tateSpecialist",
+        "book": "Clash of Katanas",
+        "page": 34
+    },
+    "GUSHING_WOUNDS": {
+        "id": "gushingWounds",
+        "book": "Clash of Katanas",
+        "page": 26
     }
 }
