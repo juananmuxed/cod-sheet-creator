@@ -72,6 +72,8 @@
     "parryRiposte": "Parada y estocada",
     "extendedNagaeYari": "Nagae-Yari extendido",
     "heavyStrike": "Ataque pesado",
+    "tateSpecialist": "Especialista en Tate",
+    "gushingWounds": "Heridas sangrantes",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -145,7 +147,9 @@
         "drilledAshigaru": "Pueden usar la pica en Orden Abierto siempre y cuando estén en Terreno Abierto. Además, si reaccionan a un enemigo a 8\" o menos para Formar en Orden Cerrado no gastan ni Punto de Mando, ni requieren estar a distancia de Mando. Nunca se fatigan al realizar la orden de Formar a Orden Cerrado.",
         "parryRiposte": "Mientras la unidad se Defiende contra un enemigo en Orden Abierto, por cada impacto enemigo cancelado por la respuesta de Defensa, el jugador lanza 1D6, cada valor que iguale o supere el valor de combate del defensor causará un impacto al atacante. El atacante no realiza chequeos de moral ante estos impactos.",
         "extendedNagaeYari": "Al luchar con tropas con al misma iniciativa, esta unidad cuenta como si tuviera armas con mayor iniciativa.",
-        "heavyStrike": "Al Atacar el defensor sufre un -1 a sus tiradas. Además, si el Ataque es sin cuartel el defensor tendrá que lanzar 1D6 adicional en el Chequeo de Moral incluso si consigue bloquear todos los ataques."
+        "heavyStrike": "Al Atacar el defensor sufre un -1 a sus tiradas. Además, si el Ataque es sin cuartel el defensor tendrá que lanzar 1D6 adicional en el Chequeo de Moral incluso si consigue bloquear todos los ataques.",
+        "tateSpecialist": "Si realizas Chequeo de Moral al ser atacado por proyectiles por el frente, puedes volver a lanzar los resultados de 1 y 2 antes de aplicar modificadores.",
+        "gushingWounds": "Si realizas un Ataque sin Curatel por cada tirada de salvación de 1 del defensor, antes de aplicar modificadores pero después de cualquier posible repeteción, el defensor debe añadir 1D6 a los Chequeos de Moral recibidos."
     },
     "requires": {
         "drilled": "Orden Cerrado",
@@ -181,6 +185,8 @@
         "uteya": "Orden Abierto y lanza de impacto o pica",
         "parryRiposte": "Orden Abierto",
         "extendedNagaeYari": "Pica",
-        "heavyStrike": "Armas a dos manos"
+        "heavyStrike": "Armas a dos manos",
+        "tateSpecialist": "Orden Cerrado y pavés",
+        "gushingWounds": "Armas pesadas"
     }
 }
