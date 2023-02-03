@@ -69,6 +69,9 @@
     "brotherhood": "Hermandad",
     "norikuzishi": "Norikuzishi",
     "drilledAshigaru": "Ashigarus adiestrados",
+    "parryRiposte": "Parada y estocada",
+    "extendedNagaeYari": "Nagae-Yari extendido",
+    "heavyStrike": "Ataque pesado",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -139,7 +142,10 @@
         "rotationalFire": "Pueden disparar contando solo la primera fila sin ganar fatiga por disparo y por cada fila a partir de la primera la figura niega uno de los contadores de recarga siempre que esa fila tenga al menos la mitad que la fila delantera. Además, no ganan fatiga al Formar en Orden Cerrado, incluso si estás a 2\" de un obstáculo lineal.",
         "brotherhood": "Cuando realicen un chequeo de moral pueden volver a lanzar cualquier 1 mientras el número de figuras sea más del doble del número de dados lanzados. Además la unidad solo recibe 1 baja por cada punto de fatiga por encima de 6 que reciba.",
         "norikuzishi": "Cuando realiza una orden de Ataque repite cualquier 1 al impactar.",
-        "drilledAshigaru": "Pueden usar la pica en Orden Abierto siempre y cuando estén en Terreno Abierto. Además, si reaccionan a un enemigo a 8\" o menos para Formar en Orden Cerrado no gastan ni Punto de Mando, ni requieren estar a distancia de Mando. Nunca se fatigan al realizar la orden de Formar a Orden Cerrado."
+        "drilledAshigaru": "Pueden usar la pica en Orden Abierto siempre y cuando estén en Terreno Abierto. Además, si reaccionan a un enemigo a 8\" o menos para Formar en Orden Cerrado no gastan ni Punto de Mando, ni requieren estar a distancia de Mando. Nunca se fatigan al realizar la orden de Formar a Orden Cerrado.",
+        "parryRiposte": "Mientras la unidad se Defiende contra un enemigo en Orden Abierto, por cada impacto enemigo cancelado por la respuesta de Defensa, el jugador lanza 1D6, cada valor que iguale o supere el valor de combate del defensor causará un impacto al atacante. El atacante no realiza chequeos de moral ante estos impactos.",
+        "extendedNagaeYari": "Al luchar con tropas con al misma iniciativa, esta unidad cuenta como si tuviera armas con mayor iniciativa.",
+        "heavyStrike": "Al Atacar el defensor sufre un -1 a sus tiradas. Además, si el Ataque es sin cuartel el defensor tendrá que lanzar 1D6 adicional en el Chequeo de Moral incluso si consigue bloquear todos los ataques."
     },
     "requires": {
         "drilled": "Orden Cerrado",
@@ -172,6 +178,9 @@
         "rotationalFire": "Orden Cerrado y arcabuz",
         "rainBlows": "Arma de mano adicional",
         "volley": "Orden Cerrado y arcabuz",
-        "uteya": "Orden Abierto y lanza de impacto o pica"
+        "uteya": "Orden Abierto y lanza de impacto o pica",
+        "parryRiposte": "Orden Abierto",
+        "extendedNagaeYari": "Pica",
+        "heavyStrike": "Armas a dos manos"
     }
 }
