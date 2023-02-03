@@ -34,6 +34,9 @@ export class Constants {
     OPTIONS: 2,
   };
   static readonly HIDE_OPTION = "HIDE_OPTION";
+  static readonly NO_SHIELD = "NO_SHIELD";
+  static readonly NO_ARMOUR = "NO_ARMOUR";
+  static readonly NO_BARDING = "NO_BARDING";
   static readonly LS_NAMES = {
     DEFAULT_UNIT_NUMBER: "default-unit-number",
     DEPLOYMENT_NUMBER: "deployment-number",

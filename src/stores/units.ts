@@ -219,7 +219,7 @@ export const useUnitsStore = defineStore("units", () => {
       armoursFromUnits.push(unit.shield || unit.defaultShield || "");
     });
     return [...new Set(armoursFromUnits)]
-      .filter((armor) => armor !== "")
+      .filter((armor) => armor !== "" && !isHidenItem(armor))
       .map((trait) => {
         return {
           name: importedArmors[trait].id,
@@ -315,7 +315,12 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function isHidenItem(key: string) {
-    return key === Constants.HIDE_OPTION;
+    return (
+      key === Constants.HIDE_OPTION ||
+      key === Constants.NO_ARMOUR ||
+      key === Constants.NO_SHIELD ||
+      key === Constants.NO_BARDING
+    );
   }
 
   function getArmourTranslate(key: string) {
