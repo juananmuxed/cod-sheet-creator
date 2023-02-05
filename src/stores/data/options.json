@@ -475,5 +475,10 @@
             "PAVISES",
             "TATE_SPECIALIST"
         ]
+    },
+    "OPT_ADD_ONE_CREW_LIGHT_CANON": {
+        "id": "optAddOneCrewLightCannon",
+        "fixedCost": 13,
+        "fixedUnits": 1
     }
 }

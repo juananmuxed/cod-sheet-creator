@@ -718,7 +718,9 @@
             "OPT_DOWN_ENCLOSED_TO_FULL"
         ],
         "armies": [
-            "chosokabe"
+            "chosokabe",
+            "ikkoIkki",
+            "iga"
         ]
     },
     "yariSamurai": {
@@ -1397,12 +1399,12 @@
             "tokugawa"
         ]
     },
-    "granadeLauncher": {
+    "grenadeLauncher": {
         "availability": "RARE",
         "combat": 4,
         "ranged": 5,
         "grit": 3,
-        "defaultWeapon": "GRANADES",
+        "defaultWeapon": "GRENADES",
         "defaultBody": "PARTIAL",
         "traits": [],
         "cost": 21,

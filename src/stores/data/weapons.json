@@ -312,17 +312,28 @@
         "book": "Clash of Katanas",
         "page": 21
     },
-    "GRANADES": {
-        "id": "granades",
+    "GRENADES": {
+        "id": "grenades",
         "rangeShort": 6,
         "saveModification": -1,
         "type": [
             "ranged"
         ],
         "special": [
-            "GRANADES_SPECIAL"
+            "GRENADES_SPECIAL"
         ],
         "book": "Clash of Katanas",
         "page": 20
+    },
+    "LIGHT_CANNON": {
+        "id": "lightCannon",
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "LIGHT_CANON"
+        ],
+        "book": "Clash of Katanas",
+        "page": 43
     }
 }

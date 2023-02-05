@@ -391,5 +391,20 @@
         "id": "gushingWounds",
         "book": "Clash of Katanas",
         "page": 26
+    },
+    "BUSHMASTER": {
+        "id": "bushmaster",
+        "book": "Clash of Katanas",
+        "page": 23
+    },
+    "SHARPSHOOTER": {
+        "id": "bushmaster",
+        "book": "Clash of Katanas",
+        "page": 33
+    },
+    "LIGHT_CANNON": {
+        "id": "lightCannon",
+        "book": "Clash of Katanas",
+        "page": 43
     }
 }

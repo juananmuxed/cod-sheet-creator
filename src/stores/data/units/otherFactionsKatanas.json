@@ -1,0 +1,713 @@
+{
+    "peasants": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "OVERWHELM"
+        ],
+        "cost": 7,
+        "options": [],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "followers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "OVERWHELM",
+            "FUROR"
+        ],
+        "cost": 12,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "yariFollowers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "FUROR"
+        ],
+        "cost": 12,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "teppoFollowers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "VOLLEY"
+        ],
+        "cost": 13,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR",
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "scoutsAndSpies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ONE_HAND",
+        "traits": [
+            "BUSHMASTER"
+        ],
+        "cost": 10,
+        "options": [
+            "OPT_MIXED_WEAPONS"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "rabble": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "OVERWHELM",
+            "ALLIES"
+        ],
+        "cost": 7,
+        "options": [],
+        "armies": [
+            "wako"
+        ]
+    },
+    "yariRabble": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OVERWHELM",
+            "ALLIES"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "wako"
+        ]
+    },
+    "banditsNoArmour": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "GUERRILLA",
+            "RUTHLESS",
+            "COMBINED_ARMS"
+        ],
+        "cost": 11,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "teppoBandits": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "ARQUEBUS",
+        "traits": [
+            "BUSHMASTER",
+            "RUTHLESS"
+        ],
+        "cost": 12,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "guerrillas": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "BUSHMASTER",
+            "COMBINED_ARMS"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "yariAshigaruOthers": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "UTEYA"
+        ],
+        "cost": 14,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "yumiGuerrilla": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "GUERRILLA",
+            "BUSHMASTER"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "slingerGuerrilla": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "SLING",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "GUERRILLA",
+            "BUSHMASTER"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "teppoGuerrilla": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "GUERRILLA",
+            "BUSHMASTER"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "yumiJiSamurai": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "traits": [
+            "GUERRILLA",
+            "AIM",
+            "BUSHMASTER"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "daishoJiSamurai": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ADITIONAL_HAND_WEAPON",
+        "defaultBody": "FULL",
+        "traits": [
+            "GUERRILLA",
+            "OFF_HAND_PARRY",
+            "RAIN_BLOWS",
+            "BUSHMASTER"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "mixedJiSamurai": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "FULL",
+        "traits": [
+            "GUERRILLA",
+            "COMBINED_ARMS",
+            "BUSHMASTER"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "teppoMonksFull": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "FULL",
+        "traits": [
+            "VOLLEY",
+            "BROTHERHOOD"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_PAVISES"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "naginataMonks": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "FUROR",
+            "FURIKAESHI",
+            "BROTHERHOOD"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "nuns": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "FUROR",
+            "FURIKAESHI",
+            "BROTHERHOOD",
+            "DETERMINED"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "bowFollowers": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 12,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "marksmen": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "traits": [
+            "RUTHLESS",
+            "BUSHMASTER",
+            "SHARPSHOOTER"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "bowBandits": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "RUTHLESS",
+            "BUSHMASTER",
+            "AIM"
+        ],
+        "cost": 14,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "veteranBandits": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "RUTHLESS",
+            "GUERRILLA",
+            "COMBINED_ARMS"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "polearmsVeteranBandits": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "RUTHLESS",
+            "GUERRILLA",
+            "KURIDASHI"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "roninOthers": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "ENCLOSED",
+        "traits": [
+            "RUTHLESS",
+            "COMBINED_ARMS"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "roninMountedOthers": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "ENCLOSED",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "yumiRoninOthers": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "ENCLOSED",
+        "traits": [
+            "RUTHLESS",
+            "AIM"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "fireBombThrowers": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "GRENADES",
+        "defaultBody": "PARTIAL",
+        "traits": [],
+        "cost": 19,
+        "options": [],
+        "armies": [
+            "wako"
+        ]
+    },
+    "lightCanonTwoCrew": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "fixedFigures": 2,
+        "countsDouble": true,
+        "defaultWeapon": "LIGHT_CANNON",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "IRON_WILL",
+            "INDEPENDENT",
+            "SKIRMISH_SPECIALIST",
+            "LIGHT_CANNON"
+        ],
+        "fixedCost": 90,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_ADD_ONE_CREW_LIGHT_CANON"
+        ],
+        "armies": [
+            "wako"
+        ]
+    },
+    "naginataMountedMonks": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "BROTHERHOOD"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "naginataMountedSamuraiOthers": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "iga"
+        ]
+    },
+    "bandits": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "GUERRILLA",
+            "COMBINED_ARMS",
+            "RUTHLESS",
+            "FICKLE"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "iga"
+        ]
+    },
+    "yumiMountedMonks": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "BROTHERHOOD"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "tetsuboMonks": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "HEAVY_WEAPON",
+        "defaultBody": "FULL",
+        "traits": [
+            "FUROR",
+            "HEAVY_STRIKE",
+            "BROTHERHOOD"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "yumiMonks": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "FULL",
+        "traits": [
+            "AIM",
+            "BROTHERHOOD"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    },
+    "mountedNuns": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "BROTHERHOOD",
+            "DETERMINED"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR",
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "ikkoIkki"
+        ]
+    }
+}
