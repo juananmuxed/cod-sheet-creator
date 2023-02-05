@@ -173,6 +173,7 @@ export const useUnitsStore = defineStore("units", () => {
           ? sizes[index] || options.defaultUnitNumber
           : options.defaultUnitNumber,
         modsCosts: 0,
+        modsFixedCosts: 0,
         selectedOptions: [],
       };
     });
@@ -291,7 +292,9 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function calculateUnitCost(unit: IUnitObject): number {
-    return getIndividualCost(unit) * getUnitSize(unit);
+    return unit.fixedCost
+      ? getFixedCost(unit)
+      : getIndividualCost(unit) * getUnitSize(unit);
   }
 
   function calculateSave(unit: IUnitObject): string {
@@ -368,7 +371,12 @@ export const useUnitsStore = defineStore("units", () => {
   function sumType(type: string) {
     return unitsInArmy.value
       .filter((unit) => unit.availability === type)
-      .reduce((a, unit) => a + getUnitSize(unit), 0);
+      .reduce((a, unit) => a + getUnitSizeForType(unit), 0);
+  }
+
+  function getUnitSizeForType(unit: IUnitObject): number {
+    const unitSize = getUnitSize(unit);
+    return unit.countsDouble ? unitSize * 2 : unitSize;
   }
 
   function getUnitSize(unit: IUnitObject): number {
@@ -376,7 +384,15 @@ export const useUnitsStore = defineStore("units", () => {
   }
 
   function getIndividualCost(unit: IUnitObject): number {
-    return unit.cost + (unit.modsCosts || 0);
+    return (unit.cost || 0) + (unit.modsCosts || 0);
+  }
+
+  function getFixedCost(unit: IUnitObject): number {
+    return (
+      (unit.fixedCost || 0) +
+      (unit.modsFixedCosts || 0) +
+      (unit.modsCosts || 0) * getUnitSize(unit)
+    );
   }
 
   function filteredOptions(unit: IUnitObject) {
@@ -453,7 +469,7 @@ export const useUnitsStore = defineStore("units", () => {
 
     unitsInArmy.value[index].selectedOptions?.push(upgrade);
     unitsInArmy.value[index].modsCosts =
-      (unitsInArmy.value[index].modsCosts || 0) + option.cost;
+      (unitsInArmy.value[index].modsCosts || 0) + (option.cost || 0);
     unitsInArmy.value[index].options.splice(upgradeIndex, 1);
 
     if (option.upgradeWeapon) {
@@ -480,6 +496,13 @@ export const useUnitsStore = defineStore("units", () => {
       unitsInArmy.value[index].traits = unitsInArmy.value[index].traits.filter(
         (x) => !option.removeTraits?.includes(x)
       );
+    if (option.fixedUnits && option.fixedCost) {
+      unitsInArmy.value[index].fixedFigures =
+        (unitsInArmy.value[index].fixedFigures || 0) + (option.fixedUnits || 0);
+      unitsInArmy.value[index].modsFixedCosts =
+        (unitsInArmy.value[index].modsFixedCosts || 0) +
+        (option.fixedCost || 0);
+    }
     sheets.updateUriParams();
   }
 
@@ -493,7 +516,7 @@ export const useUnitsStore = defineStore("units", () => {
 
     unitsInArmy.value[index].selectedOptions?.splice(upgradeIndex || 0, 1);
     unitsInArmy.value[index].modsCosts =
-      (unitsInArmy.value[index].modsCosts || 0) - option.cost;
+      (unitsInArmy.value[index].modsCosts || 0) - (option.cost || 0);
     unitsInArmy.value[index].options?.push(upgrade);
 
     if (option.upgradeWeapon) {
@@ -521,6 +544,13 @@ export const useUnitsStore = defineStore("units", () => {
       unitsInArmy.value[index].traits = unitsInArmy.value[index].traits.concat(
         option.removeTraits
       );
+    if (option.fixedUnits && option.fixedCost) {
+      unitsInArmy.value[index].fixedFigures =
+        (unitsInArmy.value[index].fixedFigures || 0) - (option.fixedUnits || 0);
+      unitsInArmy.value[index].modsFixedCosts =
+        (unitsInArmy.value[index].modsFixedCosts || 0) -
+        (option.fixedCost || 0);
+    }
     sheets.updateUriParams();
   }
 

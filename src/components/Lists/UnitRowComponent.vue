@@ -127,15 +127,19 @@
   </div>
   <div class="cell cell-slim cell-wide">
     <div class="flex counter">
-      <button
-        @click="units.decreaseSize(index)"
-        v-if="unit.fixedFigures === undefined"
-      >
-        <IconComponent name="minus"></IconComponent>
-      </button>
-      <span>
-        <b v-if="unit.fixedFigures === undefined">{{ unit.size }}</b>
-        <b v-else>{{ unit.fixedFigures }}</b>
+      <template v-if="unit.fixedFigures === undefined">
+        <button @click="units.decreaseSize(index)">
+          <IconComponent name="minus"></IconComponent>
+        </button>
+        <span>
+          <b>{{ unit.size }}</b>
+        </span>
+        <button @click="units.increaseSize(index)">
+          <IconComponent name="plus"></IconComponent>
+        </button>
+      </template>
+      <span v-else>
+        <b>{{ unit.fixedFigures }}</b>
         {{
           $t(
             "web.texts.figure",
@@ -143,18 +147,14 @@
           )
         }}{{ unit.freeUnits ? `(+${unit.freeUnits})` : "" }}
       </span>
-      <button
-        @click="units.increaseSize(index)"
-        v-if="unit.fixedFigures === undefined"
-      >
-        <IconComponent name="plus"></IconComponent>
-      </button>
     </div>
   </div>
   <div class="cell cell-slim cell-xwide">
-    {{ unit.cost }}
-    <span v-if="unit.modsCosts !== 0">({{ unit.modsCosts }})</span>
-    {{ $t("web.texts.costEach", unit.cost) }}
+    <template v-if="unit.cost !== undefined">
+      {{ unit.cost }}
+      <span v-if="unit.modsCosts !== 0">({{ unit.modsCosts }})</span>
+      {{ $t("web.texts.costEach", unit.cost) }}
+    </template>
   </div>
   <div class="cell cell-slim cell-wide">
     {{ $t("web.texts.totalCostUnit") }}:

@@ -12,7 +12,11 @@
           type="checkbox"
           :value="option.translate"
           @change="selectOption(option.translate)"
-        />{{ `${$t(`sheets.options.${option.id}`)} (${option.cost})` }}
+        />{{
+          `${$t(`sheets.options.${option.id}`)} (${
+            option.cost || option.fixedCost
+          })`
+        }}
       </label>
     </div>
     <div class="checkbox-group-selected">
@@ -32,7 +36,11 @@
           type="checkbox"
           :value="option.translate"
           @change="unselectOption(option.translate)"
-        />{{ `${$t(`sheets.options.${option.id}`)} (${option.cost})` }}
+        />{{
+          `${$t(`sheets.options.${option.id}`)} (${
+            option.cost || option.fixedCost
+          })`
+        }}
       </label>
     </div>
   </div>

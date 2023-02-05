@@ -39,7 +39,7 @@ export interface IUnitObject {
   defaultBarding?: string;
   defaultShield?: string;
   traits: string[];
-  cost: number;
+  cost?: number;
   options: string[];
   selectedOptions?: string[];
   armies: string[];
@@ -50,9 +50,12 @@ export interface IUnitObject {
   shield?: string;
   size?: number;
   modsCosts?: number;
+  modsFixedCosts?: number;
   dontCountForBreak?: boolean;
   fixedFigures?: number;
   fixedSave?: number;
+  fixedCost?: number;
+  countsDouble?: boolean;
   noDeployToken?: boolean;
   specialDeployAssasin?: boolean;
   upgradedWeapon?: boolean;
@@ -107,7 +110,9 @@ export interface IAvailability {
 
 export interface IUnitOptionObject {
   id: string;
-  cost: number;
+  cost?: number;
+  fixedCost?: number;
+  fixedUnits?: number;
   upgradeWeapon?: string;
   upgradeArmour?: string;
   upgradeShield?: string;
