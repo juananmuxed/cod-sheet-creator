@@ -74,6 +74,9 @@
     "heavyStrike": "Ataque pesado",
     "tateSpecialist": "Especialista en Tate",
     "gushingWounds": "Heridas sangrantes",
+    "bushmaster": "Montaraces",
+    "sharpshooter": "Tiradores expertos",
+    "lightCannon": "Cañón ligero",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -99,6 +102,7 @@
         "musician": "Aumenta la distancia de mando del personje a 16\" solo para activar unidades.",
         "standard": "Puede volver a lanzar cualquier dado fallido al intentar recuperar fatiga.",
         "chariot": "Ver reglas especiales Carro.",
+        "lightCannon": "Ver reglas especiales Cañón ligero.",
         "massiveCharge": "Obtiene además rasgo Impetus en Orden Abierto. Si realiza acción de Ataque en Orden Cerrado puede mover 8\" en linea recta si hace contacto con el enemigo. Si tiene un arma con iniciativa más alta, solo los supervivientes contratacan, añade 1D6 al chequeo de moral del enemigo, -1 de salvación si tiene Lanza de Caballería o Kontos/Xyston y si tiene Lanza Pesada, sufre un -2. Si la iniciativa es igual o menor ambas unidades sufren los modificadores anteriores según las armas, ambas unidades sufren -1 a la Salvación y la unidad enemiga sufre un -1 a sus tiradas de Chequeo de Moral. Ver detalles.",
         "endurance": "Una unidad con dos marcadores de acción que usa una tercera acción para hacer un movimiento no gana fatiga y mueve 6\" en lugar de 4\"",
         "furor": "Al hacer Ataque sin Cuartel, el enemigo añade 1D6 al Chequeo de Moral causado por el combate cuerpo a cuerpo.",
@@ -149,7 +153,9 @@
         "extendedNagaeYari": "Al luchar con tropas con al misma iniciativa, esta unidad cuenta como si tuviera armas con mayor iniciativa.",
         "heavyStrike": "Al Atacar el defensor sufre un -1 a sus tiradas. Además, si el Ataque es sin cuartel el defensor tendrá que lanzar 1D6 adicional en el Chequeo de Moral incluso si consigue bloquear todos los ataques.",
         "tateSpecialist": "Si realizas Chequeo de Moral al ser atacado por proyectiles por el frente, puedes volver a lanzar los resultados de 1 y 2 antes de aplicar modificadores.",
-        "gushingWounds": "Si realizas un Ataque sin Curatel por cada tirada de salvación de 1 del defensor, antes de aplicar modificadores pero después de cualquier posible repeteción, el defensor debe añadir 1D6 a los Chequeos de Moral recibidos."
+        "gushingWounds": "Si realizas un Ataque sin Curatel por cada tirada de salvación de 1 del defensor, antes de aplicar modificadores pero después de cualquier posible repeteción, el defensor debe añadir 1D6 a los Chequeos de Moral recibidos.",
+        "bushmaster": "Mientras estén completamente en Terreno Alto, repiten los resultados de 1 en los Chequeos de Moral y ganan un +1 al valor de salvación contra ataques de proyectiles.",
+        "sharpshooter": "Cuando realizan una acción de Preparación, coloca un marcador de Preparación que se mantiene hasta que Descansa o se Reagrupa, que se quitará. Al realizar una acción de Disparo y tener este marcador, ganan un +1 a las tiradas de Impacto."
     },
     "requires": {
         "drilled": "Orden Cerrado",
@@ -187,6 +193,7 @@
         "extendedNagaeYari": "Pica",
         "heavyStrike": "Armas a dos manos",
         "tateSpecialist": "Orden Cerrado y pavés",
-        "gushingWounds": "Armas pesadas"
+        "gushingWounds": "Armas pesadas",
+        "sharpshooter": "Armas a distancia"
     }
 }

@@ -20,7 +20,8 @@
     "repeatingCrossbow": "Ballesta de repetición",
     "arquebus": "Arcabuz",
     "earlyFirearms": "Arma de fuego temprana",
-    "granades": "Granadas",
+    "grenades": "Granadas",
+    "lightCannon": "Cañon ligero",
     "teeth": "Dientes",
     "descriptions": {
         "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
@@ -37,7 +38,7 @@
         "crossbow": "Hasta 6\" no tiene modificador a la salvación pero a partir de ahí aplica un +1. No ganan fatiga al realizar Disparo pero al Disparar gana un marcador de descargado, necesitando una acción de Preparación para retirar dicho marcador. No podrá disparar hasta que retire el marcador.",
         "arquebus": "Hasta 8\" no tiene modificador a la salvación pero a partir de ahí aplica un +1. No ganan fatiga al realizar Disparo pero al Disparar gana dos marcador de descargado, necesitando una acción de Preparación para retirar un marcador. No podrá disparar hasta que retire los marcadores.",
         "earlyFirearms": "Hasta 8\" tienen modificador a la salvación de -1. No ganan fatiga al realizar Disparo pero al Disparar gana dos marcador de descargado, necesitando una acción de Preparación para retirar un marcador. No podrá disparar hasta que retire los marcadores.",
-        "granades": "Ver reglas especiales de Granadas.",
+        "grenades": "Ver reglas especiales de Granadas.",
         "repeatingCrossbow": "No ganan fatiga al realizar Disparo pero al Disparar gana un marcador de descargado, necesitando una acción de Preparación para retirar dicho marcador. Puede seguir disparando mientras tenga menos de 3 marcadores.",
         "cavalrySpear": "Solo puede ser usada con el rasgo Montado.",
         "xyston": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
@@ -45,6 +46,7 @@
         "pike": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional o el Rasgo Instrucción Macedonia. Si las tropas luchan en Orden Abierto, dejan de usar la Pica y usan una Arma de Mano.",
         "ax": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
         "oneHand": "Sin reglas especiales.",
-        "teeth": "Sin reglas especiales."
+        "teeth": "Sin reglas especiales.",
+        "lightCannon": "Ver reglas especiales de Cañón ligero"
     }
 }
