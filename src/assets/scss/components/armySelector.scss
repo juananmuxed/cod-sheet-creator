@@ -2,12 +2,12 @@
     display        : flex;
     justify-content: space-between;
     align-items    : center;
-
+    margin-bottom : $padding_sm;
+    
     span {
         height    : 20px;
         width     : 20px;
-        border    : 1px solid $bg-primary__dark;
-        margin    : 0 $padding_sm;
+        border : 1px solid $bg-primary__dark;
         padding   : $padding_sm;
         text-align: center;
     }
