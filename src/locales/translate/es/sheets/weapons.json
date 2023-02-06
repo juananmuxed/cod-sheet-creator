@@ -22,6 +22,7 @@
     "earlyFirearms": "Arma de fuego temprana",
     "grenades": "Granadas",
     "lightCannon": "Cañon ligero",
+    "hwacha": "Hwacha",
     "teeth": "Dientes",
     "descriptions": {
         "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
@@ -47,6 +48,7 @@
         "ax": "No se puede usar Escudo excepto que se añadan con el rasgo Equipo Adicional.",
         "oneHand": "Sin reglas especiales.",
         "teeth": "Sin reglas especiales.",
-        "lightCannon": "Ver reglas especiales de Cañón ligero"
+        "lightCannon": "Ver reglas especiales de Cañón ligero.",
+        "hwacha": "Ver reglas especiales de Hwacha."
     }
 }

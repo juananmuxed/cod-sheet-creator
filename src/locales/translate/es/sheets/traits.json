@@ -77,6 +77,10 @@
     "bushmaster": "Montaraces",
     "sharpshooter": "Tiradores expertos",
     "lightCannon": "Cañón ligero",
+    "hwacha": "Hwacha",
+    "shieldUp": "¡Alzad escudos!",
+    "momentum": "Momentum",
+    "mandarinDuck": "Pato mandarín",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -103,6 +107,8 @@
         "standard": "Puede volver a lanzar cualquier dado fallido al intentar recuperar fatiga.",
         "chariot": "Ver reglas especiales Carro.",
         "lightCannon": "Ver reglas especiales Cañón ligero.",
+        "hwacha": "Ver reglas especiales Hwacha.",
+        "momentum": "Mientras todas las figuras estén en Terreno Abierto, cualquier 6 resulta en un -1 extra en la salvación del defensor. Además, si la unidad selecciona Defensa como respuesta, sufrirá un -1 a sus tiradas de defensa.",
         "massiveCharge": "Obtiene además rasgo Impetus en Orden Abierto. Si realiza acción de Ataque en Orden Cerrado puede mover 8\" en linea recta si hace contacto con el enemigo. Si tiene un arma con iniciativa más alta, solo los supervivientes contratacan, añade 1D6 al chequeo de moral del enemigo, -1 de salvación si tiene Lanza de Caballería o Kontos/Xyston y si tiene Lanza Pesada, sufre un -2. Si la iniciativa es igual o menor ambas unidades sufren los modificadores anteriores según las armas, ambas unidades sufren -1 a la Salvación y la unidad enemiga sufre un -1 a sus tiradas de Chequeo de Moral. Ver detalles.",
         "endurance": "Una unidad con dos marcadores de acción que usa una tercera acción para hacer un movimiento no gana fatiga y mueve 6\" en lugar de 4\"",
         "furor": "Al hacer Ataque sin Cuartel, el enemigo añade 1D6 al Chequeo de Moral causado por el combate cuerpo a cuerpo.",
@@ -145,6 +151,7 @@
         "ruthless": "Al realizar un Ataque sin Cuartel contra unidades que acumulen más fatiga que esta unidad todos los impactos reciben un -1 a la salvación.",
         "fickle": "Ante un Chequeo de Ruptura de banda las unidades con este rasgo deberán de lanzar un dado, pudiendo el enemigo gastar Puntos de Mando para dar un -1 o el amigo un 1 a la tirada del dado. Vease tabla de resultados en página 39 (Clash of Katanas).",
         "mountedGunnery": "Usa el perfil de arma como si estuviera a pie.",
+        "shieldUp": "Una unidad sin figuras en Terreno Alto, puede declarar activar este rasgo. Gana un marcador de acción y recibe, un +1 a la Salvación y podrán repetir resultados de 1 si el ataque no lleva modificadores negativos. Este rasgo se puede usar mientras le queden acciones. No recibe fatiga.",
         "rotationalFire": "Pueden disparar contando solo la primera fila sin ganar fatiga por disparo y por cada fila a partir de la primera la figura niega uno de los contadores de recarga siempre que esa fila tenga al menos la mitad que la fila delantera. Además, no ganan fatiga al Formar en Orden Cerrado, incluso si estás a 2\" de un obstáculo lineal.",
         "brotherhood": "Cuando realicen un chequeo de moral pueden volver a lanzar cualquier 1 mientras el número de figuras sea más del doble del número de dados lanzados. Además la unidad solo recibe 1 baja por cada punto de fatiga por encima de 6 que reciba.",
         "norikuzishi": "Cuando realiza una orden de Ataque repite cualquier 1 al impactar.",
@@ -155,7 +162,8 @@
         "tateSpecialist": "Si realizas Chequeo de Moral al ser atacado por proyectiles por el frente, puedes volver a lanzar los resultados de 1 y 2 antes de aplicar modificadores.",
         "gushingWounds": "Si realizas un Ataque sin Curatel por cada tirada de salvación de 1 del defensor, antes de aplicar modificadores pero después de cualquier posible repeteción, el defensor debe añadir 1D6 a los Chequeos de Moral recibidos.",
         "bushmaster": "Mientras estén completamente en Terreno Alto, repiten los resultados de 1 en los Chequeos de Moral y ganan un +1 al valor de salvación contra ataques de proyectiles.",
-        "sharpshooter": "Cuando realizan una acción de Preparación, coloca un marcador de Preparación que se mantiene hasta que Descansa o se Reagrupa, que se quitará. Al realizar una acción de Disparo y tener este marcador, ganan un +1 a las tiradas de Impacto."
+        "sharpshooter": "Cuando realizan una acción de Preparación, coloca un marcador de Preparación que se mantiene hasta que Descansa o se Reagrupa, que se quitará. Al realizar una acción de Disparo y tener este marcador, ganan un +1 a las tiradas de Impacto.",
+        "mandarinDuck": "Una unidad con este rasgo a 2\" o menos de otra con el mismo rasgo que quiera reaccionar cuando un enemigo dentro de 8\" indica que se va a activar, puede reaccionar moviendo a través de la unidad moviendo hasta 6\" y que al menos la primera figura atraviese la unidad amiga. No necesita gastar puntos de mando, ni estar a distancia de mando. Además, al retirarse y si la retirada es bloqueada por otra unidad con el mismo rasgo, la que bloquea puede moverse 1\" para dejar espacio a esta unidad."
     },
     "requires": {
         "drilled": "Orden Cerrado",
@@ -191,6 +199,7 @@
         "uteya": "Orden Abierto y lanza de impacto o pica",
         "parryRiposte": "Orden Abierto",
         "extendedNagaeYari": "Pica",
+        "momentum": "Arma de asta",
         "heavyStrike": "Armas a dos manos",
         "tateSpecialist": "Orden Cerrado y pavés",
         "gushingWounds": "Armas pesadas",
