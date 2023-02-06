@@ -14,7 +14,7 @@
           @change="selectOption(option.translate)"
         />{{
           `${$t(`sheets.options.${option.id}`)} (${
-            option.cost || option.fixedCost
+            option.cost !== undefined ? option.cost : option.fixedCost
           })`
         }}
       </label>
@@ -38,7 +38,7 @@
           @change="unselectOption(option.translate)"
         />{{
           `${$t(`sheets.options.${option.id}`)} (${
-            option.cost || option.fixedCost
+            option.cost !== undefined ? option.cost : option.fixedCost
           })`
         }}
       </label>
