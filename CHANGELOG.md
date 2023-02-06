@@ -22,7 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New characters for Clash of Katanas
 - New traits for Clash of Katanas
 - New options for Clash of Katanas
-- Special A deployment for Assasin and Master Assasin
 - Support for Clash of Katanas armies
   - Shimazu
   - Otomo
