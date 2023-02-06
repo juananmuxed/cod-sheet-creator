@@ -335,5 +335,16 @@
         ],
         "book": "Clash of Katanas",
         "page": 43
+    },
+    "HWACHA": {
+        "id": "hwacha",
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "HWACHA"
+        ],
+        "book": "Clash of Katanas",
+        "page": 46
     }
 }

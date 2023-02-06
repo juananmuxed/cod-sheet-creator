@@ -104,6 +104,37 @@
             "wako"
         ]
     },
+    "guerrillasOverwhelm": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "OVERWHELM"
+        ],
+        "cost": 7,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "rabbleFuror": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "OVERWHELM",
+            "FUROR"
+        ],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
     "yariRabble": {
         "availability": "CIVIS",
         "combat": 5,
@@ -119,6 +150,132 @@
         "options": [],
         "armies": [
             "wako"
+        ]
+    },
+    "glaivesMilitia": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "POLEARMS",
+        "traits": [
+            "KURIDASHI"
+        ],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "fireLanceMilitia": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "EARLY_FIREARMS",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "bowMilitia": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "WAR_BOW",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "spearmen": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "HARINEZUMI",
+            "UTEYA"
+        ],
+        "cost": 14,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "fireLanceInfantry": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "EARLY_FIREARMS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "PAVISES",
+        "traits": [
+            "TATE_SPECIALIST",
+            "PAVISES"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_DOWN_PAVISE_TATE"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "crossbowmen": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "CROSSBOW",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "PAVISES",
+        "traits": [
+            "TATE_SPECIALIST",
+            "PAVISES"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_DOWN_PAVISE_TATE"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "archersMing": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mingChinese"
         ]
     },
     "banditsNoArmour": {
@@ -496,6 +653,246 @@
             "wako"
         ]
     },
+    "glaivesInfantry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "KURIDASHI",
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "swordmen": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ONE_HAND",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "OFF_HAND_PARRY",
+            "SHIELDS_UP"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_CHANGE_SWORDMEN"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "archersKorean": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "arquebusiers": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "VOLLEY"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "monksAditionalBow": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "traits": [
+            "FUROR",
+            "FURIKAESHI",
+            "BROTHERHOOD"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_WAR_BOW_ADITIONAL"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "mountedMilities": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "zhugeNuInfantry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "REPEATING_CROSSBOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "swordmenMing": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ONE_HAND",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "OFF_HAND_PARRY",
+            "SHIELDS_UP"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "arquebusiersMing": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "ARQUEBUS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "PAVISES",
+        "traits": [
+            "TATE_SPECIALIST",
+            "PAVISES"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_DOWN_PAVISE_TATE"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "meleeMandarinDuckInfantry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "COMBINED_ARMS",
+            "SHIELDS_UP",
+            "MANDARIN_DUCK"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "missileMandarinDuckInfantry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "EARLY_FIREARMS",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MANDARIN_DUCK"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "mercenaryCavalry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "WAR_BOW",
+        "traits": [
+            "MOUNTED",
+            "ALLIES"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "mingCavalry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_WAR_BOW"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
     "roninMountedOthers": {
         "availability": "RARE",
         "combat": 3,
@@ -708,6 +1105,125 @@
         ],
         "armies": [
             "ikkoIkki"
+        ]
+    },
+    "mountedGuards": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_POLEARMS_ADITIONAL_MOMENTUM"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "unmountedGuards": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "defaultWeapon": "WAR_BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [],
+        "cost": 18,
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_POLEARMS_ADITIONAL_MOMENTUM"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "hwachaTwoCrew": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "HWACHA",
+        "fixedFigures": 2,
+        "countsDouble": true,
+        "traits": [
+            "IRON_WILL",
+            "INDEPENDENT",
+            "HWACHA"
+        ],
+        "fixedCost": 78,
+        "options": [
+            "OPT_ADD_ONE_CREW_HWACHA",
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "joseonKoreans"
+        ]
+    },
+    "fireLancerMingCavalry": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "EARLY_FIREARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "MOUNTED_GUNNERY"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "mountedGuardsMing": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "POLEARMS",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_UP_FULL_TO_ENCLOSED"
+        ],
+        "armies": [
+            "mingChinese"
+        ]
+    },
+    "crouchingTigerCanonTwoCrew": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "fixedFigures": 2,
+        "countsDouble": true,
+        "fixedCost": 90,
+        "defaultWeapon": "LIGHT_CANNON",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "INDEPENDENT",
+            "IRON_WILL",
+            "SKIRMISH_SPECIALIST",
+            "LIGHT_CANNON"
+        ],
+        "options": [
+            "OPT_UP_FULL_ARMOUR",
+            "OPT_ADD_ONE_CREW_LIGHT_CANON"
+        ],
+        "armies": [
+            "mingChinese"
         ]
     }
 }

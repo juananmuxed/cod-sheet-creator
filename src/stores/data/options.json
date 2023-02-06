@@ -480,5 +480,42 @@
         "id": "optAddOneCrewLightCannon",
         "fixedCost": 13,
         "fixedUnits": 1
+    },
+    "OPT_CHANGE_SWORDMEN": {
+        "id": "optChangeSwordmen",
+        "upgradeWeapon": "ADITIONAL_HAND_WEAPON",
+        "upgradeShield": "NO_SHIELD",
+        "removeTraits": [
+            "SHIELDS_UP"
+        ],
+        "cost": 0,
+        "upgradeTraits": [
+            "RAIN_BLOWS"
+        ]
+    },
+    "OPT_WAR_BOW_ADITIONAL": {
+        "id": "optWarBowAditional",
+        "cost": 4,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(WAR_BOW)"
+        ]
+    },
+    "OPT_POLEARMS_ADITIONAL_MOMENTUM": {
+        "id": "optPolearmsAditionalMomentum",
+        "cost": 4,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(POLEARMS)",
+            "MOMENTUM"
+        ]
+    },
+    "OPT_ADD_ONE_CREW_HWACHA": {
+        "id": "optAddOneCrewHwacha",
+        "fixedCost": 10,
+        "fixedUnits": 1
+    },
+    "OPT_WAR_BOW": {
+        "id": "optWarBow",
+        "cost": 1,
+        "upgradeWeapon": "WAR_BOW"
     }
 }

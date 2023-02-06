@@ -406,5 +406,25 @@
         "id": "lightCannon",
         "book": "Clash of Katanas",
         "page": 43
+    },
+    "HWACHA": {
+        "id": "hwacha",
+        "book": "Clash of Katanas",
+        "page": 46
+    },
+    "SHIELDS_UP": {
+        "id": "shieldUp",
+        "book": "Clash of Katanas",
+        "page": 43
+    },
+    "MOMENTUM": {
+        "id": "momentum",
+        "book": "Clash of Katanas",
+        "page": 30
+    },
+    "MANDARIN_DUCK": {
+        "id": "mandarinDuck",
+        "book": "Clash of Katanas",
+        "page": 28
     }
 }
