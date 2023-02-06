@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [v0.20.1]
 
 ### Fixed
 
 - Fix Two handed weapons initiative (to 1)
+- Fix undefined in 0 cost options
 
 ### Upgraded
 
@@ -68,6 +69,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.14.0...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.1...HEAD
+[v0.20.1]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.1
 [v0.14.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.14.0
 [v0.11.9]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.11.9
