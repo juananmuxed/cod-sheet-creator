@@ -7,9 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.20.4]
+
 ### Fixed
 
 - Fix height of toasts
+- Fix nobles ligurian to Milites
+
+### Added
+
+- Share button to copy url
 
 ## [v0.20.1]
 
@@ -74,7 +81,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.1...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.4...HEAD
+[v0.20.4]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.4
 [v0.20.1]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.1
 [v0.14.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.14.0
 [v0.11.9]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.11.9
