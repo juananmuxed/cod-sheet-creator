@@ -397,65 +397,64 @@ export const useUnitsStore = defineStore("units", () => {
 
   function filteredOptions(unit: IUnitObject) {
     return mapedOptions(unit.options)
-      .filter((option) => {
-        return !(option.upgradeWeapon && unit.upgradedWeapon);
-      })
-      .filter((option) => {
-        return !(option.upgradeShield && unit.upgradedShield);
-      })
-      .filter((option) => {
-        return !(option.upgradeArmour && unit.upgradedBody);
-      })
-      .filter((option) => {
-        return !(option.upgradeBarding && unit.upgradedBarding);
-      })
-      .filter((option) => {
-        return !(
-          option.neededTraits &&
-          option.neededTraits.filter((trait: string) =>
-            unit.traits.includes(trait)
-          ).length == 0
-        );
-      })
-      .filter((option) => {
-        return !(
-          option.neededWeapons &&
-          option.neededWeapons.filter(
-            (weapon: string) => unit.weapon === weapon
-          ).length == 0
-        );
-      })
-      .filter((option) => {
-        return !(
-          option.incompatibleTraits &&
-          option.incompatibleTraits.filter((trait: string) =>
-            unit.traits.includes(trait)
-          ).length > 0
-        );
-      })
-      .filter((option) => {
-        return !(
-          option.incompatibleShields &&
-          option.incompatibleShields.includes(unit.shield || "")
-        );
-      })
-      .filter((option) => {
-        return !(
-          option.incompatibleWeapons &&
-          option.incompatibleWeapons.includes(unit.weapon || "")
-        );
-      })
-      .filter((option) => {
-        return !(
-          option.armies !== undefined &&
-          !option.armies.includes(sheets.selectedArmy || "")
-        );
-      });
+      .filter((option) => !unit.selectedOptions?.includes(option.key))
+      .filter((option) => !(option.upgradeWeapon && unit.upgradedWeapon))
+      .filter((option) => !(option.upgradeShield && unit.upgradedShield))
+      .filter((option) => !(option.upgradeArmour && unit.upgradedBody))
+      .filter((option) => !(option.upgradeBarding && unit.upgradedBarding))
+      .filter(
+        (option) =>
+          !(
+            option.neededTraits &&
+            option.neededTraits.filter((trait: string) =>
+              unit.traits.includes(trait)
+            ).length == 0
+          )
+      )
+      .filter(
+        (option) =>
+          !(
+            option.neededWeapons &&
+            option.neededWeapons.filter(
+              (weapon: string) => unit.weapon === weapon
+            ).length == 0
+          )
+      )
+      .filter(
+        (option) =>
+          !(
+            option.incompatibleTraits &&
+            option.incompatibleTraits.filter((trait: string) =>
+              unit.traits.includes(trait)
+            ).length > 0
+          )
+      )
+      .filter(
+        (option) =>
+          !(
+            option.incompatibleShields &&
+            option.incompatibleShields.includes(unit.shield || "")
+          )
+      )
+      .filter(
+        (option) =>
+          !(
+            option.incompatibleWeapons &&
+            option.incompatibleWeapons.includes(unit.weapon || "")
+          )
+      )
+      .filter(
+        (option) =>
+          !(
+            option.armies !== undefined &&
+            !option.armies.includes(sheets.selectedArmy || "")
+          )
+      );
   }
 
   function mapedOptions(options: string[]) {
     return options.map((option) => {
-      return { ...importedOptions[option], translate: option };
+      return { ...importedOptions[option], translate: option, key: option };
     });
   }
 
@@ -463,14 +462,9 @@ export const useUnitsStore = defineStore("units", () => {
     const option = importedOptions[upgrade];
     if (!option) return;
 
-    const upgradeIndex = unitsInArmy.value[index].options.findIndex(
-      (option) => option === upgrade
-    );
-
     unitsInArmy.value[index].selectedOptions?.push(upgrade);
     unitsInArmy.value[index].modsCosts =
       (unitsInArmy.value[index].modsCosts || 0) + (option.cost || 0);
-    unitsInArmy.value[index].options.splice(upgradeIndex, 1);
 
     if (option.upgradeWeapon) {
       unitsInArmy.value[index].upgradedWeapon = true;
@@ -517,7 +511,6 @@ export const useUnitsStore = defineStore("units", () => {
     unitsInArmy.value[index].selectedOptions?.splice(upgradeIndex || 0, 1);
     unitsInArmy.value[index].modsCosts =
       (unitsInArmy.value[index].modsCosts || 0) - (option.cost || 0);
-    unitsInArmy.value[index].options?.push(upgrade);
 
     if (option.upgradeWeapon) {
       unitsInArmy.value[index].upgradedWeapon = false;
