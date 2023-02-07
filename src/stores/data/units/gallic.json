@@ -202,7 +202,7 @@
         ]
     },
     "noblesLigurian": {
-        "availability": "CIVIS",
+        "availability": "MILITES",
         "combat": 3,
         "ranged": 5,
         "grit": 3,
