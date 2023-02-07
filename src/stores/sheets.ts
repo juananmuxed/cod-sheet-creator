@@ -304,6 +304,18 @@ export const useSheetsStore = defineStore("sheets", () => {
     window.print();
   }
 
+  function copyUrl() {
+    const url = new URL(window.location.href);
+    const compactList = getCompactList();
+    url.searchParams.set("id", compactList);
+    navigator.clipboard.writeText(url.toString());
+    toasts.addToast({
+      text: t("web.toasts.copiedClipboard"),
+      color: "success",
+      time: 4000,
+    });
+  }
+
   return {
     selectedExpansion,
     getCompleteExpansion,
@@ -327,5 +339,6 @@ export const useSheetsStore = defineStore("sheets", () => {
     deleteList,
     loadList,
     printList,
+    copyUrl,
   };
 });

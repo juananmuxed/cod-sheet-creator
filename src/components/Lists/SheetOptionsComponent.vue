@@ -24,6 +24,10 @@
         <IconComponent name="print"></IconComponent>
         {{ $t("web.buttons.print") }}
       </button>
+      <button @click="sheets.copyUrl">
+        <IconComponent name="link"></IconComponent>
+        {{ $t("web.buttons.copyUrl") }}
+      </button>
     </div>
   </div>
 </template>

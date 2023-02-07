@@ -4,5 +4,6 @@
     "save": "Guardar",
     "delete": "Eliminar",
     "print": "Imprimir",
-    "loadList": "Cargar lista"
+    "loadList": "Cargar lista",
+    "copyUrl": "Compartir"
 }

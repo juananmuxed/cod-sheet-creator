@@ -1,5 +1,6 @@
 {
     "saveList": "Lista guardada correctamente.",
     "deletedList": "Lista eliminada correctamente.",
-    "loadedList": "Lista cargada correctamente."
+    "loadedList": "Lista cargada correctamente.",
+    "copiedClipboard": "Lista copiada al portapapeles."
 }
