@@ -14,11 +14,16 @@
       <li>Rise of Blood</li>
       <li>Clash of Katanas</li>
     </ul>
+    <h3>{{ $t("web.titles.componentsWebs") }}</h3>
+    <ul>
+      <li v-html="$t('web.texts.home.p.webs01')"></li>
+    </ul>
     <h3>{{ $t("web.titles.news") }}</h3>
     <ul>
       <li v-html="$t('web.texts.home.p.news01')"></li>
       <li v-html="$t('web.texts.home.p.news02')"></li>
       <li v-html="$t('web.texts.home.p.news03')"></li>
+      <li v-html="$t('web.texts.home.p.news04')"></li>
     </ul>
     <p
       v-html="

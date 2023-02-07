@@ -5,7 +5,7 @@
     "armyName": "Nombre del ejercito",
     "newArmy": "Nuevo ejercito",
     "troopName": "Nombre de tropa",
-    "combatCompact": "CO",
+    "combatCompact": "CC",
     "rangedCompact": "DI",
     "gritCompact": "CO",
     "salvationCompact": "SA",
@@ -45,6 +45,8 @@
             "news01": "Añadidas las listas para <b>Clash of Katanas</b>",
             "news02": "Números de despliegue aleatorizados",
             "news03": "Corregidos fallos menores en estadísticas",
+            "news04": "Corregidos fallos menores reportados por la comunidad",
+            "webs01": "Si necesitas algún complemento para jugar al Clash of Spears, visita <a href='https://caliga.net/'>Caliga</a>",
             "listAllChanges": "Listado completo de <a href=\"{url}\" target=\"_blank\">todos los cambios</a>"
         }
     },
