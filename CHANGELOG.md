@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.20.7]
+
+### Added
+
+- Url components section in home
+
+### Fixed
+
+- Fix duplicate units upgrade at same time #1
+- Fix mobile table
+
 ## [v0.20.4]
 
 ### Fixed
@@ -81,7 +92,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.4...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.7...HEAD
+[v0.20.7]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.7
 [v0.20.4]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.4
 [v0.20.1]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.1
 [v0.14.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.14.0
