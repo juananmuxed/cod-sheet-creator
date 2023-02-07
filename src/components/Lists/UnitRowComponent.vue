@@ -108,7 +108,7 @@
       >
     </span>
   </div>
-  <div class="cell no-print">
+  <div class="cell cell-slim no-print">
     <div class="options-buttons">
       <button @click="units.deleteUnit(index)">
         <IconComponent name="close"></IconComponent>

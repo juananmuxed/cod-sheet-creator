@@ -19,7 +19,7 @@
             border-top: 1px solid $bg-primary__dark;
 
             .cell {
-                width         : 5%;
+                width : 10%;
                 padding       : $padding_xs 0;
                 font-size     : $font_size_p;
                 display       : inline-block;
@@ -28,15 +28,15 @@
                 min-height    : 80px;
 
                 &-wide {
-                    width: 22.5%;
+                    width: 45%;
                 }
 
                 &-xwide {
-                    width: 32%;
+                    width: 50%;
                 }
 
                 &-medium {
-                    width: 12.5%;
+                    width: 25%;
                 }
 
                 &-full {
@@ -114,5 +114,26 @@
         height     : 32px;
         width      : 32px;
 
+    }
+}
+@media (min-width: $width-content) {
+    .table .row .cell {
+        width: 5%;
+
+        &-wide {
+            width: 22.5%;
+        }
+
+        &-xwide {
+            width: 32%;
+        }
+
+        &-medium {
+            width: 12.5%;
+        }
+
+        &-full {
+            width: 100%;
+        }
     }
 }
