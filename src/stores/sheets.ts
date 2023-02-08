@@ -129,7 +129,9 @@ export const useSheetsStore = defineStore("sheets", () => {
   }
 
   function getUriParams() {
-    setCompactList(getLS(Constants.LS_NAMES.COMPACT_LIST));
+    const url = new URL(window.location.href);
+    const id = url.searchParams.get("id");
+    setCompactList(!id ? getLS(Constants.LS_NAMES.COMPACT_LIST) : id);
   }
 
   function getCompactList() {
