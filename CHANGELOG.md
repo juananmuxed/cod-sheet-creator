@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.20.10]
+
+### Added
+
+- Images logos to armies
+
+### Fixed
+
+- Accents spanish
+
 ## [v0.20.9]
 
 ### Fixed
@@ -97,7 +107,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.9...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.10...HEAD
+[v0.20.10]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.10
 [v0.20.9]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.9
 [v0.20.7]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.7
 [v0.20.4]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.4
