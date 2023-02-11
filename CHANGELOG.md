@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.20.11]
+
+### Fixed
+
+- Image import in vite
+
 ## [v0.20.10]
 
 ### Added
@@ -107,7 +113,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.10...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.11...HEAD
+[v0.20.11]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.11
 [v0.20.10]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.10
 [v0.20.9]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.9
 [v0.20.7]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.7
