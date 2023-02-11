@@ -1,9 +1,9 @@
 {
     "expansion": "Selecciona una expansión para continuar.",
-    "army": "Selecciona un ejercito para crear una lista.",
+    "army": "Selecciona un ejército para crear una lista.",
     "points": "puntos",
-    "armyName": "Nombre del ejercito",
-    "newArmy": "Nuevo ejercito",
+    "armyName": "Nombre del ejército",
+    "newArmy": "Nuevo ejército",
     "troopName": "Nombre de tropa",
     "combatCompact": "CC",
     "rangedCompact": "DI",
@@ -39,7 +39,7 @@
     },
     "home": {
         "p": {
-            "welcome01": "Este sitio web te permite crear listas de ejercito para el juego de miniaturas <b>Clash of Spears</b>. Podrás <b>crear, compartir e imprimir</b> tus listas de los ejercitos disponibles para las distintas expansiones.",
+            "welcome01": "Este sitio web te permite crear listas de ejército para el juego de miniaturas <b>Clash of Spears</b>. Podrás <b>crear, compartir e imprimir</b> tus listas de los ejércitos disponibles para las distintas expansiones.",
             "welcome02": "Eres más que bienvenido a usar esta web para disfrutar al máximo de este juego.",
             "sections01": "Dentro de la sección de <b>Listas</b> podrás revisar listas o crear nuevas, así como compartiras. Además en la sección de <b>Configuración</b> podrás cambiar algunas cosas a la hora de Imprimir o ver las listas.",
             "news01": "Añadidas las listas para <b>Clash of Katanas</b>",
@@ -54,6 +54,7 @@
         "defaultUnitNumber": "Número de unidades por defecto al añadir unidades",
         "showTraitsTable": "Ver tabla de rasgos en la lista",
         "printWeaponsTable": "Ver tabla de armas en la lista",
-        "printArmourTable": "Ver tabla de armaduras en la lista"
+        "printArmourTable": "Ver tabla de armaduras en la lista",
+        "printArmiesImages": "Ver icono del ejército."
     }
 }
