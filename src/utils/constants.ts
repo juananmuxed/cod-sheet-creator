@@ -45,6 +45,7 @@ export class Constants {
     PRINT_TRAITS: "print-traits",
     PRINT_WEAPONS: "print-weapons",
     PRINT_ARMOURS: "print-armours",
+    PRINT_ARMIES_IMAGES: "print-armies-images",
   };
   static readonly REGEX_EXPRESIONS = {
     ROUND_BRACKETS_EXTRACT: /\((.*)\)/,

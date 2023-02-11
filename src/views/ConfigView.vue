@@ -36,6 +36,14 @@
         {{ $t("web.texts.configLabels.printArmourTable") }}
       </CheckboxComponent>
     </div>
+    <div class="config-item">
+      <CheckboxComponent
+        v-model="options.printArmiesImages"
+        id="printArmiesImages"
+      >
+        {{ $t("web.texts.configLabels.printArmiesImages") }}
+      </CheckboxComponent>
+    </div>
   </div>
 </template>
 

@@ -23,6 +23,7 @@ export const useSheetsStore = defineStore("sheets", () => {
   const units = useUnitsStore();
   const toasts = useToastStore();
 
+  const setFromSaved = ref(false);
   const selectedExpansion: Ref<string | undefined> = ref(undefined);
   const selectedArmy: Ref<string | undefined> = ref(undefined);
   const selectedSavedList: Ref<string | undefined> = ref(undefined);
@@ -52,7 +53,9 @@ export const useSheetsStore = defineStore("sheets", () => {
       label: t(`sheets.armies.${army}`),
       name: importedArmies[army].id,
       value: army,
-      imgUrl: importedArmies[army].imgUrl || undefined,
+      imgUrl: importedArmies[army].imgUrl
+        ? `./src/assets/images/armies/${importedArmies[army].imgUrl}`
+        : undefined,
       expansions: importedArmies[army].expansions,
       isWarParty: importedArmies[army].isWarParty,
       active: importedArmies[army].active || false,
@@ -117,7 +120,8 @@ export const useSheetsStore = defineStore("sheets", () => {
   }
 
   function clearSelectedArmy() {
-    selectedArmy.value = undefined;
+    if (!setFromSaved.value) selectedArmy.value = undefined;
+    setFromSaved.value = false;
   }
 
   function updateUriParams() {
@@ -196,6 +200,7 @@ export const useSheetsStore = defineStore("sheets", () => {
   function setCompactList(id: string | null) {
     if (!id) return;
     const list = compactedListDeconstruct(id);
+    setFromSaved.value = true;
     selectedExpansion.value = list.expansion;
     selectedArmy.value = list.army;
     inList.value = list.inList;

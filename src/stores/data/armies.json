@@ -4,91 +4,104 @@
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "cartaginian.png"
     },
     "lowlandGallic": {
         "id": "LOWGAL",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "gallic.png"
     },
     "ligurian": {
         "id": "LIGUR",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "gallic.png"
     },
     "greeksSicilian": {
         "id": "GREEKS",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "greeks.png"
     },
     "greeksItaly": {
         "id": "GREEKI",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "greeks.png"
     },
     "celtIberian": {
         "id": "CELTI",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "iberian.png"
     },
     "iberian": {
         "id": "IBERI",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "iberian.png"
     },
     "lusitanian": {
         "id": "LUSIT",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "lusitanian.png"
     },
     "etruscanCampanian": {
         "id": "ETRUSC",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "etruscan.png"
     },
     "samnite": {
         "id": "SAMNI",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "samnite.png"
     },
     "roman": {
         "id": "ROMAN",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "roman.png"
     },
     "numidian": {
         "id": "NUMI",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "numidian.png"
     },
     "pyrrus": {
         "id": "PHYRR",
         "expansions": [
             "punic"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "pyrrus.png"
     },
     "lateRepublicRome": {
         "id": "LATERE",
@@ -169,112 +182,128 @@
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "shimazu.png"
     },
     "otomo": {
         "id": "OTOMO",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "otomo.png"
     },
     "chosokabe": {
         "id": "CHOSOK",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "chosokabe.png"
     },
     "mori": {
         "id": "MORI",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "mori.png"
     },
     "oda": {
         "id": "ODA",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "oda.png"
     },
     "toyotomi": {
         "id": "TOYOTO",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "toyotomi.png"
     },
     "tokugawa": {
         "id": "TOKUGA",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "tokugawa.png"
     },
     "takeda": {
         "id": "TAKEDA",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "takeda.png"
     },
     "uesugi": {
         "id": "UESUG",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "uesugi.png"
     },
     "hojo": {
         "id": "HOJO",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "hojo.png"
     },
     "date": {
         "id": "DATE",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "date.png"
     },
     "ikkoIkki": {
         "id": "IKKO",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "ikkoIkki.png"
     },
     "iga": {
         "id": "IGA",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "iga.png"
     },
     "wako": {
         "id": "WAKO",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "wako.png"
     },
     "joseonKoreans": {
         "id": "KOREA",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "joseonKoreans.png"
     },
     "mingChinese": {
         "id": "MING",
         "expansions": [
             "clashKatanas"
         ],
-        "active": true
+        "active": true,
+        "imgUrl": "mingChinese.png"
     },
     "byzantine": {
         "id": "BYZAN",

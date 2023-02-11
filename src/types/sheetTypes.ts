@@ -12,6 +12,7 @@ export interface IArmyObject extends IExpansionObject {
   expansions: string[];
   active?: boolean;
   isWarParty?: boolean;
+  imgUrl?: string;
 }
 
 export interface IArmy {

@@ -19,12 +19,16 @@ export const useOptionsStore = defineStore("options", () => {
   const printArmourTable = ref(
     getLS(Constants.LS_NAMES.PRINT_ARMOURS) !== "false"
   );
+  const printArmiesImages = ref(
+    getLS(Constants.LS_NAMES.PRINT_ARMIES_IMAGES) !== "false"
+  );
 
   watch(defaultUnitNumber, setUnitNumber);
   watch(deploymentNumber, setDeploymentNumber);
   watch(printTraitsTable, setPrintTraitsTable);
   watch(printWeaponsTable, setPrintWeaponsTable);
   watch(printArmourTable, setPrintArmoursTable);
+  watch(printArmiesImages, setPrintArmiesImages);
 
   function setUnitNumber(value: number) {
     setLS(Constants.LS_NAMES.DEFAULT_UNIT_NUMBER, value.toString());
@@ -46,11 +50,16 @@ export const useOptionsStore = defineStore("options", () => {
     setLS(Constants.LS_NAMES.PRINT_ARMOURS, value.toString());
   }
 
+  function setPrintArmiesImages(value: boolean) {
+    setLS(Constants.LS_NAMES.PRINT_ARMIES_IMAGES, value.toString());
+  }
+
   return {
     defaultUnitNumber,
     deploymentNumber,
     printTraitsTable,
     printWeaponsTable,
     printArmourTable,
+    printArmiesImages,
   };
 });

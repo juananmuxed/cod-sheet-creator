@@ -2,6 +2,14 @@
     border       : 2px solid $bg-primary__dark;
     padding      : $padding_sm $padding_xl;
     border-radius: $rounded;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+
+    img {
+        height      : 72px;
+        margin-right: $padding_xl;
+    }
 
     ul {
         list-style: none;
