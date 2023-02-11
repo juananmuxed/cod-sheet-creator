@@ -18,6 +18,11 @@ import { getLS, setLS } from "@/utils/localStorage";
 import expansionsJSON from "./data/expansions.json";
 import armiesJSON from "./data/armies.json";
 
+const imagesArmies = import.meta.glob("@/assets/images/armies/*.png", {
+  as: "url",
+  eager: true,
+});
+
 export const useSheetsStore = defineStore("sheets", () => {
   const { t } = useI18n();
   const units = useUnitsStore();
@@ -49,13 +54,17 @@ export const useSheetsStore = defineStore("sheets", () => {
   });
 
   const armies: IOptionRadio[] = importedArmiesKeys.map((army) => {
+    const image =
+      imagesArmies[
+        Object.keys(imagesArmies).find((path) =>
+          path.endsWith(importedArmies[army].imgUrl || "")
+        ) || 0
+      ];
     return {
       label: t(`sheets.armies.${army}`),
       name: importedArmies[army].id,
       value: army,
-      imgUrl: importedArmies[army].imgUrl
-        ? `./src/assets/images/armies/${importedArmies[army].imgUrl}`
-        : undefined,
+      imgUrl: image || undefined,
       expansions: importedArmies[army].expansions,
       isWarParty: importedArmies[army].isWarParty,
       active: importedArmies[army].active || false,
