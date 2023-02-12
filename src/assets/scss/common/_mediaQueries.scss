@@ -74,6 +74,9 @@
                     width: 17.5% !important;
                 }
 
+                &-small {
+                    width: 10% !important;
+                }
                 &-full {
                     width: 100% !important;
                 }
@@ -96,6 +99,7 @@
                         border-width: 1px !important;
                         width       : 18px !important;
                         height      : 18px !important;
+                        font-size: $font_size_xsmall !important;
                     }
                 }
                 }

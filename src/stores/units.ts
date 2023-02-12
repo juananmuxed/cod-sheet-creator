@@ -22,6 +22,7 @@ import armorsJSON from "./data/armors.json";
 import weaponsJSON from "./data/weapons.json";
 import optionsJSON from "./data/options.json";
 import traitsJSON from "./data/traits.json";
+import { suffleArray } from "@/utils/arrays";
 
 export const useUnitsStore = defineStore("units", () => {
   const { t } = useI18n();
@@ -140,11 +141,26 @@ export const useUnitsStore = defineStore("units", () => {
   });
 
   const deploymentNumbers = computed(() => {
-    let acc = 0;
-    return suffleDeploymentNumbers(
-      unitsInArmy.value.map((unit) => (!unit.noDeployToken ? ++acc : undefined))
+    const suffledArray = suffleArray(
+      Array.from({ length: Constants.MAX_NUMBER_TOKENS }, (_, i) => i + 1)
     );
+    let acc = 0;
+    return unitsInArmy.value.map((unit) => {
+      if (unit.noDeployToken) return [undefined];
+      if (unit.specialDeployAssasin)
+        return [suffledArray[acc++], suffledArray[acc++], suffledArray[acc++]];
+      if (isExtraDeploymentToken(unit))
+        return [suffledArray[acc++], suffledArray[acc++]];
+      return [suffledArray[acc++]];
+    });
   });
+
+  function isExtraDeploymentToken(unit: IUnitObject) {
+    const save = calculateNumberSave(unit);
+    return (
+      save > 5 || (save > 4 && unit.traits.includes(Constants.TRAITS.MOUNTED))
+    );
+  }
 
   function orderUnitsByAvailability(units: IOptionRadio[]) {
     const availabilitiesOrder = Object.keys(importedAvailabilities);
@@ -279,18 +295,6 @@ export const useUnitsStore = defineStore("units", () => {
     return t(`sheets.availabilities.${importedAvailabilities[availability]}`);
   }
 
-  function suffleDeploymentNumbers(array: Array<number | undefined>) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      if (array[i] && array[j]) {
-        const temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-      }
-    }
-    return array;
-  }
-
   function calculateUnitCost(unit: IUnitObject): number {
     return unit.fixedCost
       ? getFixedCost(unit)
@@ -299,6 +303,24 @@ export const useUnitsStore = defineStore("units", () => {
 
   function calculateSave(unit: IUnitObject): string {
     if (unit.fixedSave) return unit.fixedSave.toString();
+    const save = calculateNumberSave(unit);
+    console.log(save);
+    if (isSpecialArmour(unit)) return `*${save}`;
+    return save.toString();
+  }
+
+  function isSpecialArmour(unit: IUnitObject) {
+    const shield = unit.shield || unit.defaultShield;
+    const barding = unit.barding || unit.defaultBarding;
+    const body = unit.body || unit.defaultBody;
+    return (
+      (body && importedArmors[body].special) ||
+      (shield && importedArmors[shield].special) ||
+      (barding && importedArmors[barding]?.special)
+    );
+  }
+
+  function calculateNumberSave(unit: IUnitObject): number {
     let save: number = 7;
     const shield = unit.shield || unit.defaultShield;
     const barding = unit.barding || unit.defaultBarding;
@@ -308,13 +330,7 @@ export const useUnitsStore = defineStore("units", () => {
       save -= importedArmors[shield].value || 0;
     if (barding && body && importedArmors[body])
       save -= importedArmors[barding || -1].value || 0;
-    if (
-      (body && importedArmors[body].special) ||
-      (shield && importedArmors[shield].special) ||
-      (barding && importedArmors[barding]?.special)
-    )
-      return `*${save}`;
-    return save.toString();
+    return save;
   }
 
   function isHidenItem(key: string) {

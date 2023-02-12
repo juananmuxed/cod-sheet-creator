@@ -51,4 +51,8 @@ export class Constants {
     ROUND_BRACKETS_EXTRACT: /\((.*)\)/,
     ONLY_DIGITS: /^-?\d+$/,
   };
+  static readonly TRAITS = {
+    MOUNTED: "MOUNTED",
+  };
+  static readonly MAX_NUMBER_TOKENS = 11;
 }

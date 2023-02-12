@@ -14,6 +14,14 @@
     <h3>{{ $t("web.titles.configPrint") }}</h3>
     <div class="config-item">
       <CheckboxComponent
+        v-model="options.deploymentNumber"
+        id="printDeploymentNumber"
+      >
+        {{ $t("web.texts.configLabels.showDeploymentNumber") }}
+      </CheckboxComponent>
+    </div>
+    <div class="config-item">
+      <CheckboxComponent
         v-model="options.printTraitsTable"
         id="printTraitsTable"
       >

@@ -38,7 +38,10 @@
                 &-medium {
                     width: 25%;
                 }
-
+                
+                &-small {
+                    width: 20%;
+                }
                 &-full {
                     width: 100%;
                 }
@@ -62,17 +65,25 @@
                 }
 
                 .deployment-number {
-                    display        : flex;
-                    justify-content: center;
-
+                    display : flex;
                     span {
-                        width          : 32px;
-                        height         : 32px;
+                        margin: 0 $padding_xxs;
+                        width : 24px;
+                        height : 24px;
                         display        : flex;
                         justify-content: center;
                         align-items    : center;
-                        border         : 2px solid $bg-primary__dark;
+                        border : 1px solid $bg-primary__dark;
                         border-radius  : 32px;
+                        font-size: $font_size_small;
+
+                        &:first-child {
+                            margin-left: 0;
+                        }
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
                     }
                 }
 
@@ -132,6 +143,9 @@
             width: 12.5%;
         }
 
+        &-small {
+            width: 8%;
+        }
         &-full {
             width: 100%;
         }

@@ -115,13 +115,21 @@
       </button>
     </div>
   </div>
-  <div class="cell cell-slim">
+  <div class="cell cell-slim cell-small">
     <div
       class="deployment-number"
       v-if="!unit.noDeployToken && options.deploymentNumber"
     >
-      <span>
-        {{ units.deploymentNumbers[index] }}
+      <span
+        v-for="(number, i) in units.deploymentNumbers[index]"
+        :key="i + '-deploy-key'"
+      >
+        <template v-if="number !== undefined"
+          >{{ number
+          }}<template v-if="i > 0">{{
+            $t("web.texts.falseCompact")
+          }}</template></template
+        >
       </span>
     </div>
   </div>

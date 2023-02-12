@@ -11,6 +11,7 @@
     "salvationCompact": "SA",
     "combatCommandPoints": "PC",
     "pageCompact": "P",
+    "falseCompact": "F",
     "weapon": "Arma",
     "armour": "Armadura",
     "traits": "Rasgos",
@@ -52,6 +53,7 @@
     },
     "configLabels": {
         "defaultUnitNumber": "Número de unidades por defecto al añadir unidades",
+        "showDeploymentNumber": "Ver marcador aleatorio y marcador falso si corresponde (máximo de 11 marcadores)",
         "showTraitsTable": "Ver tabla de rasgos en la lista",
         "printWeaponsTable": "Ver tabla de armas en la lista",
         "printArmourTable": "Ver tabla de armaduras en la lista",
