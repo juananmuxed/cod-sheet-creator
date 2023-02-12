@@ -396,7 +396,6 @@
     "assasins": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
         "availability": "SPECIAL_CHARACTER",
         "defaultWeapon": "ADITIONAL_HAND_WEAPON",
         "defaultShield": "NO_SHIELD",
@@ -436,7 +435,6 @@
     "assasinsMaster": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
         "availability": "SPECIAL_CHARACTER",
         "defaultWeapon": "ADITIONAL_HAND_WEAPON",
         "defaultShield": "NO_SHIELD",
