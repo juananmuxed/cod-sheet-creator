@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [v0.20.12]
+
+### Added
+
+- Deployment random system out of eleven
+
+### Fixed
+
+- Delete "isCharacter" value for assasins
+
 ## [v0.20.11]
 
 ### Fixed
@@ -113,7 +125,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.11...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.12...HEAD
+[v0.20.12]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.12
 [v0.20.11]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.11
 [v0.20.10]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.10
 [v0.20.9]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.9
