@@ -10,8 +10,13 @@ const deleteLocalStorage = (lsName: string) => {
   localStorage.removeItem(lsName);
 };
 
+const clearLocalStorage = () => {
+  localStorage.clear();
+};
+
 export {
   setLocalStorage as setLS,
   getLocalStorage as getLS,
   deleteLocalStorage as deleteLS,
+  clearLocalStorage as clearLS,
 };
