@@ -304,7 +304,6 @@ export const useUnitsStore = defineStore("units", () => {
   function calculateSave(unit: IUnitObject): string {
     if (unit.fixedSave) return unit.fixedSave.toString();
     const save = calculateNumberSave(unit);
-    console.log(save);
     if (isSpecialArmour(unit)) return `*${save}`;
     return save.toString();
   }
