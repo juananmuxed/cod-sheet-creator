@@ -4,7 +4,7 @@
     <div
       class="control"
       :class="modelValue ? 'active' : ''"
-      @click="model = !model"
+      @click="clickEvent"
     >
       <IconComponent name="check"></IconComponent>
     </div>
@@ -35,6 +35,10 @@ const model = computed({
     emit("update:modelValue", value);
   },
 });
+
+function clickEvent() {
+  model.value = !model.value;
+}
 </script>
 
 <style scoped src="@/assets/scss/components/checkbox.scss"></style>

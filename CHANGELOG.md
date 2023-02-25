@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix gallic nobles to Milites
 
+### Added
+
+- Tests for Utils
+
 ## [v0.20.12]
 
 ### Added
