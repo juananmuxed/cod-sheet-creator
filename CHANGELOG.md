@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fix gallic nobles to Milites
+- Fix velites grit to 4
 
 ## [v0.20.12]
 

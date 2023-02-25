@@ -20,7 +20,7 @@
         "availability": "CIVIS",
         "combat": 4,
         "ranged": 5,
-        "grit": 5,
+        "grit": 4,
         "defaultWeapon": "JAVELIN",
         "defaultBody": "NO_ARMOUR",
         "defaultShield": "SHIELD",
