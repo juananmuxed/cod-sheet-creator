@@ -105,77 +105,101 @@
     },
     "lateRepublicRome": {
         "id": "LATERE",
+        "active": true,
         "expansions": [
             "riseEagles"
         ],
-        "isWarParty": true
+        "isWarParty": true,
+        "imgUrl": "lateRepublicRome.png"
     },
     "earlyImperianRome": {
         "id": "EARLYIMP",
+        "active": true,
         "expansions": [
             "riseEagles"
         ],
-        "isWarParty": true
+        "isWarParty": true,
+        "imgUrl": "earlyImperianRome.png"
     },
     "ancientBritish": {
         "id": "ANCBRI",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "ancientBritish.png"
     },
     "dacians": {
         "id": "DACIAN",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "dacians.png"
     },
     "germanPlains": {
         "id": "GERMPLA",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "german.png"
     },
     "germanForest": {
         "id": "GERMFOR",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "german.png"
     },
     "parthians": {
         "id": "PARTI",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "parthians.png"
     },
     "pontic": {
         "id": "PONTIC",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "pontic.png"
     },
     "laterSelucid": {
         "id": "LATSELU",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "laterSelucid.png"
     },
     "laterMacedonianHelenistic": {
         "id": "LATMACE",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "laterMacedonianHelenistic.png"
     },
     "laterPtolemaic": {
         "id": "LATPTOL",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "laterPtolemaic.png"
     },
     "thracians": {
         "id": "THRAC",
+        "active": true,
         "expansions": [
             "riseEagles"
-        ]
+        ],
+        "imgUrl": "thracians.png"
     },
     "shimazu": {
         "id": "SHIMA",
