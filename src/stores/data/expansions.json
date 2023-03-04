@@ -4,7 +4,8 @@
         "active": true
     },
     "riseEagles": {
-        "id": "RIS"
+        "id": "RIS",
+        "active": true
     },
     "clashKatanas": {
         "id": "CLK",
