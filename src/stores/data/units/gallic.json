@@ -1,9 +1,9 @@
 {
     "juves": {
         "availability": "CIVIS",
-        "combat": 3,
+        "combat": 5,
         "ranged": 5,
-        "grit": 3,
+        "grit": 5,
         "defaultWeapon": "JAVELIN",
         "traits": [
             "SKIRMISH_SPECIALIST"
