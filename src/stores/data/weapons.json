@@ -346,5 +346,16 @@
         ],
         "book": "Clash of Katanas",
         "page": 46
+    },
+    "SCORPIO": {
+        "id": "scorpio",
+        "type": [
+            "ranged"
+        ],
+        "special": [
+            "SCORPIO"
+        ],
+        "book": "Rise of Eagles",
+        "page": 19
     }
 }

@@ -179,7 +179,8 @@
             "lowlandGallic",
             "ligurian",
             "etruscanCampanian",
-            "samnite"
+            "samnite",
+            "ancientBritish"
         ]
     },
     "OPT_NOT_REPRESENTED": {
@@ -517,5 +518,40 @@
         "id": "optWarBow",
         "cost": 1,
         "upgradeWeapon": "WAR_BOW"
+    },
+    "OPT_DOWN_ENCLOSED_TO_FULL_CHARIOTEER": {
+        "id": "optDownEnclosedFullCharioteer",
+        "cost": -1,
+        "upgradeArmour": "FULL"
+    },
+    "OPT_LEADER_UPGRADE_DOUBLE_HANDED": {
+        "id": "optLeaderUpgradeDoubleHanded",
+        "cost": 2,
+        "upgradeWeapon": "AX",
+        "incompatibleShields": [
+            "SHIELD",
+            "HEAVY_SHIELD"
+        ],
+        "armies": [
+            "dacians",
+            "thracians"
+        ],
+        "incompatibleTraits": [
+            "EXTRA_EQUIPMENT(AX)"
+        ]
+    },
+    "OPT_LEADER_UPGRADE_ADITIONAL_DOUBLE_HANDED": {
+        "id": "optLeaderUpgradeAditionalDoubleHanded",
+        "cost": 1,
+        "armies": [
+            "dacians",
+            "thracians"
+        ],
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(AX)"
+        ],
+        "incompatibleWeapons": [
+            "AX"
+        ]
     }
 }

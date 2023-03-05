@@ -81,6 +81,9 @@
     "shieldUp": "¡Alzad escudos!",
     "momentum": "Momentum",
     "mandarinDuck": "Pato mandarín",
+    "family": "Apoyo familiar",
+    "scorpio": "Escorpión",
+    "heavyChariot": "Carro pesado",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -163,7 +166,10 @@
         "gushingWounds": "Si realizas un Ataque sin Curatel por cada tirada de salvación de 1 del defensor, antes de aplicar modificadores pero después de cualquier posible repeteción, el defensor debe añadir 1D6 a los Chequeos de Moral recibidos.",
         "bushmaster": "Mientras estén completamente en Terreno Alto, repiten los resultados de 1 en los Chequeos de Moral y ganan un +1 al valor de salvación contra ataques de proyectiles.",
         "sharpshooter": "Cuando realizan una acción de Preparación, coloca un marcador de Preparación que se mantiene hasta que Descansa o se Reagrupa, que se quitará. Al realizar una acción de Disparo y tener este marcador, ganan un +1 a las tiradas de Impacto.",
-        "mandarinDuck": "Una unidad con este rasgo a 2\" o menos de otra con el mismo rasgo que quiera reaccionar cuando un enemigo dentro de 8\" indica que se va a activar, puede reaccionar moviendo a través de la unidad moviendo hasta 6\" y que al menos la primera figura atraviese la unidad amiga. No necesita gastar puntos de mando, ni estar a distancia de mando. Además, al retirarse y si la retirada es bloqueada por otra unidad con el mismo rasgo, la que bloquea puede moverse 1\" para dejar espacio a esta unidad."
+        "mandarinDuck": "Una unidad con este rasgo a 2\" o menos de otra con el mismo rasgo que quiera reaccionar cuando un enemigo dentro de 8\" indica que se va a activar, puede reaccionar moviendo a través de la unidad moviendo hasta 6\" y que al menos la primera figura atraviese la unidad amiga. No necesita gastar puntos de mando, ni estar a distancia de mando. Además, al retirarse y si la retirada es bloqueada por otra unidad con el mismo rasgo, la que bloquea puede moverse 1\" para dejar espacio a esta unidad.",
+        "family": "Al realizar la tirada de Dar un discurso inspirador, recibe un +2 a la tirada. Ganas el Punto de Destino con tan solo un +3.",
+        "scorpio": "Ver reglas especiales de Escorpión.",
+        "heavyChariot": "Ver reglas especiales de Carro pesado o guadañado."
     },
     "requires": {
         "drilled": "Orden Cerrado",

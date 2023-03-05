@@ -18,6 +18,8 @@
             "OPT_LEADER_MUSICIAN",
             "OPT_LEADER_STANDARD_BEARER",
             "OPT_LEADER_UPGRADE_CHARIOT",
+            "OPT_LEADER_UPGRADE_DOUBLE_HANDED",
+            "OPT_LEADER_UPGRADE_ADITIONAL_DOUBLE_HANDED",
             "OPT_COMMANDER_BATTLE_LINE",
             "OPT_COMMANDER_HEADHUNTER",
             "OPT_COMMANDER_TACTICAL_COORDINATION",
@@ -55,7 +57,20 @@
             "samnite",
             "roman",
             "numidian",
-            "pyrrus"
+            "pyrrus",
+            "lateRepublicRome",
+            "earlyImperianRome",
+            "ancientBritish",
+            "dacians",
+            "germanPlains",
+            "germanForest",
+            "parthians",
+            "pontic",
+            "spartacus",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic",
+            "thracians"
         ]
     },
     "leaderLevel4": {
@@ -77,6 +92,8 @@
             "OPT_LEADER_MUSICIAN",
             "OPT_LEADER_STANDARD_BEARER",
             "OPT_LEADER_UPGRADE_CHARIOT",
+            "OPT_LEADER_UPGRADE_DOUBLE_HANDED",
+            "OPT_LEADER_UPGRADE_ADITIONAL_DOUBLE_HANDED",
             "OPT_COMMANDER_BATTLE_LINE",
             "OPT_COMMANDER_HEADHUNTER",
             "OPT_COMMANDER_TACTICAL_COORDINATION",
@@ -114,7 +131,20 @@
             "samnite",
             "roman",
             "numidian",
-            "pyrrus"
+            "pyrrus",
+            "lateRepublicRome",
+            "earlyImperianRome",
+            "ancientBritish",
+            "dacians",
+            "germanPlains",
+            "germanForest",
+            "parthians",
+            "pontic",
+            "spartacus",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic",
+            "thracians"
         ]
     },
     "leaderLevel3": {
@@ -136,6 +166,8 @@
             "OPT_LEADER_MUSICIAN",
             "OPT_LEADER_STANDARD_BEARER",
             "OPT_LEADER_UPGRADE_CHARIOT",
+            "OPT_LEADER_UPGRADE_DOUBLE_HANDED",
+            "OPT_LEADER_UPGRADE_ADITIONAL_DOUBLE_HANDED",
             "OPT_COMMANDER_BATTLE_LINE",
             "OPT_COMMANDER_HEADHUNTER",
             "OPT_COMMANDER_TACTICAL_COORDINATION",
@@ -173,7 +205,20 @@
             "samnite",
             "roman",
             "numidian",
-            "pyrrus"
+            "pyrrus",
+            "lateRepublicRome",
+            "earlyImperianRome",
+            "ancientBritish",
+            "dacians",
+            "germanPlains",
+            "germanForest",
+            "parthians",
+            "pontic",
+            "spartacus",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic",
+            "thracians"
         ]
     },
     "leaderLevel2": {
@@ -195,6 +240,8 @@
             "OPT_LEADER_MUSICIAN",
             "OPT_LEADER_STANDARD_BEARER",
             "OPT_LEADER_UPGRADE_CHARIOT",
+            "OPT_LEADER_UPGRADE_DOUBLE_HANDED",
+            "OPT_LEADER_UPGRADE_ADITIONAL_DOUBLE_HANDED",
             "OPT_COMMANDER_BATTLE_LINE",
             "OPT_COMMANDER_HEADHUNTER",
             "OPT_COMMANDER_TACTICAL_COORDINATION",
@@ -231,7 +278,20 @@
             "samnite",
             "roman",
             "numidian",
-            "pyrrus"
+            "pyrrus",
+            "lateRepublicRome",
+            "earlyImperianRome",
+            "ancientBritish",
+            "dacians",
+            "germanPlains",
+            "germanForest",
+            "parthians",
+            "pontic",
+            "spartacus",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic",
+            "thracians"
         ]
     },
     "soothsayer": {
@@ -262,7 +322,17 @@
             "numidian",
             "pyrrus",
             "joseonKoreans",
-            "mingChinese"
+            "mingChinese",
+            "lateRepublicRome",
+            "earlyImperianRome",
+            "ancientBritish",
+            "dacians",
+            "parthians",
+            "pontic",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic",
+            "thracians"
         ]
     }
 }

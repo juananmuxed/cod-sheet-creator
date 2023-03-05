@@ -10,6 +10,7 @@ import pyrrus from "./units/pyrrus.json";
 import charactersKatanas from "./units/charactersKatanas.json";
 import samuraisClans from "./units/samuraisClans.json";
 import otherFactionsKatanas from "./units/otherFactionsKatanas.json";
+import charactersRiseEagles from "./units/charactersRiseEagles.json";
 
 export default {
   ...characters,
@@ -24,4 +25,5 @@ export default {
   ...charactersKatanas,
   ...samuraisClans,
   ...otherFactionsKatanas,
+  ...charactersRiseEagles,
 };
