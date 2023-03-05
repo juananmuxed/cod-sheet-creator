@@ -441,5 +441,10 @@
         "id": "heavyChariot",
         "book": "Rise of Eagles",
         "page": 22
+    },
+    "GRIZZLED": {
+        "id": "grizzled",
+        "book": "Rise of Eagles",
+        "page": 18
     }
 }

@@ -53,7 +53,8 @@
     },
     "configLabels": {
         "defaultUnitNumber": "Número de unidades por defecto al añadir unidades",
-        "showDeploymentNumber": "Ver marcador aleatorio y marcador falso si corresponde (máximo de 11 marcadores)",
+        "markNumbers": "Máximo de marcadores por defecto (11 es lo óptimo)",
+        "showDeploymentNumber": "Ver marcador aleatorio y marcador falso si corresponde",
         "showTraitsTable": "Ver tabla de rasgos en la lista",
         "printWeaponsTable": "Ver tabla de armas en la lista",
         "printArmourTable": "Ver tabla de armaduras en la lista",

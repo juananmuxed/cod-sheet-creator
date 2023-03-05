@@ -1,0 +1,395 @@
+{
+    "slackLegionaries": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "iberianAlliesInfantry": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "DETERMINED",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "gallicAlliesInfantry": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "FUROR",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "javalinMenAllies": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "ALLIES"
+        ],
+        "cost": 9,
+        "options": [
+            "OPT_NO_SHIELD"
+        ],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "slingersAllies": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "SLING",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "ALLIES"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "trainedLegionaries": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "veteranLegionaries": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM",
+            "GRIZZLED"
+        ],
+        "cost": 25,
+        "options": [],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "iberianGallicCavalryAllies": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)",
+            "ALLIES"
+        ],
+        "cost": 25,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "numidianLightCavalryAllies": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "MARAUDERS",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "scorpioTwoCrew": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "fixedFigures": 6,
+        "defaultWeapon": "SCORPIO",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "AIM",
+            "SKIRMISH_SPECIALIST",
+            "SCORPIO",
+            "IRON_WILL"
+        ],
+        "fixedCost": 66,
+        "options": [],
+        "armies": [
+            "lateRepublicRome"
+        ]
+    },
+    "slackLegionariesImperial": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL_IMPROVED",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "auxiliaryInfantry": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "auxiliaryArchers": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "OVERHEAD_SHOT"
+        ],
+        "cost": 14,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "alliesArchers": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "ALLIES"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "alliesJavelinmen": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "ALLIES"
+        ],
+        "cost": 9,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "trainedLegionariesImperial": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL_IMPROVED",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_UP_IMPROVED_PARTIAL_IMPROVED_FULL"
+        ],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "veteranLegionariesImperial": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL_IMPROVED",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "IMPULSUM",
+            "GRIZZLED"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR",
+            "OPT_UP_IMPROVED_PARTIAL_IMPROVED_FULL"
+        ],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "auxiliaryCavalry": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultBody": "FULL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 24,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "equitesSagitarii": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    },
+    "scorpioTwoCrewImperial": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "fixedFigures": 6,
+        "defaultWeapon": "SCORPIO",
+        "defaultBody": "PARTIAL_IMPROVED",
+        "traits": [
+            "AIM",
+            "SKIRMISH_SPECIALIST",
+            "SCORPIO",
+            "IRON_WILL"
+        ],
+        "fixedCost": 68,
+        "options": [],
+        "armies": [
+            "earlyImperianRome"
+        ]
+    }
+}
