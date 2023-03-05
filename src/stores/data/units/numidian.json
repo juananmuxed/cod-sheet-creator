@@ -6,7 +6,6 @@
         "grit": 5,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS"
         ],
@@ -25,7 +24,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "GUERRILLA",
@@ -46,7 +44,6 @@
         "grit": 4,
         "defaultWeapon": "JAVELIN",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "MOUNTED",
             "MARAUDERS"
@@ -64,7 +61,6 @@
         "grit": 3,
         "defaultWeapon": "JAVELIN",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "MOUNTED",
             "MARAUDERS"
@@ -114,8 +110,6 @@
         "combat": 4,
         "ranged": 4,
         "grit": 3,
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "noDeployToken": true,
         "armies": [
             "numidian"

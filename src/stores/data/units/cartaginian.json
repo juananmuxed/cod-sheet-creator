@@ -5,8 +5,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "JAVELIN",
-        "defaultBody": "NO_ARMOUR",
-        "defaultShield": "NO_SHIELD",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -28,7 +26,6 @@
         "grit": 5,
         "defaultWeapon": "THRUSTING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "OFFENSIVE_SPEAR"
@@ -111,7 +108,6 @@
         "grit": 4,
         "defaultWeapon": "JAVELIN",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "MOUNTED",
             "MARAUDERS"
@@ -150,8 +146,6 @@
         "ranged": 4,
         "grit": 3,
         "defaultWeapon": "SLING",
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST",
             "SLING_EXPERTS",
@@ -230,7 +224,6 @@
         "combat": 4,
         "ranged": 4,
         "grit": 3,
-        "defaultShield": "NO_SHIELD",
         "defaultBody": "PARTIAL",
         "noDeployToken": true,
         "armies": [

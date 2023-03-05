@@ -5,8 +5,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "JAVELIN",
-        "defaultBody": "NO_ARMOUR",
-        "defaultShield": "NO_SHIELD",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -61,7 +59,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "THRUSTING",
-        "defaultBody": "NO_ARMOUR",
         "defaultShield": "HEAVY_SHIELD",
         "traits": [
             "SHIELD_OVERLAP",
@@ -144,7 +141,6 @@
         "grit": 3,
         "defaultWeapon": "XYSTON",
         "defaultBody": "FULL",
-        "defaultShield": "NO_SHIELD",
         "traits": [
             "MASSIVE_CHARGE",
             "DRILLED",
@@ -164,7 +160,6 @@
         "ranged": 5,
         "grit": 4,
         "defaultWeapon": "JAVELIN",
-        "defaultBody": "NO_ARMOUR",
         "defaultShield": "SHIELD",
         "traits": [
             "MOUNTED"
