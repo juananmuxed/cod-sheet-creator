@@ -426,5 +426,20 @@
         "id": "mandarinDuck",
         "book": "Clash of Katanas",
         "page": 28
+    },
+    "FAMILY": {
+        "id": "family",
+        "book": "Rise of Eagles",
+        "page": 13
+    },
+    "SCORPIO": {
+        "id": "scorpio",
+        "book": "Rise of Eagles",
+        "page": 19
+    },
+    "HEAVY_CHARIOT": {
+        "id": "heavyChariot",
+        "book": "Rise of Eagles",
+        "page": 22
     }
 }

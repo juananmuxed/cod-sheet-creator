@@ -194,7 +194,6 @@
         "availability": "RARE",
         "fixedFigures": 4,
         "combat": 3,
-        "ranged": 7,
         "grit": 4,
         "fixedSave": 3,
         "traits": [
@@ -207,7 +206,8 @@
         "noDeployToken": true,
         "armies": [
             "cartaginian",
-            "numidian"
+            "numidian",
+            "lateRepublicRome"
         ]
     },
     "elephantAfricaForestCrew": {
@@ -235,7 +235,8 @@
         "noDeployToken": true,
         "armies": [
             "cartaginian",
-            "pyrrus"
+            "pyrrus",
+            "lateRepublicRome"
         ]
     }
 }

@@ -1,0 +1,70 @@
+{
+    "chariotRider": {
+        "dontCountForBreak": true,
+        "fixedFigures": 1,
+        "noDeployToken": true,
+        "availability": "SPECIAL_CHARACTER",
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "cost": 52,
+        "options": [
+            "OPT_DOWN_PARTIAL_ARMOUR"
+        ],
+        "traits": [
+            "INDEPENDENT",
+            "WOUNDS(2)",
+            "IRON_WILL",
+            "CHARIOT"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "charioteer": {
+        "dontCountForBreak": true,
+        "fixedFigures": 1,
+        "noDeployToken": true,
+        "availability": "SPECIAL_CHARACTER",
+        "defaultBody": "ENCLOSED",
+        "combat": 4,
+        "ranged": 4,
+        "grit": 3,
+        "cost": 75,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL_CHARIOTEER"
+        ],
+        "traits": [
+            "INDEPENDENT",
+            "WOUNDS(2)",
+            "IRON_WILL",
+            "HEAVY_CHARIOT"
+        ],
+        "armies": [
+            "pontic",
+            "laterSelucid"
+        ]
+    },
+    "supportFamilies": {
+        "dontCountForBreak": true,
+        "fixedFigures": 1,
+        "isCharacter": true,
+        "availability": "SPECIAL_CHARACTER",
+        "cost": 15,
+        "options": [
+            "OPT_NOT_REPRESENTED"
+        ],
+        "traits": [
+            "FAMILY"
+        ],
+        "noDeployToken": true,
+        "armies": [
+            "germanForest",
+            "germanPlains",
+            "spartacus"
+        ]
+    }
+}
