@@ -6,7 +6,6 @@
         "grit": 4,
         "defaultWeapon": "JAVELIN",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST",
             "DETERMINED"
@@ -26,7 +25,6 @@
         "grit": 5,
         "defaultWeapon": "THROWING",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS"
         ],
@@ -43,7 +41,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "IMPULSUM",
@@ -65,7 +62,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "SHIELD_OVERLAP",
@@ -85,7 +81,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "GUERRILLA",
@@ -107,7 +102,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "GUERRILLA",
@@ -127,7 +121,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "SHIELD_OVERLAP",
@@ -149,7 +142,6 @@
         "grit": 4,
         "defaultWeapon": "JAVELIN",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "MOUNTED"
         ],
@@ -259,7 +251,6 @@
         "grit": 5,
         "defaultWeapon": "SLING",
         "defaultShield": "NO_ARMOUR",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],

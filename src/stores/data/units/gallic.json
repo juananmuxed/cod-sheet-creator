@@ -5,8 +5,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "JAVELIN",
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -25,8 +23,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "BOW",
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -48,8 +44,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "SLING",
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -72,7 +66,6 @@
         "grit": 5,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS"
         ],
@@ -92,7 +85,6 @@
         "grit": 5,
         "defaultWeapon": "THROWING",
         "defaultShield": "SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS"
         ],
@@ -109,7 +101,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "SHIELD_OVERLAP",
@@ -128,7 +119,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "GUERRILLA",
@@ -147,7 +137,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "GUERRILLA",
@@ -167,7 +156,6 @@
         "grit": 4,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "WALL_OF_SPEARS",
             "SHIELD_OVERLAP",
@@ -271,7 +259,6 @@
         "grit": 3,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SHIELD_OVERLAP",
             "WALL_OF_SPEARS",

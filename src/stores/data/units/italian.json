@@ -28,7 +28,6 @@
         "grit": 5,
         "defaultWeapon": "THROWING",
         "defaultShield": "HEAVY_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SHIELD_OVERLAP",
             "WALL_OF_SPEARS",
@@ -155,8 +154,6 @@
         "ranged": 5,
         "grit": 5,
         "defaultWeapon": "SLING",
-        "defaultShield": "NO_SHIELD",
-        "defaultBody": "NO_ARMOUR",
         "traits": [
             "SKIRMISH_SPECIALIST"
         ],
@@ -197,7 +194,6 @@
         "ranged": 5,
         "grit": 4,
         "defaultWeapon": "AX",
-        "defaultShield": "NO_SHIELD",
         "defaultBody": "PARTIAL",
         "traits": [
             "SKIRMISH_SPECIALIST"
