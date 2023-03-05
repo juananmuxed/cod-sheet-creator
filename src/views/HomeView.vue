@@ -11,7 +11,8 @@
     <h3>{{ $t("web.titles.expansionsAvailable") }}</h3>
     <ul>
       <li>Clash of Spears</li>
-      <li>Rise of Blood</li>
+      <li>Fields of Blood</li>
+      <li>Rise of Eagles</li>
       <li>Clash of Katanas</li>
     </ul>
     <h3>{{ $t("web.titles.componentsWebs") }}</h3>

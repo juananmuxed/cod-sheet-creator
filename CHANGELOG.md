@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New weapons and armours for Rise of Eagles
+- New characters for Rise of Eagles
+- New traits for Rise of Eagles
+- New options for Rise of Eagles
+- Support for Rise of Eagles armies
+  - Late Republic Rome
+  - Early Imperian Rome
+- Added MaxMark in config (and local storage)
+
 ### Fixed
 
 - Fix gallic nobles to Milites
