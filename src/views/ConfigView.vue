@@ -11,6 +11,15 @@
         {{ $t("web.texts.configLabels.defaultUnitNumber") }}
       </NumberInputComponent>
     </div>
+    <div class="config-item">
+      <NumberInputComponent
+        v-model="options.maxMarks"
+        :max="Constants.MARK_SIZE.MAX"
+        :min="Constants.MARK_SIZE.MIN"
+      >
+        {{ $t("web.texts.configLabels.markNumbers") }}
+      </NumberInputComponent>
+    </div>
     <h3>{{ $t("web.titles.configPrint") }}</h3>
     <div class="config-item">
       <CheckboxComponent

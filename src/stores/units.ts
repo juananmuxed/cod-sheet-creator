@@ -142,7 +142,7 @@ export const useUnitsStore = defineStore("units", () => {
 
   const deploymentNumbers = computed(() => {
     const suffledArray = suffleArray(
-      Array.from({ length: Constants.MAX_NUMBER_TOKENS }, (_, i) => i + 1)
+      Array.from({ length: options.maxMarks }, (_, i) => i + 1)
     );
     let acc = 0;
     return unitsInArmy.value.map((unit) => {

@@ -10,6 +10,10 @@ export class Constants {
     MIN: 1,
     MAX: 15,
   };
+  static readonly MARK_SIZE = {
+    MIN: 1,
+    MAX: 20,
+  };
   static readonly WEAPON_TYPES = ["melee", "ranged"];
   static readonly AVAILABILITIES_TYPES = {
     CIVIS: "CIVIS",
@@ -39,6 +43,7 @@ export class Constants {
   static readonly NO_BARDING = "NO_BARDING";
   static readonly LS_NAMES = {
     DEFAULT_UNIT_NUMBER: "default-unit-number",
+    MAX_MARKS: "max-marks-number",
     DEPLOYMENT_NUMBER: "deployment-number",
     COMPACT_LIST: "compact-list",
     SAVED_LISTS: "saved-lists",
@@ -54,5 +59,4 @@ export class Constants {
   static readonly TRAITS = {
     MOUNTED: "MOUNTED",
   };
-  static readonly MAX_NUMBER_TOKENS = 11;
 }
