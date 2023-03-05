@@ -7,6 +7,7 @@ export const useOptionsStore = defineStore("options", () => {
   const defaultUnitNumber = ref(
     Number(getLS(Constants.LS_NAMES.DEFAULT_UNIT_NUMBER)) || 6
   );
+  const maxMarks = ref(Number(getLS(Constants.LS_NAMES.MAX_MARKS)) || 11);
   const deploymentNumber = ref(
     getLS(Constants.LS_NAMES.DEPLOYMENT_NUMBER) !== "false"
   );
@@ -24,11 +25,16 @@ export const useOptionsStore = defineStore("options", () => {
   );
 
   watch(defaultUnitNumber, setUnitNumber);
+  watch(maxMarks, setMaxMarks);
   watch(deploymentNumber, setDeploymentNumber);
   watch(printTraitsTable, setPrintTraitsTable);
   watch(printWeaponsTable, setPrintWeaponsTable);
   watch(printArmourTable, setPrintArmoursTable);
   watch(printArmiesImages, setPrintArmiesImages);
+
+  function setMaxMarks(value: number) {
+    setLS(Constants.LS_NAMES.MAX_MARKS, value.toString());
+  }
 
   function setUnitNumber(value: number) {
     setLS(Constants.LS_NAMES.DEFAULT_UNIT_NUMBER, value.toString());
@@ -56,6 +62,7 @@ export const useOptionsStore = defineStore("options", () => {
 
   return {
     defaultUnitNumber,
+    maxMarks,
     deploymentNumber,
     printTraitsTable,
     printWeaponsTable,
