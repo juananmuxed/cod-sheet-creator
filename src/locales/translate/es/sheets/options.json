@@ -1,6 +1,7 @@
 {
     "optBuckler": "Añade rodela",
     "optShield": "Añade escudo",
+    "optNoShield": "Elimina escudo",
     "optPavises": "Añade pavés",
     "optDownPaviseTate": "Elimina pavés y Especialista en Tate",
     "optMixedWeapons": "Cambia a armas mixtas",
@@ -34,6 +35,7 @@
     "optLeaderWarBowAditional": "Añade equipamiento adicional (arco de guerra)",
     "optLeaderTsukaiban": "Añade un Tsukaiban",
     "optLeaderThrowing": "Añade lanza arrojadiza",
+    "optShieldHeavyShield": "Mejora escudo a escudo pesado",
     "optLeaderCavalrySpear": "Añade lanza de caballería",
     "optLeaderJavelin": "Añade jabalina",
     "optLeaderHorse": "Montar a caballo",

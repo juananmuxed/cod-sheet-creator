@@ -85,6 +85,7 @@
     "scorpio": "Escorpión",
     "heavyChariot": "Carro pesado",
     "grizzled": "Canosos",
+    "poorlyEquiped": "Pobremente equipado",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -171,7 +172,8 @@
         "family": "Al realizar la tirada de Dar un discurso inspirador, recibe un +2 a la tirada. Ganas el Punto de Destino con tan solo un +3.",
         "scorpio": "Ver reglas especiales de Escorpión.",
         "heavyChariot": "Ver reglas especiales de Carro pesado o guadañado.",
-        "grizzled": "Ignora los efectos de los rasgos enemigos que fuerzan a añadir D6 al chequeo de moral. Además, solo lanza 1D6 en chequeos de moral al ver unidades amistosas ser derrotadas."
+        "grizzled": "Ignora los efectos de los rasgos enemigos que fuerzan a añadir D6 al chequeo de moral. Además, solo lanza 1D6 en chequeos de moral al ver unidades amistosas ser derrotadas.",
+        "poorlyEquiped": "Si la unidad tiene un marcador de descargado con la lanza arrojadiza y ataca cuerpo a cuerpo, sufre un -1 al impactar."
     },
     "requires": {
         "drilled": "Orden Cerrado",

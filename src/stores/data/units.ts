@@ -12,6 +12,7 @@ import samuraisClans from "./units/samuraisClans.json";
 import otherFactionsKatanas from "./units/otherFactionsKatanas.json";
 import charactersRiseEagles from "./units/charactersRiseEagles.json";
 import romanEagles from "./units/romanEagles.json";
+import ancientBritish from "./units/ancientBritish.json";
 
 export default {
   ...characters,
@@ -28,4 +29,5 @@ export default {
   ...otherFactionsKatanas,
   ...charactersRiseEagles,
   ...romanEagles,
+  ...ancientBritish,
 };

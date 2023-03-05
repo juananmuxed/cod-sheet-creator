@@ -1,0 +1,151 @@
+{
+    "javelinMenBritish": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 9,
+        "options": [
+            "OPT_NO_SHIELD"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "tribesmenBritish": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "POORLY_EQUIPPED"
+        ],
+        "cost": 9,
+        "options": [
+            "OPT_SHIELD_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "warriorsBritish": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "BUSHMASTER",
+            "GUERRILLA"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "alliesLowlandCelts": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "FUROR",
+            "ALLIES"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "noblesBritish": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "BUSHMASTER",
+            "GUERRILLA"
+        ],
+        "cost": 21,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR",
+            "OPT_DOWN_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "lightCavalry": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "fanatics": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "IRA",
+            "BUSHMASTER",
+            "GUERRILLA"
+        ],
+        "cost": 20,
+        "options": [
+            "OPT_DOWN_HEAVY_SHIELD"
+        ],
+        "armies": [
+            "ancientBritish"
+        ]
+    },
+    "mastiffsBritish": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "TEETH",
+        "traits": [
+            "FERAL"
+        ],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "ancientBritish"
+        ]
+    }
+}

@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for Rise of Eagles armies
   - Late Republic Rome
   - Early Imperian Rome
+  - Ancient british
 - Added MaxMark in config (and local storage)
 
 ### Fixed

@@ -58,7 +58,7 @@
         "upgradeWeapon": "BOW"
     },
     "OPT_NO_SHIELD": {
-        "id": "optJavToBow",
+        "id": "optNoShield",
         "cost": -1,
         "upgradeShield": "NO_SHIELD"
     },
@@ -558,5 +558,10 @@
         "id": "optUpImprovedPartialImprovedFull",
         "cost": 1,
         "upgradeArmour": "FULL_IMPROVED"
+    },
+    "OPT_SHIELD_HEAVY_SHIELD": {
+        "id": "optShieldHeavyShield",
+        "cost": 1,
+        "upgradeShield": "HEAVY_SHIELD"
     }
 }

@@ -446,5 +446,10 @@
         "id": "grizzled",
         "book": "Rise of Eagles",
         "page": 18
+    },
+    "POORLY_EQUIPPED": {
+        "id": "poorlyEquiped",
+        "book": "Rise of Eagles",
+        "page": 17
     }
 }
