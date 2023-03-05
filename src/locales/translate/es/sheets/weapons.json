@@ -24,6 +24,7 @@
     "lightCannon": "Cañon ligero",
     "hwacha": "Hwacha",
     "teeth": "Dientes",
+    "scorpio": "Escorpión",
     "descriptions": {
         "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
         "sling": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1.",
@@ -49,6 +50,7 @@
         "oneHand": "Sin reglas especiales.",
         "teeth": "Sin reglas especiales.",
         "lightCannon": "Ver reglas especiales de Cañón ligero.",
-        "hwacha": "Ver reglas especiales de Hwacha."
+        "hwacha": "Ver reglas especiales de Hwacha.",
+        "scorpio": "Ver reglas especiales de Escorpión."
     }
 }

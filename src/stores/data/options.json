@@ -553,5 +553,10 @@
         "incompatibleWeapons": [
             "AX"
         ]
+    },
+    "OPT_UP_IMPROVED_PARTIAL_IMPROVED_FULL": {
+        "id": "optUpImprovedPartialImprovedFull",
+        "cost": 1,
+        "upgradeArmour": "FULL_IMPROVED"
     }
 }
