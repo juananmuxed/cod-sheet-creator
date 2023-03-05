@@ -329,6 +329,14 @@
         "active": true,
         "imgUrl": "mingChinese.png"
     },
+    "spartacus": {
+        "id": "SPARTACUS",
+        "active": true,
+        "expansions": [
+            "riseEagles"
+        ],
+        "imgUrl": "spartacus.png"
+    },
     "byzantine": {
         "id": "BYZAN",
         "expansions": [
