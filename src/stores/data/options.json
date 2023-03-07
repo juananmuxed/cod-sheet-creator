@@ -563,5 +563,22 @@
         "id": "optShieldHeavyShield",
         "cost": 1,
         "upgradeShield": "HEAVY_SHIELD"
+    },
+    "OPT_DOWN_BARDING_HALF_BARDING": {
+        "id": "optDownBardingHalfBarding",
+        "cost": -1,
+        "upgradeBarding": "HALF_BARDING"
+    },
+    "OPT_DOWN_NO_BARDING": {
+        "id": "optDownNoBarding",
+        "cost": -2,
+        "upgradeBarding": "NO_BARDING"
+    },
+    "OPT_BOW_ADITIONAL": {
+        "id": "optBowAditional",
+        "cost": 3,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(BOW)"
+        ]
     }
 }

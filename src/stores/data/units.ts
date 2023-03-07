@@ -13,6 +13,7 @@ import otherFactionsKatanas from "./units/otherFactionsKatanas.json";
 import charactersRiseEagles from "./units/charactersRiseEagles.json";
 import romanEagles from "./units/romanEagles.json";
 import ancientBritish from "./units/ancientBritish.json";
+import dacians from "./units/dacians.json";
 
 export default {
   ...characters,
@@ -30,4 +31,5 @@ export default {
   ...charactersRiseEagles,
   ...romanEagles,
   ...ancientBritish,
+  ...dacians,
 };

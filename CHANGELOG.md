@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Late Republic Rome
   - Early Imperian Rome
   - Ancient british
+  - Dacians
 - MaxMark in config (and local storage)
 - Range in weapons details
 

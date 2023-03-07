@@ -451,5 +451,15 @@
         "id": "poorlyEquiped",
         "book": "Rise of Eagles",
         "page": 17
+    },
+    "VICIOUS": {
+        "id": "vicious",
+        "book": "Rise of Eagles",
+        "page": 18
+    },
+    "LINE_BREAKER": {
+        "id": "lineBreaker",
+        "book": "Rise of Eagles",
+        "page": 17
     }
 }

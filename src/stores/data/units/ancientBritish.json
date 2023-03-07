@@ -14,7 +14,8 @@
             "OPT_NO_SHIELD"
         ],
         "armies": [
-            "ancientBritish"
+            "ancientBritish",
+            "dacians"
         ]
     },
     "tribesmenBritish": {
