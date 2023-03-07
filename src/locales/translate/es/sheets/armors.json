@@ -25,8 +25,8 @@
         "shield": "1 Punto de armadura.",
         "heavyShield": "2 Punto de armadura.",
         "shieldHowda": "2 Puntos de armadura pero no afecta al valor base de la estadística de Salvación cuando se consulta la Fatiga.",
-        "barding": "2 Puntos de armadura.",
-        "halfBarding": "1 Punto de armadura.",
+        "barding": "1 Puntos de armadura.",
+        "halfBarding": "1 Punto de armadura solo en cuerpo a cuerpo. Sin armadura contra ataques a distancia.",
         "pavises": "1 Punto de armadura contra proyectiles cuando están desplegados."
     }
 }

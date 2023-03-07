@@ -245,6 +245,7 @@ export const useUnitsStore = defineStore("units", () => {
     unitsInArmy.value.forEach((unit) => {
       armoursFromUnits.push(unit.body || unit.defaultBody || "");
       armoursFromUnits.push(unit.shield || unit.defaultShield || "");
+      armoursFromUnits.push(unit.barding || unit.defaultBarding || "");
     });
     return [...new Set(armoursFromUnits)]
       .filter((armor) => armor !== "" && !isHidenItem(armor))
