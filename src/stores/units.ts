@@ -217,14 +217,25 @@ export const useUnitsStore = defineStore("units", () => {
     const weaponsFromUnits: string[] = [];
     unitsInArmy.value.forEach((unit) => {
       weaponsFromUnits.push(unit.weapon || unit.defaultWeapon || "");
+      const importedMounted = (unit.weapon || unit.defaultWeapon) + "_MOUNTED";
+      if (
+        unit.traits.includes(Constants.TRAITS.MOUNTED) &&
+        importedWeapons[importedMounted]
+      )
+        weaponsFromUnits.push(importedMounted);
     });
     return [...new Set(weaponsFromUnits)]
       .filter((weapon) => weapon !== "")
-      .map((trait) => {
+      .map((weapon) => {
         return {
-          name: importedWeapons[trait].id,
-          book: importedWeapons[trait].book,
-          page: importedWeapons[trait].page,
+          name: importedWeapons[weapon].id,
+          book: importedWeapons[weapon].book,
+          page: importedWeapons[weapon].page,
+          rangeShort: importedWeapons[weapon].rangeShort,
+          rangeLong: importedWeapons[weapon].rangeLong,
+          type: importedWeapons[weapon].type,
+          initiative: importedWeapons[weapon].initiative,
+          saveModification: importedWeapons[weapon].saveModification,
         };
       });
   }
