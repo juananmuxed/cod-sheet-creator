@@ -16,7 +16,9 @@
             "cartaginian",
             "numidian",
             "etruscanCampanian",
-            "samnite"
+            "samnite",
+            "germanPlains",
+            "germanForest"
         ]
     },
     "citizenPunic": {

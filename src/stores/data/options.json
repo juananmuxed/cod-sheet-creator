@@ -580,5 +580,12 @@
         "upgradeTraits": [
             "EXTRA_EQUIPMENT(BOW)"
         ]
+    },
+    "OPT_REMOVE_POORLY_EQUIPPED": {
+        "id": "optRemovePoorlyEquipped",
+        "cost": 1,
+        "removeTraits": [
+            "POORLY_EQUIPPED"
+        ]
     }
 }
