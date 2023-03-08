@@ -89,6 +89,8 @@
     "vicious": "Crueles",
     "lineBreaker": "Rompelíneas",
     "robur": "Robustos",
+    "cutthroat": "Encarnizado",
+    "guardedAttack": "Ataque vigilado",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
         "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
@@ -177,6 +179,8 @@
         "scorpio": "Ver reglas especiales de Escorpión.",
         "heavyChariot": "Ver reglas especiales de Carro pesado o guadañado.",
         "robur": "Vuelve a lanzar los 1 en cualquier acción de ataque.",
+        "cutthroat": "Si el enemigo tiene más fatiga añade 1D6 al Chequeo de Moral como si hubiera causado una baja adicional.",
+        "guardedAttack": "Contra enemigos en Orden Abierto que decidan contraatacar, cada 6 además del impacto habitual, cancela uno de los éxitos enemigos.",
         "grizzled": "Ignora los efectos de los rasgos enemigos que fuerzan a añadir D6 al chequeo de moral. Además, solo lanza 1D6 en chequeos de moral al ver unidades amistosas ser derrotadas.",
         "poorlyEquiped": "Si la unidad tiene un marcador de descargado con la lanza arrojadiza y ataca cuerpo a cuerpo, sufre un -1 al impactar.",
         "lineBreaker": "Si se realiza un ataque contra una unidad en Orden Cerrado, añade 1D6 al chequeo de moral como si hubiera recibido una baja adicional."
@@ -220,6 +224,7 @@
         "tateSpecialist": "Orden Cerrado y pavés",
         "gushingWounds": "Armas pesadas",
         "sharpshooter": "Armas a distancia",
-        "lineBreaker": "Arma de dos manos y orden abierto"
+        "lineBreaker": "Arma de dos manos y orden abierto",
+        "guardedAttack": "Orden Abierto y arma de mano adicional"
     }
 }

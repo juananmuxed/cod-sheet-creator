@@ -17,6 +17,7 @@ import dacians from "./units/dacians.json";
 import germanic from "./units/germanic.json";
 import parthian from "./units/parthian.json";
 import pontic from "./units/pontic.json";
+import spartacus from "./units/spartacus.json";
 
 export default {
   ...characters,
@@ -38,4 +39,5 @@ export default {
   ...germanic,
   ...parthian,
   ...pontic,
+  ...spartacus,
 };

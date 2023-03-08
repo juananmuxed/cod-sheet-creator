@@ -592,5 +592,10 @@
         "id": "optDownEnclosedFullMounted",
         "cost": -1,
         "upgradeArmour": "FULL"
+    },
+    "OPT_UP_NO_ARMOUR_FULL": {
+        "id": "optUpNoArmourFull",
+        "cost": 2,
+        "upgradeArmour": "FULL"
     }
 }

@@ -466,5 +466,15 @@
         "id": "robur",
         "book": "Rise of Eagles",
         "page": 18
+    },
+    "CUTTHROAT": {
+        "id": "cutthroat",
+        "book": "Rise of Eagles",
+        "page": 18
+    },
+    "GUARDED_ATTACK": {
+        "id": "guardedAttack",
+        "book": "Rise of Eagles",
+        "page": 16
     }
 }
