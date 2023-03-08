@@ -11,6 +11,7 @@
     "optDownEnclosedNoArmour": "Elimina armadura cerrada",
     "optDownEnclosedPartial": "Reduce armadura cerrada a parcial",
     "optDownEnclosedFull": "Reduce armadura cerrada a completa",
+    "optDownEnclosedFullMounted": "Reduce armadura cerrada a completa",
     "optDownEnclosedFullCharioteer": "Reduce armadura cerrada a completa",
     "optLeaderUpgradeDoubleHanded": "Cambia a arma de dos manos",
     "optLeaderUpgradeAditionalDoubleHanded": "Añade equipamiento adicional (arma a dos manos)",

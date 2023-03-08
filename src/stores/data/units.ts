@@ -15,6 +15,8 @@ import romanEagles from "./units/romanEagles.json";
 import ancientBritish from "./units/ancientBritish.json";
 import dacians from "./units/dacians.json";
 import germanic from "./units/germanic.json";
+import parthian from "./units/parthian.json";
+import pontic from "./units/pontic.json";
 
 export default {
   ...characters,
@@ -34,4 +36,6 @@ export default {
   ...ancientBritish,
   ...dacians,
   ...germanic,
+  ...parthian,
+  ...pontic,
 };

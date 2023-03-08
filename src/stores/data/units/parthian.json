@@ -1,0 +1,84 @@
+{
+    "horseArchers": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "parthians"
+        ]
+    },
+    "tribesmenParthians": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "parthians"
+        ]
+    },
+    "javelinmenMilites": {
+        "availability": "MILITES",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 9,
+        "options": [],
+        "armies": [
+            "parthians"
+        ]
+    },
+    "cataphracts": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "KONTOS",
+        "defaultBody": "ENCLOSED",
+        "defaultBarding": "BARDING",
+        "traits": [
+            "MOUNTED",
+            "MASSED_CHARGE"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_ENCLOSED_TO_FULL_MOUNTED"
+        ],
+        "armies": [
+            "parthians"
+        ]
+    },
+    "militia": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "parthians"
+        ]
+    }
+}

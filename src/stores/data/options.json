@@ -587,5 +587,10 @@
         "removeTraits": [
             "POORLY_EQUIPPED"
         ]
+    },
+    "OPT_DOWN_ENCLOSED_TO_FULL_MOUNTED": {
+        "id": "optDownEnclosedFullMounted",
+        "cost": -1,
+        "upgradeArmour": "FULL"
     }
 }

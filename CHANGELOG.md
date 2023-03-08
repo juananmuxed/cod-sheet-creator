@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Dacians
   - Germanic plains
   - Germanic forest
+  - Parthians
+  - Pontic
 - MaxMark in config (and local storage)
 - Range/initiative in weapons details
 - Mounted weapons profile when is needed

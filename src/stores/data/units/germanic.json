@@ -185,7 +185,8 @@
         "cost": 8,
         "options": [],
         "armies": [
-            "germanPlains"
+            "germanPlains",
+            "parthians"
         ]
     },
     "romanizedWarriors": {

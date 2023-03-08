@@ -45,7 +45,8 @@
         "cost": 8,
         "options": [],
         "armies": [
-            "dacians"
+            "dacians",
+            "pontic"
         ]
     },
     "noblesDacians": {
