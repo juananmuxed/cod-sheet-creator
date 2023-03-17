@@ -1,0 +1,172 @@
+{
+    "javelinmenPontic": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "pontic",
+            "laterMacedonianHelenistic",
+            "thracians"
+        ]
+    },
+    "tribesmenPontic": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 13,
+        "options": [],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "phalangites": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "PIKE",
+        "defaultShield": "SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "MACEDONIAN_INSTRUCTION",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "pontic",
+            "laterPtolemaic"
+        ]
+    },
+    "thureophoroiPontic": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "EXTRA_EQUIPMENT(JAVELIN)",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "romanizedInfantry": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "DRILLED",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "veteranPhalangites": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultShield": "SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "DRILLED",
+            "MACEDONIAN_INSTRUCTION",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "veteranRomanizedInfantry": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "DRILLED",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 23,
+        "options": [],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "nobleCavalry": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 25,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "pontic"
+        ]
+    },
+    "lightCavalryRareAllies": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "ALLIES"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "pontic"
+        ]
+    }
+}

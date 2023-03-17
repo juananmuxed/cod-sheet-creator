@@ -167,6 +167,11 @@ export interface ITableAditionalRow {
   page?: number;
   book?: string;
   requires?: boolean;
+  type?: string[];
+  rangeLong?: number;
+  rangeShort?: number;
+  initiative?: number;
+  saveModification?: number;
 }
 
 type ToastColors = "success" | "error" | "warning" | "light" | "dark";

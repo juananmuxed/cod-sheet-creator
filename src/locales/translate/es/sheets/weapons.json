@@ -25,10 +25,13 @@
     "hwacha": "Hwacha",
     "teeth": "Dientes",
     "scorpio": "Escorpión",
+    "javelinMounted": "Jabalina (montada)",
+    "bowMounted": "Arco (montado)",
+    "warBowMounted": "Arco de guerra (montado)",
     "descriptions": {
-        "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
+        "javelin": "No se pueden lanzar a largo alcance, ni usarse con Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Usan la acción de Lanzamiento para atacar.",
         "sling": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1.",
-        "bow": "No se puede usar con Escudo ni Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
+        "bow": "No se puede usar con Escudo ni Escudo Pesado excepto que se añadan con el rasgo Equipo Adicional.",
         "throwing": "Usadas tanto para cuerpo a cuerpo como para ser lanzadas. Si se usa a distancia recibirá un marcador de Descargada y mientras no recargues en cuerpo a cuerpo usará un Arma de Mano.",
         "thrusting": "Sin reglas especiales.",
         "polearms": "Sin reglas especiales.",
@@ -36,7 +39,7 @@
         "mixedWeapons": "Sin reglas especiales.",
         "cavalryLongSpear": "Sin reglas especiales.",
         "heavyWeapon": "Sin reglas especiales.",
-        "warBow": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1. Se aplican reglas especiales si la unidad tiene el rasgo Montado.",
+        "warBow": "Hasta 4\" no tiene modificador a la salvación pero a partir de ahí aplica un +1.",
         "crossbow": "Hasta 6\" no tiene modificador a la salvación pero a partir de ahí aplica un +1. No ganan fatiga al realizar Disparo pero al Disparar gana un marcador de descargado, necesitando una acción de Preparación para retirar dicho marcador. No podrá disparar hasta que retire el marcador.",
         "arquebus": "Hasta 8\" no tiene modificador a la salvación pero a partir de ahí aplica un +1. No ganan fatiga al realizar Disparo pero al Disparar gana dos marcador de descargado, necesitando una acción de Preparación para retirar un marcador. No podrá disparar hasta que retire los marcadores.",
         "earlyFirearms": "Hasta 8\" tienen modificador a la salvación de -1. No ganan fatiga al realizar Disparo pero al Disparar gana dos marcador de descargado, necesitando una acción de Preparación para retirar un marcador. No podrá disparar hasta que retire los marcadores.",
@@ -51,6 +54,9 @@
         "teeth": "Sin reglas especiales.",
         "lightCannon": "Ver reglas especiales de Cañón ligero.",
         "hwacha": "Ver reglas especiales de Hwacha.",
-        "scorpio": "Ver reglas especiales de Escorpión."
+        "scorpio": "Ver reglas especiales de Escorpión.",
+        "javelinMounted": "Cuando la unidad que usa esta arma tiene el rasgo montado, aplica este perfil de arma. Las tropas realizarán una acción de Disparo Montado.",
+        "bowMounted": "Cuando la unidad que usa esta arma tiene el rasgo montado, aplica este perfil de arma. Las tropas realizarán una acción de Disparo Montado.",
+        "warBowMounted": "Cuando la unidad que usa esta arma tiene el rasgo montado, aplica este perfil de arma. Las tropas realizarán una acción de Disparo Montado. Hasta 2\" no tiene modificador a la salvación pero a partir de ahí aplica un +1."
     }
 }

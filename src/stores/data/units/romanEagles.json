@@ -59,7 +59,7 @@
             "lateRepublicRome"
         ]
     },
-    "javalinMenAllies": {
+    "javelinMenAllies": {
         "availability": "CIVIS",
         "combat": 5,
         "ranged": 5,
@@ -196,7 +196,8 @@
         "fixedCost": 66,
         "options": [],
         "armies": [
-            "lateRepublicRome"
+            "lateRepublicRome",
+            "dacians"
         ]
     },
     "slackLegionariesImperial": {

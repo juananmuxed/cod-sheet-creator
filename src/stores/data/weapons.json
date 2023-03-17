@@ -59,7 +59,6 @@
     "JAVELIN_MOUNTED": {
         "id": "javelinMounted",
         "rangeShort": 4,
-        "saveModification": 0,
         "type": [
             "ranged"
         ],
@@ -232,7 +231,7 @@
         "id": "warBow",
         "rangeShort": 8,
         "rangeLong": 20,
-        "saveModification": 0,
+        "saveModification": 1,
         "type": [
             "ranged"
         ],
@@ -246,7 +245,7 @@
         "id": "warBowMounted",
         "rangeShort": 4,
         "rangeLong": 16,
-        "saveModification": 0,
+        "saveModification": 1,
         "type": [
             "ranged"
         ],
@@ -260,7 +259,7 @@
         "id": "crossbow",
         "rangeShort": 8,
         "rangeLong": 16,
-        "saveModification": 0,
+        "saveModification": 1,
         "type": [
             "ranged"
         ],

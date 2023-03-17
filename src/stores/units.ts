@@ -217,14 +217,25 @@ export const useUnitsStore = defineStore("units", () => {
     const weaponsFromUnits: string[] = [];
     unitsInArmy.value.forEach((unit) => {
       weaponsFromUnits.push(unit.weapon || unit.defaultWeapon || "");
+      const importedMounted = (unit.weapon || unit.defaultWeapon) + "_MOUNTED";
+      if (
+        unit.traits.includes(Constants.TRAITS.MOUNTED) &&
+        importedWeapons[importedMounted]
+      )
+        weaponsFromUnits.push(importedMounted);
     });
     return [...new Set(weaponsFromUnits)]
       .filter((weapon) => weapon !== "")
-      .map((trait) => {
+      .map((weapon) => {
         return {
-          name: importedWeapons[trait].id,
-          book: importedWeapons[trait].book,
-          page: importedWeapons[trait].page,
+          name: importedWeapons[weapon].id,
+          book: importedWeapons[weapon].book,
+          page: importedWeapons[weapon].page,
+          rangeShort: importedWeapons[weapon].rangeShort,
+          rangeLong: importedWeapons[weapon].rangeLong,
+          type: importedWeapons[weapon].type,
+          initiative: importedWeapons[weapon].initiative,
+          saveModification: importedWeapons[weapon].saveModification,
         };
       });
   }
@@ -234,6 +245,7 @@ export const useUnitsStore = defineStore("units", () => {
     unitsInArmy.value.forEach((unit) => {
       armoursFromUnits.push(unit.body || unit.defaultBody || "");
       armoursFromUnits.push(unit.shield || unit.defaultShield || "");
+      armoursFromUnits.push(unit.barding || unit.defaultBarding || "");
     });
     return [...new Set(armoursFromUnits)]
       .filter((armor) => armor !== "" && !isHidenItem(armor))
@@ -313,8 +325,8 @@ export const useUnitsStore = defineStore("units", () => {
     const barding = unit.barding || unit.defaultBarding;
     const body = unit.body || unit.defaultBody;
     return (
-      (body && importedArmors[body].special) ||
-      (shield && importedArmors[shield].special) ||
+      (body && importedArmors[body]?.special) ||
+      (shield && importedArmors[shield]?.special) ||
       (barding && importedArmors[barding]?.special)
     );
   }
@@ -324,11 +336,10 @@ export const useUnitsStore = defineStore("units", () => {
     const shield = unit.shield || unit.defaultShield;
     const barding = unit.barding || unit.defaultBarding;
     const body = unit.body || unit.defaultBody;
-    if (body && importedArmors[body]) save -= importedArmors[body].value || 0;
-    if (shield && body && importedArmors[body])
-      save -= importedArmors[shield].value || 0;
-    if (barding && body && importedArmors[body])
-      save -= importedArmors[barding || -1].value || 0;
+    if (body && importedArmors[body]) save -= importedArmors[body].value;
+    if (shield && importedArmors[shield]) save -= importedArmors[shield].value;
+    if (barding && importedArmors[barding])
+      save -= importedArmors[barding].value;
     return save;
   }
 

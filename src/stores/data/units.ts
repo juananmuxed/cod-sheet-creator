@@ -12,6 +12,14 @@ import samuraisClans from "./units/samuraisClans.json";
 import otherFactionsKatanas from "./units/otherFactionsKatanas.json";
 import charactersRiseEagles from "./units/charactersRiseEagles.json";
 import romanEagles from "./units/romanEagles.json";
+import ancientBritish from "./units/ancientBritish.json";
+import dacians from "./units/dacians.json";
+import germanic from "./units/germanic.json";
+import parthian from "./units/parthian.json";
+import pontic from "./units/pontic.json";
+import spartacus from "./units/spartacus.json";
+import lateSuccessors from "./units/lateSuccessors.json";
+import thracians from "./units/thracians.json";
 
 export default {
   ...characters,
@@ -28,4 +36,12 @@ export default {
   ...otherFactionsKatanas,
   ...charactersRiseEagles,
   ...romanEagles,
+  ...ancientBritish,
+  ...dacians,
+  ...germanic,
+  ...parthian,
+  ...pontic,
+  ...spartacus,
+  ...lateSuccessors,
+  ...thracians,
 };

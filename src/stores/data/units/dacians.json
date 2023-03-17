@@ -1,0 +1,145 @@
+{
+    "tribesmenDacians": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 13,
+        "options": [],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "warriorsDacians": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "VICIOUS"
+        ],
+        "cost": 17,
+        "options": [],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "archersDacians": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "dacians",
+            "pontic",
+            "laterSelucid",
+            "thracians"
+        ]
+    },
+    "noblesDacians": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "VICIOUS"
+        ],
+        "cost": 23,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "falxmen": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "AX",
+        "traits": [
+            "LINE_BREAKER"
+        ],
+        "cost": 14,
+        "options": [],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "lightCavalryRare": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "alliesMountedArchers": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "MOUNTED",
+            "ALLIES"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "dacians"
+        ]
+    },
+    "alliesSarmantianCavalry": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "KONTOS",
+        "defaultBarding": "BARDING",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "MASSED_CHARGE",
+            "ALLIES"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_BARDING_HALF_BARDING",
+            "OPT_DOWN_NO_BARDING",
+            "OPT_BOW_ADITIONAL"
+        ],
+        "armies": [
+            "dacians"
+        ]
+    }
+}

@@ -137,7 +137,10 @@
             "greeksSicilian",
             "greeksItaly",
             "roman",
-            "lateRepublicRome"
+            "lateRepublicRome",
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic"
         ]
     },
     "cavalryGreek": {

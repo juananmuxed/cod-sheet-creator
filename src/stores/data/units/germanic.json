@@ -1,0 +1,254 @@
+{
+    "archersGermanCivis": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "tribesmenGerman": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "POORLY_EQUIPPED"
+        ],
+        "cost": 14,
+        "options": [],
+        "armies": [
+            "germanPlains",
+            "germanForest"
+        ]
+    },
+    "warriorsGerman": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "ROBUR",
+            "POORLY_EQUIPPED"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_REMOVE_POORLY_EQUIPPED"
+        ],
+        "armies": [
+            "germanPlains"
+        ]
+    },
+    "warriorsGermanForest": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "ROBUR",
+            "POORLY_EQUIPPED"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_REMOVE_POORLY_EQUIPPED"
+        ],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "warriorsGermanForestAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "GUERRILLA",
+            "ROBUR",
+            "POORLY_EQUIPPED",
+            "ALLIES"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_REMOVE_POORLY_EQUIPPED"
+        ],
+        "armies": [
+            "germanPlains"
+        ]
+    },
+    "warriorsGermanPlainsAllies": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "ROBUR",
+            "POORLY_EQUIPPED",
+            "ALLIES"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_REMOVE_POORLY_EQUIPPED"
+        ],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "veteranWarriorsGerman": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "ROBUR",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "germanPlains"
+        ]
+    },
+    "veteranWarriorsGermanForest": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "ROBUR",
+            "GUERRILLA"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "cavalryGerman": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "IMPETUS",
+            "ROBUR",
+            "MOUNTED",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 24,
+        "options": [],
+        "armies": [
+            "germanPlains"
+        ]
+    },
+    "archersGerman": {
+        "availability": "MILITES",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "germanPlains",
+            "parthians",
+            "laterPtolemaic",
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "romanizedWarriors": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 18,
+        "options": [],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "cavalryGermanRare": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "IMPETUS",
+            "ROBUR",
+            "MOUNTED",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 24,
+        "options": [],
+        "armies": [
+            "germanForest"
+        ]
+    },
+    "fanaticsGerman": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "POORLY_EQUIPPED",
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "ROBUR",
+            "IRA"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_REMOVE_POORLY_EQUIPPED"
+        ],
+        "armies": [
+            "germanPlains",
+            "germanForest"
+        ]
+    }
+}

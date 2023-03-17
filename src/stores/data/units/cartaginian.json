@@ -16,7 +16,10 @@
             "cartaginian",
             "numidian",
             "etruscanCampanian",
-            "samnite"
+            "samnite",
+            "germanPlains",
+            "germanForest",
+            "laterPtolemaic"
         ]
     },
     "citizenPunic": {
@@ -195,13 +198,14 @@
             "WOUNDS(4)",
             "ELEPHANT"
         ],
-        "cost": 16.5,
+        "fixedCost": 66,
         "options": [],
         "noDeployToken": true,
         "armies": [
             "cartaginian",
             "numidian",
-            "lateRepublicRome"
+            "lateRepublicRome",
+            "laterPtolemaic"
         ]
     },
     "elephantAfricaForestCrew": {
@@ -229,7 +233,9 @@
         "armies": [
             "cartaginian",
             "pyrrus",
-            "lateRepublicRome"
+            "lateRepublicRome",
+            "laterSelucid",
+            "laterPtolemaic"
         ]
     }
 }

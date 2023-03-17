@@ -1,0 +1,117 @@
+{
+    "peltasts": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "VICIOUS",
+            "GUERRILLA"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "thracians"
+        ]
+    },
+    "greekMercenaryHoplites": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "DRILLED",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "ALLIES"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "thracians"
+        ]
+    },
+    "veteranPeltasts": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "VICIOUS",
+            "GUERRILLA"
+        ],
+        "cost": 19,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "thracians"
+        ]
+    },
+    "veteranRhomphaia": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "AX",
+        "traits": [
+            "GUSHING_WOUNDS"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR",
+            "OPT_ADD_SHIELD_AND_EXTRA_SHIELD"
+        ],
+        "armies": [
+            "thracians"
+        ]
+    },
+    "horseArchersRare": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "BOW",
+        "traits": [
+            "MOUNTED"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "thracians"
+        ]
+    },
+    "nobleCavalryJavelin": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "defaultBody": "FULL",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(CAVALRY_SPEAR)"
+        ],
+        "cost": 26,
+        "options": [
+            "OPT_DOWN_FULL_TO_NO_ARMOUR_MOUNTED"
+        ],
+        "armies": [
+            "thracians"
+        ]
+    }
+}

@@ -50,7 +50,9 @@
         "cost": 17,
         "options": [],
         "armies": [
-            "pyrrus"
+            "pyrrus",
+            "laterSelucid",
+            "laterMacedonianHelenistic"
         ]
     },
     "rawHoplitesAllied": {
@@ -142,7 +144,7 @@
         "defaultWeapon": "XYSTON",
         "defaultBody": "FULL",
         "traits": [
-            "MASSIVE_CHARGE",
+            "MASSED_CHARGE",
             "DRILLED",
             "MOUNTED"
         ],
@@ -183,11 +185,12 @@
             "WOUNDS(5)",
             "ELEPHANT"
         ],
-        "cost": 14.4,
+        "fixedCost": 72,
         "options": [],
         "noDeployToken": true,
         "armies": [
-            "pyrrus"
+            "pyrrus",
+            "laterSelucid"
         ]
     }
 }
