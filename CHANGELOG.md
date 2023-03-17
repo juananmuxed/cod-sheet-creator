@@ -16,12 +16,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for Rise of Eagles armies
   - Late Republic Rome
   - Early Imperian Rome
-- Added MaxMark in config (and local storage)
+  - Ancient british
+  - Dacians
+  - Germanic plains
+  - Germanic forest
+  - Parthians
+  - Pontic
+  - Late Seleucid
+  - Late Macedonian
+  - Late Ptolemaic
+  - Thracians
+- MaxMark in config (and local storage)
+- Range/initiative in weapons details
+- Mounted weapons profile when is needed
 
 ### Fixed
 
-- Fix gallic nobles to Milites
-- Fix velites grit to 4
+- Gallic nobles to Milites
+- Velites grit to 4
+- Bard is showed now
 
 ## [v0.20.12]
 

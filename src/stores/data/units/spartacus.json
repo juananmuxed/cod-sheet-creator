@@ -1,0 +1,142 @@
+{
+    "armedMob": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "MIXED_WEAPONS",
+        "traits": [
+            "OVERWHELM"
+        ],
+        "cost": 7,
+        "options": [],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "freedSlaves": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THROWING",
+        "defaultShield": "HEAVY_SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "youngster": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "JAVELIN",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [
+            "OPT_SHIELD"
+        ],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "gladiators": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "ADITIONAL_HAND_WEAPON",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "PARRY_RIPOSTE",
+            "CUTTHROAT",
+            "GUARDED_ATTACK"
+        ],
+        "cost": 18,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "gladiatorsEquipment": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "SHIELD_OVERLAP",
+            "CUTTHROAT",
+            "WALL_OF_SPEARS"
+        ],
+        "cost": 23,
+        "options": [],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "shepherds": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "SLING",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 12,
+        "options": [],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "shepherdsDogs": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "TEETH",
+        "traits": [
+            "FERAL"
+        ],
+        "cost": 10,
+        "options": [],
+        "armies": [
+            "spartacus"
+        ]
+    },
+    "cavalrySlave": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_NO_ARMOUR_FULL"
+        ],
+        "armies": [
+            "spartacus"
+        ]
+    }
+}

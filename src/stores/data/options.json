@@ -58,7 +58,7 @@
         "upgradeWeapon": "BOW"
     },
     "OPT_NO_SHIELD": {
-        "id": "optJavToBow",
+        "id": "optNoShield",
         "cost": -1,
         "upgradeShield": "NO_SHIELD"
     },
@@ -558,5 +558,56 @@
         "id": "optUpImprovedPartialImprovedFull",
         "cost": 1,
         "upgradeArmour": "FULL_IMPROVED"
+    },
+    "OPT_SHIELD_HEAVY_SHIELD": {
+        "id": "optShieldHeavyShield",
+        "cost": 1,
+        "upgradeShield": "HEAVY_SHIELD"
+    },
+    "OPT_DOWN_BARDING_HALF_BARDING": {
+        "id": "optDownBardingHalfBarding",
+        "cost": -1,
+        "upgradeBarding": "HALF_BARDING"
+    },
+    "OPT_DOWN_NO_BARDING": {
+        "id": "optDownNoBarding",
+        "cost": -2,
+        "upgradeBarding": "NO_BARDING"
+    },
+    "OPT_BOW_ADITIONAL": {
+        "id": "optBowAditional",
+        "cost": 3,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(BOW)"
+        ]
+    },
+    "OPT_REMOVE_POORLY_EQUIPPED": {
+        "id": "optRemovePoorlyEquipped",
+        "cost": 1,
+        "removeTraits": [
+            "POORLY_EQUIPPED"
+        ]
+    },
+    "OPT_DOWN_ENCLOSED_TO_FULL_MOUNTED": {
+        "id": "optDownEnclosedFullMounted",
+        "cost": -1,
+        "upgradeArmour": "FULL"
+    },
+    "OPT_UP_NO_ARMOUR_FULL": {
+        "id": "optUpNoArmourFull",
+        "cost": 2,
+        "upgradeArmour": "FULL"
+    },
+    "OPT_ADD_SHIELD_AND_EXTRA_SHIELD": {
+        "id": "optShieldExtraShield",
+        "cost": 2,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(SHIELD)"
+        ]
+    },
+    "OPT_DOWN_FULL_TO_NO_ARMOUR_MOUNTED": {
+        "id": "optDownFullNoArmourMounted",
+        "cost": -2,
+        "upgradeArmour": "NO_ARMOUR"
     }
 }

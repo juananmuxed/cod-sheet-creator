@@ -1,0 +1,355 @@
+{
+    "slingersLate": {
+        "availability": "CIVIS",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "SLING",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "laterSelucid",
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "slingersLateMilites": {
+        "availability": "MILITES",
+        "combat": 5,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "SLING",
+        "traits": [
+            "SKIRMISH_SPECIALIST"
+        ],
+        "cost": 8,
+        "options": [],
+        "armies": [
+            "laterPtolemaic"
+        ]
+    },
+    "cityMilitia": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 15,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "laterSelucid"
+        ]
+    },
+    "thraciansPeltasts": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "SKIRMISH_SPECIALIST",
+            "VICIOUS",
+            "GUERRILLA",
+            "ALLIES"
+        ],
+        "cost": 15,
+        "options": [],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "levyPhalangites": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 5,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "MACEDONIAN_INSTRUCTION",
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 14,
+        "options": [],
+        "armies": [
+            "laterPtolemaic"
+        ]
+    },
+    "cityMilitiaMacedonian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "SHIELD_OVERLAP"
+        ],
+        "cost": 17,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "argyraspides": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "MACEDONIAN_INSTRUCTION",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "laterSelucid"
+        ]
+    },
+    "alliedRomanLegionaries": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "THROWING",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "HEAVY_SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "SHIELD_OVERLAP",
+            "IMPULSUM",
+            "DRILLED",
+            "ALLIES"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "laterPtolemaic"
+        ]
+    },
+    "guardPhalangites": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultShield": "SHIELD",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "MACEDONIAN_INSTRUCTION",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "laterPtolemaic"
+        ]
+    },
+    "thureophoroiLate": {
+        "availability": "MILITES",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "EXTRA_EQUIPMENT(JAVELIN)",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "laterSelucid",
+            "laterPtolemaic"
+        ]
+    },
+    "thureophoroiLateMacedonian": {
+        "availability": "CIVIS",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "THRUSTING",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "EXTRA_EQUIPMENT(JAVELIN)",
+            "OFFENSIVE_SPEAR"
+        ],
+        "cost": 16,
+        "options": [
+            "OPT_UP_PARTIAL_ARMOUR"
+        ],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "cataphractsLate": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "XYSTON",
+        "defaultBody": "ENCLOSED",
+        "defaultBarding": "BARDING",
+        "traits": [
+            "MOUNTED",
+            "MASSED_CHARGE",
+            "DRILLED"
+        ],
+        "cost": 25,
+        "options": [],
+        "armies": [
+            "laterSelucid"
+        ]
+    },
+    "agema": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "MACEDONIAN_INSTRUCTION",
+            "OFFENSIVE_SPEAR",
+            "DRILLED"
+        ],
+        "cost": 21,
+        "options": [],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "agemaAsThureophoroi": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "PIKE",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "WALL_OF_SPEARS",
+            "OFFENSIVE_SPEAR",
+            "EXTRA_EQUIPMENT(JAVELIN)",
+            "DRILLED"
+        ],
+        "cost": 24,
+        "options": [
+            "OPT_DOWN_NO_ARMOUR"
+        ],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "thessalianCavalry": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "CAVALRY_SPEAR",
+        "defaultBody": "PARTIAL",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "MOUNTED",
+            "IMPETUS",
+            "EXTRA_EQUIPMENT(JAVELIN)"
+        ],
+        "cost": 25,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "hetairoiLate": {
+        "availability": "MILITES",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "XYSTON",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MASSED_CHARGE",
+            "DRILLED",
+            "MOUNTED"
+        ],
+        "cost": 22,
+        "options": [
+            "OPT_UP_FULL_ARMOUR"
+        ],
+        "armies": [
+            "laterSelucid",
+            "laterMacedonianHelenistic"
+        ]
+    },
+    "xystophoroi": {
+        "availability": "RARE",
+        "combat": 3,
+        "ranged": 5,
+        "grit": 3,
+        "defaultWeapon": "XYSTON",
+        "defaultBody": "PARTIAL",
+        "traits": [
+            "MASSED_CHARGE",
+            "DRILLED",
+            "MOUNTED"
+        ],
+        "cost": 22,
+        "options": [],
+        "armies": [
+            "laterPtolemaic"
+        ]
+    },
+    "greekLightCavalry": {
+        "availability": "RARE",
+        "combat": 4,
+        "ranged": 5,
+        "grit": 4,
+        "defaultWeapon": "JAVELIN",
+        "defaultShield": "SHIELD",
+        "traits": [
+            "ALLIES",
+            "MOUNTED"
+        ],
+        "cost": 16,
+        "options": [],
+        "armies": [
+            "laterSelucid",
+            "laterMacedonianHelenistic",
+            "laterPtolemaic"
+        ]
+    }
+}

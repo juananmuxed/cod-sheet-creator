@@ -166,8 +166,8 @@
         "requires": true,
         "page": 72
     },
-    "MASSIVE_CHARGE": {
-        "id": "massiveCharge",
+    "MASSED_CHARGE": {
+        "id": "massedCharge",
         "book": "Clash of Spears",
         "requires": true,
         "page": 68
@@ -312,11 +312,6 @@
         "book": "Clash of Katanas",
         "page": 34
     },
-    "MASSED_CHARGE": {
-        "id": "massedCharge",
-        "book": "Clash of Katanas",
-        "page": 31
-    },
     "FORM_UP": {
         "id": "formUp",
         "book": "Clash of Katanas",
@@ -446,5 +441,35 @@
         "id": "grizzled",
         "book": "Rise of Eagles",
         "page": 18
+    },
+    "POORLY_EQUIPPED": {
+        "id": "poorlyEquiped",
+        "book": "Rise of Eagles",
+        "page": 17
+    },
+    "VICIOUS": {
+        "id": "vicious",
+        "book": "Rise of Eagles",
+        "page": 18
+    },
+    "LINE_BREAKER": {
+        "id": "lineBreaker",
+        "book": "Rise of Eagles",
+        "page": 17
+    },
+    "ROBUR": {
+        "id": "robur",
+        "book": "Rise of Eagles",
+        "page": 18
+    },
+    "CUTTHROAT": {
+        "id": "cutthroat",
+        "book": "Rise of Eagles",
+        "page": 18
+    },
+    "GUARDED_ATTACK": {
+        "id": "guardedAttack",
+        "book": "Rise of Eagles",
+        "page": 16
     }
 }

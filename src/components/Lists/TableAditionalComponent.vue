@@ -52,6 +52,27 @@
               }}</span>
             </td>
             <td class="wide">
+              <span class="requires" v-if="item.type?.includes('ranged')">
+                <i>{{
+                  `${$t("web.texts.shortRange")}: ${
+                    item.rangeShort ? item.rangeShort + '"' : "-"
+                  } / ${$t("web.texts.longRange")}: ${
+                    item.rangeLong ? item.rangeLong + '"' : "-"
+                  }`
+                }}</i>
+              </span>
+              <span class="requires" v-if="item.type?.includes('melee')">
+                <i>{{
+                  `${$t("web.texts.initiative")}: ${item.initiative || 0}`
+                }}</i>
+              </span>
+              <span class="requires" v-if="item.saveModification">
+                <i>{{
+                  `${$t("web.texts.saveModification")}: ${
+                    item.saveModification
+                  }`
+                }}</i>
+              </span>
               {{ $t(`sheets.${type}.descriptions.${item.name}`) }}
             </td>
           </template>
