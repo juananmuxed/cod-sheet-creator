@@ -597,5 +597,17 @@
         "id": "optUpNoArmourFull",
         "cost": 2,
         "upgradeArmour": "FULL"
+    },
+    "OPT_ADD_SHIELD_AND_EXTRA_SHIELD": {
+        "id": "optShieldExtraShield",
+        "cost": 2,
+        "upgradeTraits": [
+            "EXTRA_EQUIPMENT(SHIELD)"
+        ]
+    },
+    "OPT_DOWN_FULL_TO_NO_ARMOUR_MOUNTED": {
+        "id": "optDownFullNoArmourMounted",
+        "cost": -2,
+        "upgradeArmour": "NO_ARMOUR"
     }
 }

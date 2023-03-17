@@ -18,6 +18,8 @@ import germanic from "./units/germanic.json";
 import parthian from "./units/parthian.json";
 import pontic from "./units/pontic.json";
 import spartacus from "./units/spartacus.json";
+import lateSuccessors from "./units/lateSuccessors.json";
+import thracians from "./units/thracians.json";
 
 export default {
   ...characters,
@@ -40,4 +42,6 @@ export default {
   ...parthian,
   ...pontic,
   ...spartacus,
+  ...lateSuccessors,
+  ...thracians,
 };

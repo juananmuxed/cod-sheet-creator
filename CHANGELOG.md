@@ -22,6 +22,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Germanic forest
   - Parthians
   - Pontic
+  - Late Seleucid
+  - Late Macedonian
+  - Late Ptolemaic
+  - Thracians
 - MaxMark in config (and local storage)
 - Range/initiative in weapons details
 - Mounted weapons profile when is needed

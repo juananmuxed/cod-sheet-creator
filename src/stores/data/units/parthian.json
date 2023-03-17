@@ -25,7 +25,8 @@
         "cost": 10,
         "options": [],
         "armies": [
-            "parthians"
+            "parthians",
+            "thracians"
         ]
     },
     "javelinmenMilites": {

@@ -186,7 +186,9 @@
         "options": [],
         "armies": [
             "germanPlains",
-            "parthians"
+            "parthians",
+            "laterPtolemaic",
+            "laterMacedonianHelenistic"
         ]
     },
     "romanizedWarriors": {

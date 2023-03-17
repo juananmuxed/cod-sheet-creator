@@ -166,8 +166,8 @@
         "requires": true,
         "page": 72
     },
-    "MASSIVE_CHARGE": {
-        "id": "massiveCharge",
+    "MASSED_CHARGE": {
+        "id": "massedCharge",
         "book": "Clash of Spears",
         "requires": true,
         "page": 68
@@ -311,11 +311,6 @@
         "id": "rainBlows",
         "book": "Clash of Katanas",
         "page": 34
-    },
-    "MASSED_CHARGE": {
-        "id": "massedCharge",
-        "book": "Clash of Katanas",
-        "page": 31
     },
     "FORM_UP": {
         "id": "formUp",

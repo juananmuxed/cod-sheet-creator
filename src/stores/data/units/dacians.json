@@ -46,7 +46,9 @@
         "options": [],
         "armies": [
             "dacians",
-            "pontic"
+            "pontic",
+            "laterSelucid",
+            "thracians"
         ]
     },
     "noblesDacians": {

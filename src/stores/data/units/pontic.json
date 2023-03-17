@@ -11,7 +11,9 @@
         "cost": 8,
         "options": [],
         "armies": [
-            "pontic"
+            "pontic",
+            "laterMacedonianHelenistic",
+            "thracians"
         ]
     },
     "tribesmenPontic": {
@@ -47,7 +49,8 @@
         "cost": 17,
         "options": [],
         "armies": [
-            "pontic"
+            "pontic",
+            "laterPtolemaic"
         ]
     },
     "thureophoroiPontic": {

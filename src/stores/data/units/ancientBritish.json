@@ -110,7 +110,8 @@
         "cost": 16,
         "options": [],
         "armies": [
-            "ancientBritish"
+            "ancientBritish",
+            "thracians"
         ]
     },
     "fanatics": {
