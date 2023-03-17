@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Tests for Utils
+
+### Added
+
+- Tests for Utils
+
+## [v0.21.0]
+
+### Added
+
 - New weapons and armours for Rise of Eagles
 - New characters for Rise of Eagles
 - New traits for Rise of Eagles
@@ -35,14 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gallic nobles to Milites
 - Velites grit to 4
 - Bard is showed now
-
-### Added
-
-- Tests for Utils
-
-### Added
-
-- Tests for Utils
 
 ## [v0.20.12]
 
@@ -162,7 +164,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.20.12...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.21.0...HEAD
+[v0.21.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.0
 [v0.20.12]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.12
 [v0.20.11]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.11
 [v0.20.10]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.10
