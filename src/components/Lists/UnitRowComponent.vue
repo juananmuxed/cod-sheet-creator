@@ -38,9 +38,7 @@
   <div class="cell" v-else></div>
   <div class="cell" v-if="unit.grit">{{ unit.grit }}+</div>
   <div class="cell" v-else></div>
-  <div class="cell" v-if="!unit.isCharacter">
-    {{ units.calculateSave(unit) }}+
-  </div>
+  <div class="cell" v-if="!unit.noStats">{{ units.calculateSave(unit) }}+</div>
   <div class="cell" v-else></div>
   <div class="cell cell-medium">
     <span class="flex">

@@ -297,7 +297,7 @@
     "soothsayer": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
+        "noStats": true,
         "availability": "SPECIAL_CHARACTER",
         "cost": 15,
         "options": [

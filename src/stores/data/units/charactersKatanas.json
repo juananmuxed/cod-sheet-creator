@@ -448,7 +448,7 @@
     "geisha": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
+        "noStats": true,
         "availability": "SPECIAL_CHARACTER",
         "cost": 15,
         "options": [
@@ -475,7 +475,7 @@
     "buddhistShrine": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
+        "noStats": true,
         "availability": "SPECIAL_CHARACTER",
         "cost": 10,
         "options": [],
@@ -490,7 +490,7 @@
     "sakeRations": {
         "dontCountForBreak": true,
         "fixedFigures": 1,
-        "isCharacter": true,
+        "noStats": true,
         "availability": "SPECIAL_CHARACTER",
         "cost": 10,
         "options": [],

@@ -9,6 +9,7 @@
       <li>{{ $t("web.titles.civis") }}: {{ units.civisTotal }}</li>
       <li>{{ $t("web.titles.milites") }}: {{ units.militesTotal }}</li>
       <li>{{ $t("web.titles.rares") }}: {{ units.raresTotal }}</li>
+      <li>{{ $t("web.titles.characters") }}: {{ units.charactersTotal }}</li>
     </ul>
   </div>
 </template>

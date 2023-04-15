@@ -20,6 +20,7 @@ export class Constants {
     MILITES: "MILITES",
     RARE: "RARE",
     LEADER: "LEADER",
+    SPECIAL_CHARACTER: "SPECIAL_CHARACTER",
   };
   static readonly WARBAND_TYPES = {
     WARPARTY: "warParty",

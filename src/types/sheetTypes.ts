@@ -66,7 +66,7 @@ export interface IUnitObject {
   upgradedCommand?: boolean;
   upgradedMount?: boolean;
   isLeader?: boolean;
-  isCharacter?: boolean;
+  noStats?: boolean;
   zeroFigures?: boolean;
   freeUnits?: number;
   commandRange?: number;

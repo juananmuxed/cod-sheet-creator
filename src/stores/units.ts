@@ -113,12 +113,7 @@ export const useUnitsStore = defineStore("units", () => {
   });
 
   const charactersTotal = computed(() => {
-    return (
-      unitsInArmy.value
-        .filter((unit) => unit.isCharacter)
-        .reduce((a, unit) => a + getUnitSizeForType(unit), 0) +
-      sumType(Constants.AVAILABILITIES_TYPES.LEADER)
-    );
+    return sumType(Constants.AVAILABILITIES_TYPES.SPECIAL_CHARACTER);
   });
 
   const isWarParty = computed(() => {
@@ -181,13 +176,13 @@ export const useUnitsStore = defineStore("units", () => {
       return {
         ...importedUnits[unit],
         translate: unit,
-        weapon: importedUnits[unit].isCharacter
+        weapon: importedUnits[unit].noStats
           ? undefined
           : importedUnits[unit].defaultWeapon,
-        body: importedUnits[unit].isCharacter
+        body: importedUnits[unit].noStats
           ? undefined
           : importedUnits[unit].defaultBody,
-        shield: importedUnits[unit].isCharacter
+        shield: importedUnits[unit].noStats
           ? undefined
           : importedUnits[unit].defaultShield,
         size: sizes

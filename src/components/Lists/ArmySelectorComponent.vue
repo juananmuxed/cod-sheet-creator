@@ -18,7 +18,12 @@
       }}
     </p>
     <p>
-      {{ $t("web.texts.numberOfCharacters", units.charactersTotal) }}
+      {{
+        $t(
+          "web.texts.numberOfCharacters",
+          units.charactersTotal + units.leadersTotal
+        )
+      }}
     </p>
     <div class="breakpoint-marks">
       <p
