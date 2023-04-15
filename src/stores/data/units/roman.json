@@ -165,7 +165,7 @@
         "grit": 3,
         "defaultWeapon": "CAVALRY_SPEAR",
         "defaultBody": "FULL",
-        "defaultShield": "HEAVY_SHIELD",
+        "defaultShield": "SHIELD",
         "traits": [
             "MOUNTED",
             "IMPETUS"
