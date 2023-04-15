@@ -216,7 +216,7 @@
         "availability": "MILITES",
         "combat": 3,
         "ranged": 5,
-        "grit": 3,
+        "grit": 4,
         "defaultWeapon": "XYSTON",
         "defaultBody": "ENCLOSED",
         "defaultBarding": "BARDING",
