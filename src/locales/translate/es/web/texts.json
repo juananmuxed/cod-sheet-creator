@@ -30,7 +30,7 @@
     "ofFigures": "sin figuras | de {count} figura | de {count} figuras",
     "numberOfCharacters": "Sin personajes o líderes | {count} unidad es un personaje o líder | {count} unidades son personajes o líderes",
     "inUnits": "sin unidades | en {count} unidad | en {count} unidades",
-    "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada <b>{count}</b> unidad | Punto de rotura cada <b>{count}</b> unidades",
+    "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada miniatura | Punto de rotura cada <b>{count}</b> miniaturas",
     "about": {
         "p": {
             "whatIsThisWeb01": "Esto es una herramienta <b>NO OFICIAL</b> para construir listas del juego \"Clash of Spears\". Todos los derechos reservados a los creadores.",

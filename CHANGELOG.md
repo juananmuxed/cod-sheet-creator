@@ -15,6 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Tests for Utils
 
+## [v0.21.2]
+
+### Fixed
+
+- Translates strings fixes
+
 ## [v0.21.1]
 
 ### Fixed
@@ -177,7 +183,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.21.1...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.21.2...HEAD
+[v0.21.2]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.2
 [v0.21.1]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.1
 [v0.21.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.0
 [v0.20.12]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.12
