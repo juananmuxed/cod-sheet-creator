@@ -15,6 +15,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Tests for Utils
 
+## [v0.21.1]
+
+### Fixed
+
+- Stats for Late Seleucid cataphracts
+- Change shield for Roman Equites
+- Change needed for Massive Charge to Close order
+
+### Changed
+
+- Army units calculation in top resume (characters and leaders)
+- "isCharacter" key changed to "noStats" for clarity
+
 ## [v0.21.0]
 
 ### Added
@@ -164,7 +177,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Etruscan or Campanian
   - Samnite
 
-[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.21.0...HEAD
+[Unreleased]: https://github.com/juananmuxed/cod-sheet-creator/compare/v0.21.1...HEAD
+[v0.21.1]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.1
 [v0.21.0]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.21.0
 [v0.20.12]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.12
 [v0.20.11]: https://github.com/juananmuxed/cod-sheet-creator/releases/tag/v0.20.11
