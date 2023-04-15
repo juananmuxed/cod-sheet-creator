@@ -28,6 +28,7 @@
     "costEach": "punto cada unidad | puntos cada unidad",
     "totalCostUnit": "Coste total de unidad",
     "ofFigures": "sin figuras | de {count} figura | de {count} figuras",
+    "numberOfCharacters": "Sin personajes | {count} unidad es un personaje | {count} unidades son personajes",
     "inUnits": "sin unidades | en {count} unidad | en {count} unidades",
     "breakPointsEveryFigures": "Sin punto de rotura | Punto de rotura cada <b>{count}</b> unidad | Punto de rotura cada <b>{count}</b> unidades",
     "about": {

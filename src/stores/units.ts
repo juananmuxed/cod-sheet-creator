@@ -60,12 +60,8 @@ export const useUnitsStore = defineStore("units", () => {
     );
   });
 
-  const figuresTotal = computed(() => {
-    return unitsInArmy.value.reduce((a, unit) => a + getUnitSize(unit), 0);
-  });
-
   const unitsTotal = computed(() => {
-    return unitsInArmy.value.length;
+    return unitsInArmy.value.filter((unit) => !unit.dontCountForBreak).length;
   });
 
   const costTotal = computed(() => {
@@ -114,6 +110,15 @@ export const useUnitsStore = defineStore("units", () => {
 
   const raresTotal = computed(() => {
     return sumType(Constants.AVAILABILITIES_TYPES.RARE);
+  });
+
+  const charactersTotal = computed(() => {
+    return (
+      unitsInArmy.value
+        .filter((unit) => unit.isCharacter)
+        .reduce((a, unit) => a + getUnitSizeForType(unit), 0) +
+      sumType(Constants.AVAILABILITIES_TYPES.LEADER)
+    );
   });
 
   const isWarParty = computed(() => {
@@ -608,9 +613,10 @@ export const useUnitsStore = defineStore("units", () => {
     civisTotal,
     militesTotal,
     raresTotal,
+    charactersTotal,
     warbandType,
     unitsInArmy,
-    figuresTotal,
+    figureCountForBreak,
     unitsTotal,
     getUnitSize,
     mapUnits,

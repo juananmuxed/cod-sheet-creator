@@ -12,10 +12,13 @@
         units.warbandType
       }})
       {{
-        $t("web.texts.ofFigures", units.figuresTotal) +
+        $t("web.texts.ofFigures", units.figureCountForBreak) +
         " " +
         $t("web.texts.inUnits", units.unitsTotal)
       }}
+    </p>
+    <p>
+      {{ $t("web.texts.numberOfCharacters", units.charactersTotal) }}
     </p>
     <div class="breakpoint-marks">
       <p
