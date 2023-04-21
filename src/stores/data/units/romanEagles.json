@@ -274,12 +274,12 @@
             "earlyImperianRome"
         ]
     },
-    "alliesJavelinmen": {
+    "alliesSlingers": {
         "availability": "CIVIS",
         "combat": 5,
         "ranged": 5,
         "grit": 5,
-        "defaultWeapon": "BOW",
+        "defaultWeapon": "SLING",
         "defaultShield": "SHIELD",
         "traits": [
             "SKIRMISH_SPECIALIST",
