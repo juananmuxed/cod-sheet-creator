@@ -92,7 +92,7 @@
     "guardedAttack": "Ataque vigilado",
     "descriptions": {
         "ironWill": "Las tropas no se eliminan cuando la fatiga acumulada es más del doble del número de miniaturas restantes.",
-        "skirmishSpecialist": "Modificador de +1 contra ataques a distancia, reacción gratis a 4\" o menos de un enemigo, añade 1D6 al chequeo de moral si alguna miniatura está en Terreno Abierto.",
+        "skirmishSpecialist": "Modificador de +1 contra ataques a distancia y reacción gratis a 4\" o menos de un enemigo. Añade 1D6 al chequeo de moral para el combate cuerpo a cuerpo si alguna miniatura está en Terreno Abierto y la unidad enemiga no tiene 'Hostigadores expertos'",
         "wallOfSpears": "Ataque defensivo gratis con hasta el 50% de las miniaturas antes de el ataque enemigo.",
         "offensiveSpear": "Solo las unidades supervivientes de un ataque pueden contraatacar.",
         "shieldOverlap": "Los ataques o disparos reciben un -1 al impactar",

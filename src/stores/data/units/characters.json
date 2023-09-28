@@ -40,7 +40,7 @@
         "commandPoints": 5,
         "traits": [
             "ATACKS(3)",
-            "WOUNDS(4)",
+            "WOUNDS(3)",
             "IRON_WILL"
         ],
         "noDeployToken": true,
